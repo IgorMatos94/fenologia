@@ -26,7 +26,7 @@ library(bpnreg)
 # fruitdays = c(5, 6, 350, 351, 330, 333, 40, 47, 20, 35, 345, 360, 359, 352,
 #              10, 7, 15, 13, 310, 320)
 mean(fruitdays)
-?circular
+circular
 ##################### --CONVERTENDO EM ÂNGULO/RADIANO --  #####################
 data.circular = circular(fruitdays, units = "degrees", template = "geographics", modulo = "2pi")
 
@@ -44,7 +44,7 @@ par(mar=c(1, 1, 1, 1))
 plot(fruitdays)
 plot(data.circular)
 plot(data.circular, col="blue")
-days = c(30, 365, 40, 180)
+days= c(30, 365, 40, 180)
 angulos = 360 * days /365
 angulos
 #Adicionando setas e barras no gráfico circular
@@ -58,7 +58,7 @@ plot(data.circular, col = "red")
 arrows.circular(mean(data.circular))
 
 # Testando a uniformidade 
-?rayleigh.test
+rayleigh.test
 rayleigh.test(data.circular)
 
 ##################### --r - comprimento --  #####################
