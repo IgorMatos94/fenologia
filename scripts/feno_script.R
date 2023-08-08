@@ -46,28 +46,32 @@ for(i in package.list){library(i, character.only = T)}
 
 
 ##LOAD DATA###
-
+#nomeando e fornecendo localização do arquivo a ser aberto
 feno <- readr::read_csv(here::here("dados", "feno.csv"))
 
+#selecionando colunas do arquivo original que serão utilizadas
 feno <- feno %>% select(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
 
+#nomeando e fornecendo localização do arquivo a ser aberto. Aqui é utilizado read_csv2 pois o arquivo CSV fica separado por vírgula
+traits <- readr::read_csv2(here::here("dados", "disp-poll.csv"))
 
-traits <- readr::read_csv(here::here("dados", "disp-poll.csv"))
-
+#Seleciona colunas do arquivo original que serão utilizadas
 traits <- traits %>% select(3, 4, 5, 6)
 
-
+#junta as tabelas feno e traits, organizando por espécie
 master <- merge(x=feno, y=traits,
                               by="Species", all.x =T)
 
+#Transforma NA=0
 master[is.na(master)] <- 0
 
+#Transforma células vazias em unknown
 master$Dispersion[master$Dispersion == 0] <- "unknown"
 
-
+#Transforma células vazias em unknown
 master$Pollination[master$Pollination == 0] <- "unknown"
 
-
+#Transforma células vazias em unknown
 master$Deciduousness[master$Deciduousness == 0] <- "unknown"
 
 

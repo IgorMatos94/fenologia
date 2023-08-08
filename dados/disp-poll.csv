@@ -1,88 +1,88 @@
-Species code,Family,Species,Dispersion,Pollination,Deciduousness
-1,Meliaceae,Trichilia pallida Sw.,zoocoria,zoophilic,Semi-decídua
-2,Meliaceae,Guarea macrophylla Vahl,"autocoria, zoocoria",zoophilic,Sempre-verde
-3,Rutaceae,Zanthoxylum rhoifolium Lam.,"autocoria, zoocoria",zoophilic,Semi-decídua
-4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,"autocoria, hidrocoria, zoocoria",zoophilic,Sempre-verde
-5,Euphorbiaceae,Sebastiania brasiliensis Spreng.,autocoria,"anemofilic, zoophilic",Semi-decídua
-6,Myrtaceae,Eucalyptus spp.,anemocoria,zoophilic,NA
-7,Fabaceae,Lonchocarpus cultratus (Vell.) A.M.G.Azevedo & H.C.Lima,"anemocoria, autocoria",zoophilic,Semi-decídua
-8,Meliaceae,Cabralea canjerana (Vell.) Mart.,"autocoria, zoocoria",zoophilic,Decídua
-9,Salicaceae,Casearia gossypiosperma Briq.,anemocoria,zoophilic,Decídua
-10,Salicaceae,Casearia sylvestris Sw.,zoocoria,zoophilic,Sempre-verde
-11,Anacardiaceae,Mangifera indica L,zoocoria,zoophilic,NA
-12,Fabaceae,Machaerium villosum Vogel,anemocoria,zoophilic,Sempre-verde
-13,Lauraceae,Nectandra lanceolata Nees,zoocoria,zoophilic,Sempre-verde
-14,Fabaceae,Machaerium stipitatum Vogel,"anemocoria, autocoria",zoophilic,Sempre-verde
-15,Euphorbiaceae,Croton floribundus Spreng.,autocoria,zoophilic,Semi-decídua
-16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,zoocoria,zoophilic,Sempre-verde
-17,Fabaceae,Platypodium elegans Vogel,anemocoria,zoophilic,Semi-decídua
-18,Euphorbiaceae,Croton urucurana Baill.,"autocoria, hidrocoria",zoophilic,Decídua
-19,Fabaceae,Machaerium brasiliense Vogel,anemocoria,zoophilic,Decídua
-20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,anemocoria,zoophilic,Decídua
-21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,zoocoria,zoophilic,Semi-decídua
-22,Boraginaceae,Cordia americana (L.) Gottschling & J.S.Mill.,anemocoria,zoophilic,Semi-decídua
-23,Lauraceae,Ocotea puberula (Rich.) Nees,zoocoria,zoophilic,Sempre-verde
-24,Proteaceae,Roupala montana Aubl.,anemocoria,zoophilic,Semi-decídua
-25,Ebenaceae,Diospyros inconstans Jacq.,zoocoria,zoophilic,Sempre-verde
-26,Salicaceae,Casearia decandra Jacq.,zoocoria,zoophilic,Decídua
-27,Fabaceae,Copaifera langsdorffii Desf.,zoocoria,zoophilic,Semi-decídua
-28,Myrtaceae,Eugenia florida DC.,zoocoria,zoophilic,Sempre-verde
-29,Rhamnaceae,Rhamnidium elaeocarpum Reissek,"anemocoria, zoocoria",zoophilic,Decídua
-30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,anemocoria,zoophilic,Decídua
-31,Peraceae,Pera glabrata (Schott) Poepp. ex Baill.,"autocoria, zoocoria","anemofilic, zoophilic",Sempre-verde
-32,Malvaceae,Guazuma ulmifolia Lam.,zoocoria,zoophilic,Sempre-verde
-33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,zoocoria,zoophilic,Sempre-verde
-34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,"autocoria, zoocoria",zoophilic,Decídua
-35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,zoocoria,zoophilic,Decídua
-36,Moraceae,Maclura tinctoria (L.) D.Don ex Steud.,zoocoria,"anemofilic, zoophilic",Semi-decídua
-37,Malvaceae,Luehea candicans Mart. & Zucc.,"anemocoria, autocoria",zoophilic,Semi-decídua
-38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,anemocoria,zoophilic,Semi-decídua
-39,Fabaceae,Andira fraxinifolia Benth.,zoocoria,zoophilic,Sempre-verde
-40,Myrtaceae,Myrcia splendens (Sw.) DC.,zoocoria,zoophilic,Semi-decídua
-41,Lecythidaceae,Cariniana estrellensis (Raddi) Kuntze,"anemocoria, autocoria",zoophilic,Semi-decídua
-42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,"autocoria, zoocoria",zoophilic,Decídua
-43,Fabaceae,Bauhinia longifolia (Bong.) Steud.,anemocoria,zoophilic,Semi-decídua
-44,Verbenaceae,Citharexylum myrianthum Cham.,zoocoria,zoophilic,Decídua
-45,Meliaceae,Trichilia clausseni C.DC.,zoocoria,zoophilic,Semi-decídua
-46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,anemocoria,zoophilic,Decídua
-47,Anacardiaceae,Myracrodruon urundeuva Allemão,anemocoria,zoophilic,Decídua
-48,Fabaceae,Myroxylon peruiferum L.f.,anemocoria,zoophilic,Decídua
-49,Myrtaceae,Psidium guajava L.,zoocoria,zoophilic,Semi-decídua
-50,Bignoniaceae,Handroanthus heptaphyllus (Vell.) Mattos,anemocoria,zoophilic,Decídua
-51,Sapindaceae,Cupania vernalis Cambess.,zoocoria,zoophilic,Sempre-verde
-52,Meliaceae,Trichilia catigua A.Juss.,zoocoria,zoophilic,Sempre-verde
-53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,zoocoria,zoophilic,Sempre-verde
-54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,anemocoria,zoophilic,Sempre-verde
-55,Vochysiaceae,Vochysia tucanorum Mart.,anemocoria,zoophilic,Sempre-verde
-56,Anacardiaceae,Tapirira guianensis Aubl.,zoocoria,zoophilic,Sempre-verde
-57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,zoocoria,zoophilic,Decídua
-58,Lythraceae,Lafoensia pacari A.St.-Hil.,"anemocoria, autocoria, zoocoria",zoophilic,Semi-decídua
-59,Annonaceae,Annona sylvatica A.St.-Hil.,zoocoria,zoophilic,Sempre-verde
-60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,anemocoria,zoophilic,Decídua
-61,Bignoniaceae,Handroanthus ochraceus (Cham.) Mattos,anemocoria,zoophilic,Decídua
-62,Myrtaceae,Myrtaceae spp.,NA,NA,NA
-63,Primulaceae,Myrsine umbellata Mart.,zoocoria,"anemofilic, zoophilic",Sempre-verde
-64,Meliaceae,Cedrela fissilis Vell.,"anemocoria, autocoria",zoophilic,Decídua
-65,Myrtaceae,Eugenia pluriflora DC.,zoocoria,zoophilic,Decídua
-66,Melastomataceae,Miconia albicans (Sw.) Triana,"anemocoria, zoocoria",zoophilic,NA
-67,Fabaceae,Albizia niopoides (Spruce ex Benth.) Burkart,autocoria,zoophilic,Semi-decídua
-68,Malvaceae,Luehea grandiflora Mart. & Zucc.,anemocoria,zoophilic,Semi-decídua
-69,Boraginaceae,Cordia trichotoma (Vell.) Arráb. ex Steud.,"anemocoria, zoocoria",zoophilic,Decídua
-70,Rutaceae,Zanthoxylum petiolare A.St.-Hil. & Tul.,zoocoria,zoophilic,Sempre-verde
-71,Fabaceae,Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo,anemocoria,zoophilic,Decídua
-72,Fabaceae,Calliandra tweedii Benth.,autocoria,zoophilic,NA
-73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,zoocoria,zoophilic,NA
-74,Apocynaceae,Aspidosperma cylindrocarpon Müll.Arg.,anemocoria,zoophilic,Decídua
-75,Myrtaceae,Myrtaceae 4,NA,NA,NA
-76,Fabaceae,Leucochloron incuriale (Vell.) Barneby & J.W.Grimes,"anemocoria, autocoria",zoophilic,Sempre-verde
-77,Cannabaceae,Celtis cf. iguanaea (Jacq.) Sarg.,zoocoria,anemohilic,Semi-decídua
-78,Lauraceae,Lauraceae spp.,NA,NA,NA
-79,Malvaceae,Bastardiopsis densiflora (Hook. & Arn.) Hassl.,"anemocoria, zoocoria",zoophilic,"Sempre-verde, semi-Decídua"
-80,Nyctaginaceae,Guapira hirsuta (Choisy) Lundell,zoocoria,zoophilic,Sempre-verde
-81,Fabaceae,Platymiscium floribundum Vogel,anemocoria,zoophilic,Decídua
-83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,zoocoria,zoophilic,NA
-84,Myrtaceae,Eugenia pyriformis Cambess.,zoocoria,zoophilic,Semi-decídua
-85,Monimiaceae,Mollinedia widgrenii A.DC.,"autocoria, zoocoria",zoophilic,Semi-decídua
-86,Rutaceae,Zanthoxylum riedelianum Engl.,zoocoria,zoophilic,Decídua
-87,Malvaceae,Pseudobombax grandiflorum (Cav.) A.Robyns,"anemocoria, zoocoria",zoophilic,Decídua
-88,,Unclassified,NA,NA,NA
+Species code;Family;Species;Dispersion;Pollination;Deciduousness
+1;Meliaceae;Trichilia pallida Sw.;zoocoria;zoophilic;Semi-decidua
+2;Meliaceae;Guarea macrophylla Vahl;autocoria, zoocoria;zoophilic;Sempre-verde
+3;Rutaceae;Zanthoxylum rhoifolium Lam.;autocoria, zoocoria;zoophilic;Semi-decidua
+4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;autocoria, hidrocoria, zoocoria;zoophilic;Sempre-verde
+5;Euphorbiaceae;Sebastiania brasiliensis Spreng.;autocoria;anemofilic, zoophilic;Semi-decidua
+6;Myrtaceae;Eucalyptus spp.;anemocoria;zoophilic;NA
+7;Fabaceae;Lonchocarpus cultratus (Vell.) A.M.G.Azevedo & H.C.Lima;anemocoria, autocoria;zoophilic;Semi-decidua
+8;Meliaceae;Cabralea canjerana (Vell.) Mart.;autocoria, zoocoria;zoophilic;decidua
+9;Salicaceae;Casearia gossypiosperma Briq.;anemocoria;zoophilic;decidua
+10;Salicaceae;Casearia sylvestris Sw.;zoocoria;zoophilic;Sempre-verde
+11;Anacardiaceae;Mangifera indica L;zoocoria;zoophilic;NA
+12;Fabaceae;Machaerium villosum Vogel;anemocoria;zoophilic;Sempre-verde
+13;Lauraceae;Nectandra lanceolata Nees;zoocoria;zoophilic;Sempre-verde
+14;Fabaceae;Machaerium stipitatum Vogel;anemocoria, autocoria;zoophilic;Sempre-verde
+15;Euphorbiaceae;Croton floribundus Spreng.;autocoria;zoophilic;Semi-decidua
+16;Rutaceae;Zanthoxylum monogynum A.St.-Hil.;zoocoria;zoophilic;Sempre-verde
+17;Fabaceae;Platypodium elegans Vogel;anemocoria;zoophilic;Semi-decidua
+18;Euphorbiaceae;Croton urucurana Baill.;autocoria, hidrocoria;zoophilic;decidua
+19;Fabaceae;Machaerium brasiliense Vogel;anemocoria;zoophilic;decidua
+20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;anemocoria;zoophilic;decidua
+21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;zoocoria;zoophilic;Semi-decidua
+22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;anemocoria;zoophilic;Semi-decidua
+23;Lauraceae;Ocotea puberula (Rich.) Nees;zoocoria;zoophilic;Sempre-verde
+24;Proteaceae;Roupala montana Aubl.;anemocoria;zoophilic;Semi-decidua
+25;Ebenaceae;Diospyros inconstans Jacq.;zoocoria;zoophilic;Sempre-verde
+26;Salicaceae;Casearia decandra Jacq.;zoocoria;zoophilic;decidua
+27;Fabaceae;Copaifera langsdorffii Desf.;zoocoria;zoophilic;Semi-decidua
+28;Myrtaceae;Eugenia florida DC.;zoocoria;zoophilic;Sempre-verde
+29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;anemocoria, zoocoria;zoophilic;decidua
+30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;anemocoria;zoophilic;decidua
+31;Peraceae;Pera glabrata (Schott) Poepp. ex Baill.;autocoria, zoocoria;anemofilic, zoophilic;Sempre-verde
+32;Malvaceae;Guazuma ulmifolia Lam.;zoocoria;zoophilic;Sempre-verde
+33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;zoocoria;zoophilic;Sempre-verde
+34;Lamiaceae;Aegiphila integrifolia (Jacq.) Moldenke;autocoria, zoocoria;zoophilic;decidua
+35;Sapindaceae;Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.;zoocoria;zoophilic;decidua
+36;Moraceae;Maclura tinctoria (L.) D.Don ex Steud.;zoocoria;anemofilic, zoophilic;Semi-decidua
+37;Malvaceae;Luehea candicans Mart. & Zucc.;anemocoria, autocoria;zoophilic;Semi-decidua
+38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;anemocoria;zoophilic;Semi-decidua
+39;Fabaceae;Andira fraxinifolia Benth.;zoocoria;zoophilic;Sempre-verde
+40;Myrtaceae;Myrcia splendens (Sw.) DC.;zoocoria;zoophilic;Semi-decidua
+41;Lecythidaceae;Cariniana estrellensis (Raddi) Kuntze;anemocoria, autocoria;zoophilic;Semi-decidua
+42;Fabaceae;Enterolobium contortisiliquum (Vell.) Morong;autocoria, zoocoria;zoophilic;decidua
+43;Fabaceae;Bauhinia longifolia (Bong.) Steud.;anemocoria;zoophilic;Semi-decidua
+44;Verbenaceae;Citharexylum myrianthum Cham.;zoocoria;zoophilic;decidua
+45;Meliaceae;Trichilia clausseni C.DC.;zoocoria;zoophilic;Semi-decidua
+46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;anemocoria;zoophilic;decidua
+47;Anacardiaceae;Myracrodruon urundeuva Allemão;anemocoria;zoophilic;decidua
+48;Fabaceae;Myroxylon peruiferum L.f.;anemocoria;zoophilic;decidua
+49;Myrtaceae;Psidium guajava L.;zoocoria;zoophilic;Semi-decidua
+50;Bignoniaceae;Handroanthus heptaphyllus (Vell.) Mattos;anemocoria;zoophilic;decidua
+51;Sapindaceae;Cupania vernalis Cambess.;zoocoria;zoophilic;Sempre-verde
+52;Meliaceae;Trichilia catigua A.Juss.;zoocoria;zoophilic;Sempre-verde
+53;Arecaceae;Syagrus romanzoffiana (Cham.) Glassman;zoocoria;zoophilic;Sempre-verde
+54;Asteraceae;Moquiniastrum polymorphum (Less.) G. Sancho;anemocoria;zoophilic;Sempre-verde
+55;Vochysiaceae;Vochysia tucanorum Mart.;anemocoria;zoophilic;Sempre-verde
+56;Anacardiaceae;Tapirira guianensis Aubl.;zoocoria;zoophilic;Sempre-verde
+57;Myrtaceae;Myrcia tomentosa (Aubl.) DC.;zoocoria;zoophilic;decidua
+58;Lythraceae;Lafoensia pacari A.St.-Hil.;anemocoria, autocoria, zoocoria;zoophilic;Semi-decidua
+59;Annonaceae;Annona sylvatica A.St.-Hil.;zoocoria;zoophilic;Sempre-verde
+60;Fabaceae;Centrolobium tomentosum Guillem. ex Benth.;anemocoria;zoophilic;decidua
+61;Bignoniaceae;Handroanthus ochraceus (Cham.) Mattos;anemocoria;zoophilic;decidua
+62;Myrtaceae;Myrtaceae spp.;NA;NA;NA
+63;Primulaceae;Myrsine umbellata Mart.;zoocoria;anemofilic, zoophilic;Sempre-verde
+64;Meliaceae;Cedrela fissilis Vell.;anemocoria, autocoria;zoophilic;decidua
+65;Myrtaceae;Eugenia pluriflora DC.;zoocoria;zoophilic;decidua
+66;Melastomataceae;Miconia albicans (Sw.) Triana;anemocoria, zoocoria;zoophilic;NA
+67;Fabaceae;Albizia niopoides (Spruce ex Benth.) Burkart;autocoria;zoophilic;Semi-decidua
+68;Malvaceae;Luehea grandiflora Mart. & Zucc.;anemocoria;zoophilic;Semi-decidua
+69;Boraginaceae;Cordia trichotoma (Vell.) Arráb. ex Steud.;anemocoria, zoocoria;zoophilic;decidua
+70;Rutaceae;Zanthoxylum petiolare A.St.-Hil. & Tul.;zoocoria;zoophilic;Sempre-verde
+71;Fabaceae;Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo;anemocoria;zoophilic;decidua
+72;Fabaceae;Calliandra tweedii Benth.;autocoria;zoophilic;NA
+73;Rubiaceae;Faramea latifolia (Cham. & Schltdl.) DC.;zoocoria;zoophilic;NA
+74;Apocynaceae;Aspidosperma cylindrocarpon Müll.Arg.;anemocoria;zoophilic;decidua
+75;Myrtaceae;Myrtaceae 4;NA;NA;NA
+76;Fabaceae;Leucochloron incuriale (Vell.) Barneby & J.W.Grimes;anemocoria, autocoria;zoophilic;Sempre-verde
+77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;zoocoria;anemohilic;Semi-decidua
+78;Lauraceae;Lauraceae spp.;NA;NA;NA
+79;Malvaceae;Bastardiopsis densiflora (Hook. & Arn.) Hassl.;anemocoria, zoocoria;zoophilic;Sempre-verde, semi-decidua
+80;Nyctaginaceae;Guapira hirsuta (Choisy) Lundell;zoocoria;zoophilic;Sempre-verde
+81;Fabaceae;Platymiscium floribundum Vogel;anemocoria;zoophilic;decidua
+83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;zoocoria;zoophilic;NA
+84;Myrtaceae;Eugenia pyriformis Cambess.;zoocoria;zoophilic;Semi-decidua
+85;Monimiaceae;Mollinedia widgrenii A.DC.;autocoria, zoocoria;zoophilic;Semi-decidua
+86;Rutaceae;Zanthoxylum riedelianum Engl.;zoocoria;zoophilic;decidua
+87;Malvaceae;Pseudobombax grandiflorum (Cav.) A.Robyns;anemocoria, zoocoria;zoophilic;decidua
+88;;Unclassified;NA;NA;NA
