@@ -113,6 +113,8 @@ community.sync(feno.traits, nrands=100)
 library(dplyr) 
 feno.data=c(pratica$Ind1, pratica$Ind2, pratica$Ind3, pratica$Ind4, pratica$Ind5, pratica$Ind6)
 
+summary(pratica)
+
 pratica$Year = format(as.Date(pratica$Date), "%Y")
 
 pratica$Month = format(as.Date(pratica$Date), "%m")

@@ -8,12 +8,6 @@
 
 
 
-
-# annotate each line of script, fix latin names bug 
-
-
-
-
 #1 CARREGAR PACOTES----------------------------------------------------------------
 
 # a vector listing package names needed for importing the DNA sequences,
@@ -47,7 +41,7 @@ for(i in package.list){library(i, character.only = T)}
 
 ##LOAD DATA###
 #nomeando e fornecendo localização do arquivo a ser aberto
-feno <- readr::read_csv(here::here("dados", "feno.csv"))
+feno <- readr::read_csv(here::here("dados", "feno_new.csv"))
 
 #selecionando colunas do arquivo original que serão utilizadas
 feno <- feno %>% select(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
@@ -74,4 +68,41 @@ master$Pollination[master$Pollination == 0] <- "unknown"
 #Transforma células vazias em unknown
 master$Deciduousness[master$Deciduousness == 0] <- "unknown"
 
+class(master$DATE)
 
+?as.Date
+
+master$DATE <- as.Date(master$DATE, "%m/%d/%y")
+
+summary(master)
+
+as.tibble(master)
+
+master$year = format(as.Date(master$DATE), "%Y")
+
+master$month = format(as.Date(master$DATE), "%m")
+
+master$days = lubridate::yday(master$DATE)
+
+master$daysangles = (master$days*360)/365
+
+colnames(master)[11] ="imfruit"
+
+colnames(master)[12] ="mfruit"
+
+class(master$imfruit)
+
+fruit <- master %>%
+  filter(imfruit == 1 | mfruit == 1)
+
+feno.circ = circular(fruit$daysangles, units = "degrees", template = "none", modulo = "2pi")
+fruit$feno.circ = circular(fruit$daysangles, units = "degrees", template = "none", modulo = "2pi")
+
+plot(feno.circ, units = "radians",shrink = 1.5, stack = TRUE, pch = 16, 
+     bins = 365, cex = 0.8, zero = pi/2, rotation = "clock")
+
+circular::rose.diag(feno.circ, bins=16, col = "darkgrey", cex = 0.8, prop =1.3, add = TRUE,
+                    zero = pi/2, rotation = "clock")
+
+
+watson.williams.test(feno.circ~Dispersion, data=fruit)
