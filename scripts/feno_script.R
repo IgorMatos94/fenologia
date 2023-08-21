@@ -6,7 +6,10 @@
 #fragments in the Corumbataí River Basin, São Paulo based on dispersion and 
 #pollination syndromes as well as deciduousness
 
-
+#TAREFAS:
+  #1 colocar pra que serve cada pacote e porque a gente tá usando 
+  #2 annotar cada linha
+  #3 repetir as analises para flor e leaf fall 
 
 #1 CARREGAR PACOTES----------------------------------------------------------------
 
@@ -39,15 +42,17 @@ if(length(new.packages)) install.packages(new.packages)
 for(i in package.list){library(i, character.only = T)}
 
 
-##LOAD DATA###
+#2 LOAD DATA--------------------------------------------------------------------
 #nomeando e fornecendo localização do arquivo a ser aberto
 feno <- readr::read_csv(here::here("dados", "feno_new.csv"))
 
-#selecionando colunas do arquivo original que serão utilizadas
-feno <- feno %>% select(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
-
 #nomeando e fornecendo localização do arquivo a ser aberto. Aqui é utilizado read_csv2 pois o arquivo CSV fica separado por vírgula
 traits <- readr::read_csv2(here::here("dados", "disp-poll.csv"))
+
+#3 DATA CLEANING AND ORGANIZING-------------------------------------------------
+
+#selecionando colunas do arquivo original que serão utilizadas
+feno <- feno %>% select(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
 
 #Seleciona colunas do arquivo original que serão utilizadas
 traits <- traits %>% select(3, 4, 5, 6)
@@ -68,6 +73,7 @@ master$Pollination[master$Pollination == 0] <- "unknown"
 #Transforma células vazias em unknown
 master$Deciduousness[master$Deciduousness == 0] <- "unknown"
 
+#4 CALCULATE DAY OF YEAR AND TRANSFORM TO DEGREE--------------------------------
 class(master$DATE)
 
 ?as.Date
@@ -86,6 +92,10 @@ master$days = lubridate::yday(master$DATE)
 
 master$daysangles = (master$days*360)/365
 
+#5 FRUITING PHENOLOGY AND DISPERSAL---------------------------------------------
+
+#5A FILTER DATA
+#rename columns because current name format causes error
 colnames(master)[11] ="imfruit"
 
 colnames(master)[12] ="mfruit"
@@ -95,14 +105,22 @@ class(master$imfruit)
 fruit <- master %>%
   filter(imfruit == 1 | mfruit == 1)
 
-feno.circ = circular(fruit$daysangles, units = "degrees", template = "none", modulo = "2pi")
-fruit$feno.circ = circular(fruit$daysangles, units = "degrees", template = "none", modulo = "2pi")
+#5B PLOT
+  feno.circ = circular(fruit$daysangles, units = "degrees", template = "none", 
+                       modulo = "2pi")
+  fruit$feno.circ = circular(fruit$daysangles, units = "degrees", 
+                             template = "none", modulo = "2pi")
+  
+  plot(feno.circ, units = "radians",shrink = 1.5, stack = TRUE, pch = 16, 
+       bins = 365, cex = 0.8, zero = pi/2, rotation = "clock")
+  
+  circular::rose.diag(feno.circ, bins=16, col = "darkgrey", cex = 0.8, 
+                      prop =1.3, add = TRUE,
+                      zero = pi/2, rotation = "clock")
 
-plot(feno.circ, units = "radians",shrink = 1.5, stack = TRUE, pch = 16, 
-     bins = 365, cex = 0.8, zero = pi/2, rotation = "clock")
-
-circular::rose.diag(feno.circ, bins=16, col = "darkgrey", cex = 0.8, prop =1.3, add = TRUE,
-                    zero = pi/2, rotation = "clock")
-
-
+#5C STATISTICAL TEST BETWEEN GROUPS
 watson.williams.test(feno.circ~Dispersion, data=fruit)
+
+#6 FLOWERING PHENOLOGY AND POLLINATION------------------------------------------
+
+#7 LEAF LOSS AND PRODUCTION AND DECIDUOSNESS------------------------------------
