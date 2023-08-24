@@ -47,7 +47,7 @@ for(i in package.list){library(i, character.only = T)}
 feno <- readr::read_csv(here::here("dados", "feno_new.csv"))
 
 #nomeando e fornecendo localização do arquivo a ser aberto. Aqui é utilizado read_csv2 pois o arquivo CSV fica separado por vírgula
-traits <- readr::read_csv2(here::here("dados", "disp-poll.csv"))
+traits <- readr::read_csv(here::here("dados", "disp-poll_new.csv"))
 
 #3 DATA CLEANING AND ORGANIZING-------------------------------------------------
 
@@ -55,7 +55,7 @@ traits <- readr::read_csv2(here::here("dados", "disp-poll.csv"))
 feno <- feno %>% select(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)
 
 #Seleciona colunas do arquivo original que serão utilizadas
-traits <- traits %>% select(3, 4, 5, 6)
+traits <- traits %>% select(3, 4, 5, 6, 7, 8, 9, 10, 11)
 
 #junta as tabelas feno e traits, organizando por espécie
 master <- merge(x=feno, y=traits,
@@ -65,13 +65,13 @@ master <- merge(x=feno, y=traits,
 master[is.na(master)] <- 0
 
 #Transforma células vazias em unknown
-master$Dispersion[master$Dispersion == 0] <- "unknown"
+#master$Dispersion[master$Dispersion == 0] <- "unknown"
 
 #Transforma células vazias em unknown
-master$Pollination[master$Pollination == 0] <- "unknown"
+#master$Pollination[master$Pollination == 0] <- "unknown"
 
 #Transforma células vazias em unknown
-master$Deciduousness[master$Deciduousness == 0] <- "unknown"
+#master$Deciduousness[master$Deciduousness == 0] <- "unknown"
 
 #4 CALCULATE DAY OF YEAR AND TRANSFORM TO DEGREE--------------------------------
 class(master$DATE)
@@ -119,7 +119,7 @@ fruit <- master %>%
                       zero = pi/2, rotation = "clock")
 
 #5C STATISTICAL TEST BETWEEN GROUPS
-watson.williams.test(feno.circ~Dispersion, data=fruit)
+#watson.williams.test(feno.circ~Dispersion, data=fruit)
 
 #6 FLOWERING PHENOLOGY AND POLLINATION------------------------------------------
 

@@ -1,0 +1,88 @@
+Species code,Family,Species,Autocoria,Anemocoria,Zoocoria,Anemofilia,Zoofilia,Sempre-verde,Semi-decidua,Decidua
+1,Meliaceae,Trichilia pallida Sw.,0,0,1,0,1,0,1,0
+2,Meliaceae,Guarea macrophylla Vahl,1,0,1,0,1,1,0,0
+3,Rutaceae,Zanthoxylum rhoifolium Lam.,1,0,1,0,1,0,1,0
+4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,1,0,1,0,1,1,0,0
+5,Euphorbiaceae,Sebastiania brasiliensis Spreng.,1,0,0,1,1,0,1,0
+6,Myrtaceae,Eucalyptus spp.,0,1,0,0,1,0,0,0
+7,Fabaceae,Lonchocarpus cultratus (Vell.) A.M.G.Azevedo & H.C.Lima,1,1,0,0,1,0,1,0
+8,Meliaceae,Cabralea canjerana (Vell.) Mart.,1,0,1,0,1,0,0,1
+9,Salicaceae,Casearia gossypiosperma Briq.,0,1,0,0,1,0,0,1
+10,Salicaceae,Casearia sylvestris Sw.,0,0,1,0,1,1,0,0
+11,Anacardiaceae,Mangifera indica L,0,0,1,0,1,0,0,0
+12,Fabaceae,Machaerium villosum Vogel,0,1,0,0,1,1,0,0
+13,Lauraceae,Nectandra lanceolata Nees,0,0,1,0,1,1,0,0
+14,Fabaceae,Machaerium stipitatum Vogel,1,1,0,0,1,1,0,0
+15,Euphorbiaceae,Croton floribundus Spreng.,1,0,0,0,1,0,1,0
+16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,0,0,1,0,1,1,0,0
+17,Fabaceae,Platypodium elegans Vogel,0,1,0,0,1,0,1,0
+18,Euphorbiaceae,Croton urucurana Baill.,1,0,0,0,1,0,0,1
+19,Fabaceae,Machaerium brasiliense Vogel,0,1,0,0,1,0,0,1
+20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,0,1,0,0,1,0,0,1
+21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,0,0,1,0,1,0,1,0
+22,Boraginaceae,Cordia americana (L.) Gottschling & J.S.Mill.,0,1,0,0,1,0,1,0
+23,Lauraceae,Ocotea puberula (Rich.) Nees,0,0,1,0,1,1,0,0
+24,Proteaceae,Roupala montana Aubl.,0,1,0,0,1,0,1,0
+25,Ebenaceae,Diospyros inconstans Jacq.,0,0,1,0,1,1,0,0
+26,Salicaceae,Casearia decandra Jacq.,0,0,1,0,1,0,0,1
+27,Fabaceae,Copaifera langsdorffii Desf.,0,0,1,0,1,0,1,0
+28,Myrtaceae,Eugenia florida DC.,0,0,1,0,1,1,0,0
+29,Rhamnaceae,Rhamnidium elaeocarpum Reissek,0,1,1,0,1,0,0,1
+30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,0,1,0,0,1,0,0,1
+31,Peraceae,Pera glabrata (Schott) Poepp. ex Baill.,1,0,1,1,1,1,0,0
+32,Malvaceae,Guazuma ulmifolia Lam.,0,0,1,0,1,1,0,0
+33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,0,0,1,0,1,1,0,0
+34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,1,0,1,0,1,0,0,1
+35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,0,0,1,0,1,0,0,1
+36,Moraceae,Maclura tinctoria (L.) D.Don ex Steud.,0,0,1,1,1,0,1,0
+37,Malvaceae,Luehea candicans Mart. & Zucc.,1,1,0,0,1,0,1,0
+38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,0,1,0,0,1,0,1,0
+39,Fabaceae,Andira fraxinifolia Benth.,0,0,1,0,1,1,0,0
+40,Myrtaceae,Myrcia splendens (Sw.) DC.,0,0,1,0,1,0,1,0
+41,Lecythidaceae,Cariniana estrellensis (Raddi) Kuntze,1,1,0,0,1,0,1,0
+42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,1,0,1,0,1,0,0,1
+43,Fabaceae,Bauhinia longifolia (Bong.) Steud.,0,1,0,0,1,0,1,0
+44,Verbenaceae,Citharexylum myrianthum Cham.,0,0,1,0,1,0,0,1
+45,Meliaceae,Trichilia clausseni C.DC.,0,0,1,0,1,0,1,0
+46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,0,1,0,0,1,0,0,1
+47,Anacardiaceae,Myracrodruon urundeuva Allemão,0,1,0,0,1,0,0,1
+48,Fabaceae,Myroxylon peruiferum L.f.,0,1,0,0,1,0,0,1
+49,Myrtaceae,Psidium guajava L.,0,0,1,0,1,0,1,0
+50,Bignoniaceae,Handroanthus heptaphyllus (Vell.) Mattos,0,1,0,0,1,0,0,1
+51,Sapindaceae,Cupania vernalis Cambess.,0,0,1,0,1,1,0,0
+52,Meliaceae,Trichilia catigua A.Juss.,0,0,1,0,1,1,0,0
+53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,0,0,1,0,1,1,0,0
+54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,0,1,0,0,1,1,0,0
+55,Vochysiaceae,Vochysia tucanorum Mart.,0,1,0,0,1,1,0,0
+56,Anacardiaceae,Tapirira guianensis Aubl.,0,0,1,0,1,1,0,0
+57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,0,0,1,0,1,0,0,1
+58,Lythraceae,Lafoensia pacari A.St.-Hil.,1,1,1,0,1,0,1,0
+59,Annonaceae,Annona sylvatica A.St.-Hil.,0,0,1,0,1,1,0,0
+60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,0,1,0,0,1,0,0,1
+61,Bignoniaceae,Handroanthus ochraceus (Cham.) Mattos,0,1,0,0,1,0,0,1
+62,Myrtaceae,Myrtaceae spp.,0,0,0,0,0,0,0,0
+63,Primulaceae,Myrsine umbellata Mart.,0,0,1,1,1,1,0,0
+64,Meliaceae,Cedrela fissilis Vell.,1,1,0,0,1,0,0,1
+65,Myrtaceae,Eugenia pluriflora DC.,0,0,1,0,1,0,0,1
+66,Melastomataceae,Miconia albicans (Sw.) Triana,0,1,1,0,1,0,0,0
+67,Fabaceae,Albizia niopoides (Spruce ex Benth.) Burkart,1,0,0,0,1,0,1,0
+68,Malvaceae,Luehea grandiflora Mart. & Zucc.,0,1,0,0,1,0,1,0
+69,Boraginaceae,Cordia trichotoma (Vell.) Arráb. ex Steud.,0,1,1,0,1,0,0,1
+70,Rutaceae,Zanthoxylum petiolare A.St.-Hil. & Tul.,0,0,1,0,1,1,0,0
+71,Fabaceae,Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo,0,1,0,0,1,0,0,1
+72,Fabaceae,Calliandra tweedii Benth.,1,0,0,0,1,0,0,0
+73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,0,0,1,0,1,0,0,0
+74,Apocynaceae,Aspidosperma cylindrocarpon Müll.Arg.,0,1,0,0,1,0,0,1
+75,Myrtaceae,Myrtaceae 4,0,0,0,0,0,0,0,0
+76,Fabaceae,Leucochloron incuriale (Vell.) Barneby & J.W.Grimes,1,1,0,0,1,1,0,0
+77,Cannabaceae,Celtis cf. iguanaea (Jacq.) Sarg.,0,0,1,1,0,0,1,0
+78,Lauraceae,Lauraceae spp.,0,0,0,0,0,0,0,0
+79,Malvaceae,Bastardiopsis densiflora (Hook. & Arn.) Hassl.,0,1,1,0,1,1,1,0
+80,Nyctaginaceae,Guapira hirsuta (Choisy) Lundell,0,0,1,0,1,1,0,0
+81,Fabaceae,Platymiscium floribundum Vogel,0,1,0,0,1,0,0,1
+83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,0,0,1,0,1,0,0,0
+84,Myrtaceae,Eugenia pyriformis Cambess.,0,0,1,0,1,0,1,0
+85,Monimiaceae,Mollinedia widgrenii A.DC.,1,0,1,0,1,0,1,0
+86,Rutaceae,Zanthoxylum riedelianum Engl.,0,0,1,0,1,0,0,1
+87,Malvaceae,Pseudobombax grandiflorum (Cav.) A.Robyns,0,1,1,0,1,0,0,1
+88,,Unclassified,0,0,0,0,0,0,0,0
