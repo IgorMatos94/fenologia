@@ -120,6 +120,23 @@ fruit <- master %>%
 
 #5C STATISTICAL TEST BETWEEN GROUPS
 #watson.williams.test(feno.circ~Dispersion, data=fruit)
+  
+#zoo
+  
+  zoo <- fruit %>%
+    filter(Zoofilia == 1)
+  
+  feno.circ.zoo = circular(zoo$daysangles, units = "degrees", template = "none", 
+                       modulo = "2pi")
+  zoo$feno.circ.zoo = circular(zoo$daysangles, units = "degrees", 
+                             template = "none", modulo = "2pi")
+  
+  plot(feno.circ.zoo, units = "radians",shrink = 1.5, stack = TRUE, pch = 16, 
+       bins = 365, cex = 0.8, zero = pi/2, rotation = "clock")
+  
+  circular::rose.diag(feno.circ.zoo, bins=12, col = "darkgrey", cex = 0.8, 
+                      prop =1.3, add = TRUE,
+                      zero = pi/2, rotation = "clock")
 
 #6 FLOWERING PHENOLOGY AND POLLINATION------------------------------------------
 
