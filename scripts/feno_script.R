@@ -118,26 +118,85 @@ fruit <- master %>%
                       prop =1.3, add = TRUE,
                       zero = pi/2, rotation = "clock")
 
+  m = table(feno.circ$)
 #5C STATISTICAL TEST BETWEEN GROUPS
 #watson.williams.test(feno.circ~Dispersion, data=fruit)
   
 #zoo
   
   zoo <- fruit %>%
-    filter(Zoofilia == 1)
+    filter(Zoocoria == 1)
   
   feno.circ.zoo = circular(zoo$daysangles, units = "degrees", template = "none", 
                        modulo = "2pi")
   zoo$feno.circ.zoo = circular(zoo$daysangles, units = "degrees", 
                              template = "none", modulo = "2pi")
   
-  plot(feno.circ.zoo, units = "radians",shrink = 1.5, stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.8, zero = pi/2, rotation = "clock")
+  plot(feno.circ.zoo, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
+       bins = 365, cex = 0.0, rotation = "clock")
   
-  circular::rose.diag(feno.circ.zoo, bins=12, col = "darkgrey", cex = 0.8, 
-                      prop =1.3, add = TRUE,
-                      zero = pi/2, rotation = "clock")
+  circular::rose.diag(feno.circ.zoo, axes = FALSE, bins=12, col = "darkgrey", cex = 0.8, 
+                      prop =1.3, add = TRUE, rotation = "clock")
 
-#6 FLOWERING PHENOLOGY AND POLLINATION------------------------------------------
+  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
+                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+
+  arrows.circular(mean(feno.circ.zoo))
+
+  mean.circular(feno.circ.zoo)
+  rho.circular(feno.circ.zoo)
+  sqrt(-2*log(rho.circular(feno.circ.zoo)))
+  
+  var.circular(feno.circ.zoo)
+  
+#anemocoria
+  anemo <- fruit %>%
+    filter(Anemocoria == 1)
+  
+  feno.circ.anemo = circular(anemo$daysangles, units = "degrees", template = "none", 
+                           modulo = "2pi")
+  anemo$feno.circ.anemo = circular(zoo$daysangles, units = "degrees", 
+                               template = "none", modulo = "2pi")
+  
+  plot(feno.circ.anemo, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
+       bins = 365, cex = 0.0, rotation = "clock")
+  
+  circular::rose.diag(feno.circ.anemo, axes = FALSE, bins=12, col = "blue", cex = 0.8, 
+                      prop =1.3, add = TRUE, rotation = "clock")
+  
+  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
+                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  arrows.circular(mean(feno.circ.anemo))
+  
+  mean.circular(feno.circ.anemo)
+  rho.circular(feno.circ.anemo)
+  sqrt(-2*log(rho.circular(feno.circ.anemo)))
+  
+#autocoria
+  auto <- fruit %>%
+    filter(Autocoria == 1)
+  
+  feno.circ.auto = circular(auto$daysangles, units = "degrees", template = "none", 
+                           modulo = "2pi")
+  auto$feno.circ.auto = circular(auto$daysangles, units = "degrees", 
+                               template = "none", modulo = "2pi")
+  
+  plot(feno.circ.auto, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
+       bins = 365, cex = 0.0, rotation = "clock")
+  
+  circular::rose.diag(feno.circ.auto, axes = FALSE, bins=12, col = "yellow", cex = 0.8, 
+                      prop =1.3, add = TRUE, rotation = "clock")
+  
+  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
+                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  arrows.circular(mean(feno.circ.auto)) 
+  
+  mean.circular(feno.circ.auto)
+  rho.circular(feno.circ.auto)
+  sqrt(-2*log(rho.circular(feno.circ.auto)))
+  
+  
+  watson.williams.test(list(rad(feno.circ.zoo), rad(feno.circ.anemo), rad(feno.circ.auto)))
+  #6 FLOWERING PHENOLOGY AND POLLINATION------------------------------------------
 
 #7 LEAF LOSS AND PRODUCTION AND DECIDUOSNESS------------------------------------
