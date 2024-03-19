@@ -640,6 +640,11 @@ fruit <- master %>%
     group_by(month) %>%
     summarise(ind = n_distinct(Tag))
   
+  class(fruit_anemo3$month)
+  class(fruit_anemo3$ind)
+  
+  fruit_anemo3[nrow(fruit_anemo3) + 1,] <- list("12", 0)
+  
   master_anemochory <- master %>%
     filter(Anemocoria == 1)
   
@@ -648,7 +653,12 @@ fruit <- master %>%
     summarise(ind = n_distinct(Tag))
   
   anemochory <- (fruit_anemo3$ind/fruit_anemo4$ind)
+  
+  #join all into one dataframe
+  sync_fruit <- data.frame(zoochory, autochory, anemochory)
  
+  community.sync(sync_fruit, nrands=100)
+  
   #flower
   flower_zoo3 <- flower_zoo %>%
     group_by(month) %>%
@@ -668,6 +678,8 @@ fruit <- master %>%
     group_by(month) %>%
     summarise(ind = n_distinct(Tag))
   
+  flower_anemo3[nrow(flower_anemo3) + 1,] <- list("12", 0)
+  
   master_anemophilia <- master %>%
     filter(Anemofilia == 1)
   
@@ -677,6 +689,10 @@ fruit <- master %>%
   
   anemophilia <- (flower_anemo3$ind/flower_anemo4$ind)  
   
+  #join all into one dataframe
+  sync_flower <- data.frame(zoophilia, anemophilia)
+  
+  community.sync(sync_flower, nrands=100)
   
   #leaffall
   leaffall_sempreverde3 <- leaffall_sempreverde %>%
@@ -711,6 +727,8 @@ fruit <- master %>%
     group_by(month) %>%
     summarise(ind = n_distinct(Tag))
   
+  leaffall_decidua3[nrow(leaffall_decidua3) + 1,] <- list("12", 0)
+  
   master_lfdecidua <- master %>%
     filter(Decidua == 1)
   
@@ -720,6 +738,10 @@ fruit <- master %>%
   
   lfdecidua <- (leaffall_decidua3$ind/leaffall_decidua4$ind)  
 
+  #join all into one dataframe
+  sync_leaffall <- data.frame(lfsempreverde, lfsemidecidua, lfdecidua)
+  
+  community.sync(sync_leaffall, nrands=100)
   
   #sprouting
   sprouting_sempreverde3 <- sprouting_sempreverde %>%
@@ -754,6 +776,8 @@ fruit <- master %>%
     group_by(month) %>%
     summarise(ind = n_distinct(Tag))
   
+  sprouting_decidua3[nrow(sprouting_decidua3) + 1,] <- list("12", 0)
+  
   master_sdecidua <- master %>%
     filter(Decidua == 1)
   
@@ -762,4 +786,9 @@ fruit <- master %>%
     summarise(ind = n_distinct(Tag))
   
   sdecidua <- (sprouting_decidua3$ind/sprouting_decidua4$ind)  
+  
+  #join all into one dataframe
+  sync_sprouting <- data.frame(ssempreverde, ssemidecidua, sdecidua)
+  
+  community.sync(sync_sprouting, nrands=100)
   
