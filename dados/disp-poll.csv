@@ -45,7 +45,7 @@ Species code;Family;Species;Dispersion;Pollination;Deciduousness
 44;Verbenaceae;Citharexylum myrianthum Cham.;zoocoria;zoophilic;decidua
 45;Meliaceae;Trichilia clausseni C.DC.;zoocoria;zoophilic;Semi-decidua
 46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;anemocoria;zoophilic;decidua
-47;Anacardiaceae;Myracrodruon urundeuva Allemão;anemocoria;zoophilic;decidua
+47;Anacardiaceae;Myracrodruon urundeuva Allemao;anemocoria;zoophilic;decidua
 48;Fabaceae;Myroxylon peruiferum L.f.;anemocoria;zoophilic;decidua
 49;Myrtaceae;Psidium guajava L.;zoocoria;zoophilic;Semi-decidua
 50;Bignoniaceae;Handroanthus heptaphyllus (Vell.) Mattos;anemocoria;zoophilic;decidua
@@ -67,12 +67,12 @@ Species code;Family;Species;Dispersion;Pollination;Deciduousness
 66;Melastomataceae;Miconia albicans (Sw.) Triana;anemocoria, zoocoria;zoophilic;NA
 67;Fabaceae;Albizia niopoides (Spruce ex Benth.) Burkart;autocoria;zoophilic;Semi-decidua
 68;Malvaceae;Luehea grandiflora Mart. & Zucc.;anemocoria;zoophilic;Semi-decidua
-69;Boraginaceae;Cordia trichotoma (Vell.) Arráb. ex Steud.;anemocoria, zoocoria;zoophilic;decidua
+69;Boraginaceae;Cordia trichotoma (Vell.) ArrÃ¡b. ex Steud.;anemocoria, zoocoria;zoophilic;decidua
 70;Rutaceae;Zanthoxylum petiolare A.St.-Hil. & Tul.;zoocoria;zoophilic;Sempre-verde
 71;Fabaceae;Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo;anemocoria;zoophilic;decidua
 72;Fabaceae;Calliandra tweedii Benth.;autocoria;zoophilic;NA
 73;Rubiaceae;Faramea latifolia (Cham. & Schltdl.) DC.;zoocoria;zoophilic;NA
-74;Apocynaceae;Aspidosperma cylindrocarpon Müll.Arg.;anemocoria;zoophilic;decidua
+74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;anemocoria;zoophilic;decidua
 75;Myrtaceae;Myrtaceae 4;NA;NA;NA
 76;Fabaceae;Leucochloron incuriale (Vell.) Barneby & J.W.Grimes;anemocoria, autocoria;zoophilic;Sempre-verde
 77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;zoocoria;anemohilic;Semi-decidua
