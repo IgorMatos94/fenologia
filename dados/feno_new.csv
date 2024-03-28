@@ -36,7 +36,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2105,01/01/22,,,,,,,1,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2109,01/01/22,,,,,,,1,
 87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2111,01/01/22,,1,,,,,,
-87,56,Anacardiaceae,Tapirira guianensis Aubl.,2112,01/01/22,,1,,,,,,caÌdo no ch„o
+87,56,Anacardiaceae,Tapirira guianensis Aubl.,2112,01/01/22,,1,,,,,,ca√≠do no ch√£o
 87,56,Anacardiaceae,Tapirira guianensis Aubl.,2113,01/01/22,,1,,,,,,
 87,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,2114,01/01/22,,1,,,,,,
 87,25,Ebenaceae,Diospyros inconstans Jacq.,2115,01/01/22,,1,,,,,,
@@ -67,7 +67,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,01/20/22,,,,,,,1,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,01/20/22,,,,,,,1,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,01/20/22,,,,,,,1,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,01/20/22,,,,,,,1,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,01/20/22,,,,,,,1,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,01/20/22,,,,,,,1,
 88,28,Myrtaceae,Eugenia florida DC.,2188,01/20/22,,1,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,01/20/22,,,1,,,,,
@@ -145,7 +145,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 90,6,Myrtaceae,Eucalyptus spp.,2338,01/21/22,,,,,,,1,
 90,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2340,01/21/22,,,,,,,1,
 90,28,Myrtaceae,Eugenia florida DC.,2341,01/21/22,,,,,,,1,
-20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2689,01/24/22,,,,,1,1,,frutos de cor verde ou preto. checar se frutos pretos s„o maduros ou se precisam abrir
+20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2689,01/24/22,,,,,1,1,,frutos de cor verde ou preto. checar se frutos pretos s√£o maduros ou se precisam abrir
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2690,01/24/22,,,,,,,1,
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2692,01/24/22,,1,,,,,,
 20,45,Meliaceae,Trichilia clausseni C.DC.,2695,01/24/22,,,,,,,1,
@@ -154,7 +154,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2701,01/24/22,,,,,,,1,
 20,68,Malvaceae,Luehea grandiflora Mart. & Zucc.,2708,01/24/22,,,,,,,1,
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2710,01/24/22,,,,,,,1,
-20,11,Anacardiaceae,Mangifera indica L,2712,01/24/22,,1,,,,,,"galhos antigos mortos, galhos novos na porÁ„o inferior"
+20,11,Anacardiaceae,Mangifera indica L,2712,01/24/22,,1,,,,,,"galhos antigos mortos, galhos novos na por√ß√£o inferior"
 20,17,Fabaceae,Platypodium elegans Vogel,2720,01/24/22,,1,,,,,,
 20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2727,01/24/22,,1,,,,,,
 20,32,Malvaceae,Guazuma ulmifolia Lam.,2728,01/24/22,,,,,,,1,
@@ -169,7 +169,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,01/24/22,,,,,,,1,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,01/24/22,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,01/24/22,,1,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,01/24/22,,1,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,01/24/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,01/24/22,,,,,,,1,old fruits present
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,01/24/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,01/24/22,,1,,,,,,
@@ -195,11 +195,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,01/19/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,01/19/22,,,,,,,1,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,01/19/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,01/19/22,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,01/19/22,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,01/19/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,01/19/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,01/19/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,01/19/22,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,01/19/22,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,01/19/22,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,01/19/22,,,,,,,1,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,01/19/22,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,01/19/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,01/19/22,,1,,,,,,
@@ -219,7 +219,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,01/19/22,,,,,,,1,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,01/19/22,,,,,,,1,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,01/19/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,01/19/22,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,01/19/22,,,,,,,1,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,01/19/22,,,,,,,1,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,01/19/22,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,01/19/22,,1,,,,,,
@@ -227,7 +227,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,01/19/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,01/19/22,,1,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,01/19/22,,,,,,,1,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,01/19/22,,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,01/19/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,01/19/22,,1,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,01/19/22,,,,,1,1,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,01/20/22,,1,,,,,,
@@ -260,7 +260,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 56,45,Meliaceae,Trichilia clausseni C.DC.,3415,01/20/22,,,,,,,1,
 56,52,Meliaceae,Trichilia catigua A.Juss.,3417,01/20/22,,1,,,,,,
 56,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,3421,01/20/22,,,1,1,,,,
-56,77,Cannabaceae,Celtis cf. iguanaea (Jacq.) Sarg.,3426,01/20/22,,1,,,,,,"deitada no ch„o, sem placa?"
+56,77,Cannabaceae,Celtis cf. iguanaea (Jacq.) Sarg.,3426,01/20/22,,1,,,,,,"deitada no ch√£o, sem placa?"
 56,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,3431,01/20/22,,1,,,,,,
 56,15,Euphorbiaceae,Croton floribundus Spreng.,3432,01/20/22,,,1,,,,,
 56,10,Salicaceae,Casearia sylvestris Sw.,3434,01/20/22,,,,,,,1,
@@ -307,20 +307,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,01/31/22,,,,,,,1,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,01/31/22,,,,,,,1,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,01/31/22,,,,1,,,,dry flowers. Probably will soon start producing fruits
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,01/31/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,01/31/22,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,01/31/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,01/31/22,,,,,,,1,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,01/31/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,01/31/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,01/31/22,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,01/31/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,01/31/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,01/31/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,01/31/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,01/31/22,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,01/31/22,,,,,,,1,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,01/31/22,,,,,,,1,
 206,49,Myrtaceae,Psidium guajava L.,4658,01/31/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,01/31/22,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,01/31/22,,,,,,,1,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,01/31/22,,,,,,,1,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,01/31/22,1,,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,01/31/22,1,,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,01/31/22,,1,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,01/31/22,,,,,,,1,
 206,49,Myrtaceae,Psidium guajava L.,4684,01/31/22,,,,,,,1,
@@ -431,8 +431,8 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 87,12,Fabaceae,Machaerium villosum Vogel,2103,02/21/22,,1,,,,,,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2105,02/21/22,,,,,,,1,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2109,02/21/22,,,,,,,1,
-87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2111,02/21/22,,1,,,,,,has fl_im-fr in another plot. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
-87,56,Anacardiaceae,Tapirira guianensis Aubl.,2112,02/21/22,,1,,,,,,caÌdo no ch„o
+87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2111,02/21/22,,1,,,,,,has fl_im-fr in another plot. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
+87,56,Anacardiaceae,Tapirira guianensis Aubl.,2112,02/21/22,,1,,,,,,ca√≠do no ch√£o
 87,56,Anacardiaceae,Tapirira guianensis Aubl.,2113,02/21/22,,1,,,,,,
 87,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,2114,02/21/22,,1,,,,,,
 87,25,Ebenaceae,Diospyros inconstans Jacq.,2115,02/21/22,,1,,,,,,
@@ -440,7 +440,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 87,10,Salicaceae,Casearia sylvestris Sw.,2118,02/21/22,,1,,,,,,"Flowers (Inflorescence) light yellow or greenish yellow. Brownish fruit, dehiscent, orange aril"
 87,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2122,02/21/22,,,,,,,1,
 87,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,2125,02/21/22,,1,,,,,,red flowers(?) maybe yellow. fruits - yellowish-brown winged
-87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2126,02/21/22,,1,,,,,,has fl_im-fr in another plot. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2126,02/21/22,,1,,,,,,has fl_im-fr in another plot. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 87,63,Primulaceae,Myrsine umbellata Mart.,2130,02/21/22,,1,,,,,,
 88,5,Euphorbiaceae,Sebastiania brasiliensis Spreng.,2132,02/23/22,,,,,,,1,
 88,65,Myrtaceae,Eugenia pluriflora DC.,2133,02/23/22,,1,,,,,,
@@ -463,7 +463,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,02/23/22,,,,,,,1,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,02/23/22,,,,,,,1,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,02/23/22,,,,,,,1,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,02/23/22,,1,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,02/23/22,,1,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,02/23/22,,1,,,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,02/23/22,,1,,,,,,has flowering vine wrapped around it
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,02/23/22,,1,,,,,,
@@ -476,7 +476,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,17,Fabaceae,Platypodium elegans Vogel,2204,02/23/22,,,,,,,1,
 88,57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,2205,02/23/22,,1,,,,,,
 88,57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,2207,02/23/22,,1,,,,,,
-88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2209,02/23/22,,,,,,,1,has fl_im-fr in another plot. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2209,02/23/22,,,,,,,1,has fl_im-fr in another plot. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 88,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2210,02/23/22,,,,,,,1,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2211,02/23/22,,,,,,,1,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2212,02/23/22,,,,,,,1,
@@ -491,7 +491,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,37,Malvaceae,Luehea candicans Mart. & Zucc.,2230,02/23/22,,,,,,,1,
 88,56,Anacardiaceae,Tapirira guianensis Aubl.,2231,02/23/22,,,,1,,,1,
 88,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2232,02/23/22,,1,,,,,,
-88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2238,02/23/22,,,,,1,,,has fl_im-fr in another plot. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2238,02/23/22,,,,,1,,,has fl_im-fr in another plot. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 88,40,Myrtaceae,Myrcia splendens (Sw.) DC.,2240,02/23/22,,1,,,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2241,02/23/22,,1,,,,,,has buds in another plot
 88,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,2244,02/23/22,,,1,,,,,buds or tiny fruits
@@ -550,7 +550,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2701,02/17/22,,,,,,,1,
 20,68,Malvaceae,Luehea grandiflora Mart. & Zucc.,2708,02/17/22,,1,,,,,,
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2710,02/17/22,,1,,,,,,
-20,11,Anacardiaceae,Mangifera indica L,2712,02/17/22,,1,,,,,,"x galhos antigos mortos, galhos novos na porÁ„o inferior"
+20,11,Anacardiaceae,Mangifera indica L,2712,02/17/22,,1,,,,,,"x galhos antigos mortos, galhos novos na por√ß√£o inferior"
 20,17,Fabaceae,Platypodium elegans Vogel,2720,02/17/22,,,,,,,1,
 20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2727,02/17/22,,1,,,,,,
 20,32,Malvaceae,Guazuma ulmifolia Lam.,2728,02/17/22,,,,,,,1,
@@ -565,12 +565,12 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,02/17/22,,,,,,,1,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,02/17/22,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,02/17/22,,1,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,02/17/22,,1,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,02/17/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,02/17/22,,1,,,,,,old fruits present
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,02/17/22,,,,,,,1,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,02/17/22,,1,,,,,,
 20,35,Sapindaceae,Centrolobium tomentosum Guillem. ex Benth.,2779,02/17/22,,1,,,,,,
-20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2781,02/17/22,,,,1,1,,,check flowers. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2781,02/17/22,,,,1,1,,,check flowers. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2782,02/17/22,,1,,,,,,check if inflorescence has opened
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2783,02/17/22,,,,,,,1,
 20,49,Myrtaceae,Psidium guajava L.,2790,02/17/22,,,,,,,1,
@@ -591,11 +591,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,02/17/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,02/17/22,,,,,,,1,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,02/17/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,02/17/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,02/17/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,02/17/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,02/17/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,02/17/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,02/17/22,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,02/17/22,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,02/17/22,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,02/17/22,,,,,,,1,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,02/17/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,02/17/22,,,,,,,1,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,02/17/22,,1,,,,,,
@@ -615,7 +615,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,02/17/22,,,,,,,1,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,02/17/22,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,02/17/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,02/17/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,02/17/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,02/17/22,,,,,,,1,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,02/17/22,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,02/17/22,,,,,,,1,
@@ -623,7 +623,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,02/17/22,,,,,,,1,has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,02/17/22,,1,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,02/17/22,,,,,,,1,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,02/17/22,,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,02/17/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,02/17/22,,1,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,02/17/22,,,,,1,,,check kind of fruit
 56,26,Salicaceae,Casearia decandra Jacq.,3363,02/23/22,,1,,,,,,
@@ -656,7 +656,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 56,45,Meliaceae,Trichilia clausseni C.DC.,3415,02/23/22,,1,,,,,,
 56,52,Meliaceae,Trichilia catigua A.Juss.,3417,02/23/22,,1,,,,,,
 56,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,3421,02/23/22,,,,,,,1,check for buds/flowers - red flowers(?) maybe yellow. fruits - yellowish-brown winged
-56,77,Cannabaceae,Celtis cf. iguanaea (Jacq.) Sarg.,3426,02/23/22,,,,,,,,"deitada no ch„o, sem placa?"
+56,77,Cannabaceae,Celtis cf. iguanaea (Jacq.) Sarg.,3426,02/23/22,,,,,,,,"deitada no ch√£o, sem placa?"
 56,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,3431,02/23/22,,1,,,,,,
 56,15,Euphorbiaceae,Croton floribundus Spreng.,3432,02/23/22,,,1,1,,,,has im_fr in another plot
 56,10,Salicaceae,Casearia sylvestris Sw.,3434,02/23/22,,,,,,,1,
@@ -674,7 +674,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 56,15,Euphorbiaceae,Croton floribundus Spreng.,3463,02/23/22,,,,,,,1,
 56,15,Euphorbiaceae,Croton floribundus Spreng.,3464,02/23/22,,,,,,,1,
 56,1,Meliaceae,Trichilia pallida Sw.,3465,02/23/22,,1,,,,,,
-56,79,Malvaceae,Bastardiopsis densiflora (Hook. & Arn.) Hassl.,3466,02/23/22,,1,,,,,,placa caiu. ¡rvore entre 3465 e 3467
+56,79,Malvaceae,Bastardiopsis densiflora (Hook. & Arn.) Hassl.,3466,02/23/22,,1,,,,,,placa caiu. √Årvore entre 3465 e 3467
 56,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,3468,02/23/22,,1,,,,,,white flowers. Wind dispersed
 56,48,Fabaceae,Myroxylon peruiferum L.f.,3469,02/23/22,,1,,,,,,
 56,78,Lauraceae,Lauraceae spp.,3470,02/23/22,,1,,,,,,
@@ -703,20 +703,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,02/24/22,,,,,,,1,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,02/24/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,02/24/22,,,,,,1,,"dry flowers. Probably will soon start producing fruits. has m_fr in another plot. Flower - yellow/white. Fruits - mature, wind dispersed fluffy?"
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,02/24/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,02/24/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,02/24/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,02/24/22,,1,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,02/24/22,,1,,,,,,red flowers(?) maybe yellow. fruits - yellowish-brown winged
 206,12,Fabaceae,Machaerium villosum Vogel,4642,02/24/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,02/24/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,02/24/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,02/24/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,02/24/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,02/24/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,02/24/22,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,02/24/22,,,,,,,1,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,02/24/22,,,,,,,1,
 206,49,Myrtaceae,Psidium guajava L.,4658,02/24/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,02/24/22,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,02/24/22,,,,,,,1,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,02/24/22,,,,,,,1,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,02/24/22,1,,,,,,,x
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,02/24/22,1,,,,,,,x
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,02/24/22,,,,,,,1,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,02/24/22,,,,,,,1,
 206,49,Myrtaceae,Psidium guajava L.,4684,02/24/22,,,,,,,1,
@@ -818,7 +818,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 87,28,Myrtaceae,Eugenia florida DC.,2089,04/25/22,,1,,,,,,
 87,36,Moraceae,Maclura tinctoria (L.) D.Don ex Steud.,2090,04/25/22,,1,,,,,,
 87,68,Malvaceae,Luehea grandiflora Mart. & Zucc.,2091,04/25/22,,1,,,,,,
-87,39,Fabaceae,Andira fraxinifolia Benth.,2092,04/25/22,,,,,,,1,aparenta sofrer predaÁ„o por grande n˙mero larvas nas folhas
+87,39,Fabaceae,Andira fraxinifolia Benth.,2092,04/25/22,,,,,,,1,aparenta sofrer preda√ß√£o por grande n√∫mero larvas nas folhas
 87,44,Verbenaceae,Citharexylum myrianthum Cham.,2093,04/25/22,,1,,,,,,"has fruits in another plot. Dark purple/ black when mature. some mature, some bright red fruits (21/02/22)"
 87,39,Fabaceae,Andira fraxinifolia Benth.,2094,04/25/22,,1,,,,,,
 87,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,2096,04/25/22,,1,,,,,,
@@ -827,16 +827,16 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 87,12,Fabaceae,Machaerium villosum Vogel,2103,04/25/22,,1,,,,,,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2105,04/25/22,,1,,,,,,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2109,04/25/22,,1,,,,,,
-87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2111,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
-87,56,Anacardiaceae,Tapirira guianensis Aubl.,2112,04/25/22,,1,,,,,,caÌdo no ch„o
+87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2111,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
+87,56,Anacardiaceae,Tapirira guianensis Aubl.,2112,04/25/22,,1,,,,,,ca√≠do no ch√£o
 87,56,Anacardiaceae,Tapirira guianensis Aubl.,2113,04/25/22,,1,,,,,,
 87,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,2114,04/25/22,,1,,,,,,
 87,25,Ebenaceae,Diospyros inconstans Jacq.,2115,04/25/22,,1,,,,,,
-87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2116,04/25/22,,,,,,,1,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2116,04/25/22,,,,,,,1,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 87,10,Salicaceae,Casearia sylvestris Sw.,2118,04/25/22,,1,,,,,,"Flowers (Inflorescence) light yellow or greenish yellow. Brownish fruit, dehiscent, orange aril"
 87,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2122,04/25/22,,1,,,,,,
 87,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,2125,04/25/22,,1,,,,,,
-87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2126,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2126,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 87,63,Primulaceae,Myrsine umbellata Mart.,2130,04/25/22,,1,,,,,,white flowers
 88,5,Euphorbiaceae,Sebastiania brasiliensis Spreng.,2132,03/21/22,,1,,,,,,
 88,65,Myrtaceae,Eugenia pluriflora DC.,2133,03/21/22,,,,1,,,,
@@ -859,7 +859,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,03/21/22,,,,,,1,,"flower - yellow/white. Fruits - mature, wind dispersed fluffy?"
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,03/21/22,,1,,,,,,check for flowers
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,03/21/22,,,,,,,1,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,03/21/22,,1,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,03/21/22,,1,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,03/21/22,,1,,,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,03/21/22,,1,,,,,,has flowering vine wrapped around it
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,03/21/22,,1,,,,,,old dried fruits
@@ -872,7 +872,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,17,Fabaceae,Platypodium elegans Vogel,2204,03/21/22,,,,,,,1,
 88,57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,2205,03/21/22,,1,,,,,,
 88,57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,2207,03/21/22,,1,,,,,,
-88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2209,03/21/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2209,03/21/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 88,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2210,03/21/22,,,,,,,1,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2211,03/21/22,,1,,,,,,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2212,03/21/22,,,1,1,,,,"flower - yellow/white. Fruits - mature, wind dispersed fluffy?"
@@ -887,7 +887,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,37,Malvaceae,Luehea candicans Mart. & Zucc.,2230,03/21/22,,1,,,,,,
 88,56,Anacardiaceae,Tapirira guianensis Aubl.,2231,03/21/22,,,,1,,,,
 88,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2232,03/21/22,,1,,,,,,
-88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2238,03/21/22,,,,,,,1,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2238,03/21/22,,,,,,,1,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 88,40,Myrtaceae,Myrcia splendens (Sw.) DC.,2240,03/21/22,,1,,,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2241,03/21/22,,,1,,,,,check for flowers
 88,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,2244,03/21/22,,,1,,,,,flowers - white / fruits - reddish-black
@@ -950,7 +950,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,17,Fabaceae,Platypodium elegans Vogel,2720,03/18/22,,1,,,,,,
 20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2727,03/18/22,,1,,,,,,
 20,32,Malvaceae,Guazuma ulmifolia Lam.,2728,03/18/22,,1,,,,,,has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2731,03/18/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2731,03/18/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2740,03/18/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2741,03/18/22,,1,,,,,,old fruits
 20,64,Meliaceae,Cedrela fissilis Vell.,2746,03/18/22,,1,,,,,,
@@ -961,16 +961,16 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,03/18/22,,,,,,,1,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,03/18/22,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,03/18/22,,1,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,03/18/22,,1,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,03/18/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,03/18/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,03/18/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,03/18/22,,1,,,,,,
 20,35,Sapindaceae,Centrolobium tomentosum Guillem. ex Benth.,2779,03/18/22,,1,,,,,,
-20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2781,03/18/22,,,,,1,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2781,03/18/22,,,,,1,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2782,03/18/22,,,,,1,,,check if inflorescence has opened
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2783,03/18/22,,1,,,,,,
 20,49,Myrtaceae,Psidium guajava L.,2790,03/18/22,,1,,,,,,
-20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2792,03/18/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2792,03/18/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2797,03/18/22,,1,,,,,,
 20,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,2806,03/18/22,,1,,,,,,
 20,49,Myrtaceae,Psidium guajava L.,2815,03/18/22,,1,,,,,,
@@ -987,11 +987,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,03/18/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,03/18/22,,,,,,,1,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,03/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,03/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,03/18/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,03/18/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,03/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,03/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,03/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,03/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,03/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,03/18/22,,1,,,,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,03/18/22,,1,,,,,,x
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,03/18/22,,,,,,,1,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,03/18/22,,1,,,,,,
@@ -1011,7 +1011,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,03/18/22,,1,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,03/18/22,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,03/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,03/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,03/18/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,03/18/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,03/18/22,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,03/18/22,,,,,1,1,,
@@ -1019,7 +1019,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,03/18/22,,1,,,,,,has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,03/18/22,,1,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,03/18/22,,1,,,,,,flowers - white / fruits - reddish-black
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,03/18/22,,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,03/18/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,03/18/22,,1,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,03/18/22,,,,,1,1,,check for fruits
 56,26,Salicaceae,Casearia decandra Jacq.,3363,03/16/22,,1,,,,,,
@@ -1082,7 +1082,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4585,03/30/22,,,,,,,1,has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
 206,51,Sapindaceae,Cupania vernalis Cambess.,4586,03/30/22,,,,,,,1,
 206,17,Fabaceae,Platypodium elegans Vogel,4587,03/30/22,,1,,,,,,
-206,41,Lecythidaceae,Cariniana estrellensis (Raddi) Kuntze,4593,03/30/22,,1,,,,,,"White flowers, brown dry fruit (cup like). Jequitib·-branco"
+206,41,Lecythidaceae,Cariniana estrellensis (Raddi) Kuntze,4593,03/30/22,,1,,,,,,"White flowers, brown dry fruit (cup like). Jequitib√°-branco"
 206,7,Fabaceae,Lonchocarpus cultratus (Vell.) A.M.G.Azevedo & H.C.Lima,4595,03/30/22,,1,,,,,,check for buds/flowers - pink flower
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4597,03/30/22,,,,,,1,,
 206,17,Fabaceae,Platypodium elegans Vogel,4598,03/30/22,,,,,,,1,
@@ -1099,20 +1099,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,03/30/22,,,,,,,1,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,03/30/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,03/30/22,,,,,,1,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,03/30/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,03/30/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,03/30/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,03/30/22,,1,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,03/30/22,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,03/30/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,03/30/22,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,03/30/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,03/30/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,03/30/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,03/30/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,03/30/22,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,03/30/22,,,,,,,1,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,03/30/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,03/30/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,03/30/22,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,03/30/22,,,,,,,1,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,03/30/22,,1,,,,,,has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,03/30/22,1,,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,03/30/22,1,,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,03/30/22,,1,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,03/30/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,03/30/22,,,,,,,1,
@@ -1223,16 +1223,16 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 87,12,Fabaceae,Machaerium villosum Vogel,2103,04/25/22,,1,,,,,,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2105,04/25/22,,,,,,,1,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2109,04/25/22,,1,,,,,,
-87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2111,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2111,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 87,56,Anacardiaceae,Tapirira guianensis Aubl.,2112,04/25/22,,,1,,,,,check for flowers
 87,56,Anacardiaceae,Tapirira guianensis Aubl.,2113,04/25/22,,1,,,,,,check for flowers
 87,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,2114,04/25/22,,,,,,,1,
 87,25,Ebenaceae,Diospyros inconstans Jacq.,2115,04/25/22,,,1,,,,,check for fruits
-87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2116,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2116,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 87,10,Salicaceae,Casearia sylvestris Sw.,2118,04/25/22,,,,,,,1,x
 87,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2122,04/25/22,,,,,,,1,
 87,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,2125,04/25/22,,,,,,,1,
-87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2126,04/25/22,,,,,,,1,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2126,04/25/22,,,,,,,1,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 87,63,Primulaceae,Myrsine umbellata Mart.,2130,04/25/22,,1,,,,,,x
 88,5,Euphorbiaceae,Sebastiania brasiliensis Spreng.,2132,04/25/22,,1,,,,,,check for buds
 88,65,Myrtaceae,Eugenia pluriflora DC.,2133,04/25/22,,,1,1,,,,check for fruits
@@ -1255,7 +1255,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,04/25/22,,,,,,1,,"check for fruits. flower - yellow/white. Fruits - mature, wind dispersed fluffy?"
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,04/25/22,,,,,,,1,check for flowers
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,04/25/22,,,,,,1,,"check for fruits. flower - yellow/white. Fruits - mature, wind dispersed fluffy?"
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,04/25/22,,,,,,,1,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,04/25/22,,,,,,,1,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,04/25/22,,1,,,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,04/25/22,,1,,,,,,has flowering vine wrapped around it
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,04/25/22,,,,,,1,,old mature fruits?
@@ -1268,7 +1268,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,17,Fabaceae,Platypodium elegans Vogel,2204,04/25/22,,1,,,,,,
 88,57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,2205,04/25/22,,1,,,,,,
 88,57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,2207,04/25/22,,1,,,,,,
-88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2209,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2209,04/25/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 88,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2210,04/25/22,,1,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2211,04/25/22,,1,,,,,,old fruits
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2212,04/25/22,,,,,,1,,"check for fruits. flower - yellow/white. Fruits - mature, wind dispersed fluffy?"
@@ -1283,7 +1283,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,37,Malvaceae,Luehea candicans Mart. & Zucc.,2230,04/25/22,,,,,,,1,
 88,56,Anacardiaceae,Tapirira guianensis Aubl.,2231,04/25/22,,,,1,1,,,check for flowers
 88,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2232,04/25/22,,1,,,,,,
-88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2238,04/25/22,,,,,1,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+88,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2238,04/25/22,,,,,1,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 88,40,Myrtaceae,Myrcia splendens (Sw.) DC.,2240,04/25/22,,1,,,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2241,04/25/22,,1,,,,,,check for flowers
 88,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,2244,04/25/22,,,1,1,,,,has buds/im_fr at another plot. flowers - white / fruits - reddish-black
@@ -1346,7 +1346,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,17,Fabaceae,Platypodium elegans Vogel,2720,04/28/22,,1,,,,,,
 20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2727,04/28/22,,,,,,,1,
 20,32,Malvaceae,Guazuma ulmifolia Lam.,2728,04/28/22,,1,,,,,,has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2731,04/28/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2731,04/28/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2740,04/28/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2741,04/28/22,,1,,,,,,old fruits
 20,64,Meliaceae,Cedrela fissilis Vell.,2746,04/28/22,,1,,,,,,
@@ -1357,16 +1357,16 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,04/28/22,,,,,,,1,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,04/28/22,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,04/28/22,1,,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,04/28/22,,1,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,04/28/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,04/28/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,04/28/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,04/28/22,,1,,,,,,
 20,35,Sapindaceae,Centrolobium tomentosum Guillem. ex Benth.,2779,04/28/22,,1,,,,,,
-20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2781,04/28/22,,,,,1,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
-20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2782,04/28/22,,,,,1,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2781,04/28/22,,,,,1,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
+20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2782,04/28/22,,,,,1,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2783,04/28/22,,1,,,,,,
 20,49,Myrtaceae,Psidium guajava L.,2790,04/28/22,,1,,,,,,check for fruits
-20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2792,04/28/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranquiÁada na porÁ„o inferior
+20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2792,04/28/22,,1,,,,,,check flowers/fruits. Immature fruits green; mature fruits - yellow/orange. Bolinhas marrons com parte esbranqui√ßada na por√ß√£o inferior
 20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2797,04/28/22,1,,,,,,,
 20,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,2806,04/28/22,,1,,,,,,
 20,49,Myrtaceae,Psidium guajava L.,2815,04/28/22,,1,,,,,,check for fruits
@@ -1383,11 +1383,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,04/28/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,04/28/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,04/28/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,04/28/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,04/28/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,04/28/22,,1,,,,,,check for fruits
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,04/28/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,04/28/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,04/28/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,04/28/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,04/28/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,04/28/22,,1,,,,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,04/28/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,04/28/22,,,,,,,1,check for fruits
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,04/28/22,,1,,,,,,
@@ -1407,7 +1407,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,04/28/22,,1,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,04/28/22,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,04/28/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,04/28/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,04/28/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,04/28/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,04/28/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,04/28/22,,1,,,,,,check for fruits
@@ -1415,7 +1415,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,04/28/22,,1,,,,,,has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,04/28/22,,1,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,04/28/22,,1,,,,,,has buds/im_fr at another plot. flowers - white / fruits - reddish-black
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,04/28/22,,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,04/28/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,04/28/22,,1,,,,,,check for fruits
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,04/28/22,,1,,,,,,check for fruits
 56,26,Salicaceae,Casearia decandra Jacq.,3363,04/08/22,,1,,,,,,x
@@ -1448,7 +1448,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 56,45,Meliaceae,Trichilia clausseni C.DC.,3415,04/08/22,,1,,,,,,
 56,52,Meliaceae,Trichilia catigua A.Juss.,3417,04/08/22,,,,,,,1,
 56,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,3421,04/08/22,,1,,,,,,
-56,77,Cannabaceae,Celtis cf. iguanaea (Jacq.) Sarg.,3426,04/08/22,,1,,,,,,"·rvore caÌda, sem placa"
+56,77,Cannabaceae,Celtis cf. iguanaea (Jacq.) Sarg.,3426,04/08/22,,1,,,,,,"√°rvore ca√≠da, sem placa"
 56,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,3431,04/08/22,,1,,,,,,
 56,15,Euphorbiaceae,Croton floribundus Spreng.,3432,04/08/22,,1,,,,,,has m_fr in another plot
 56,10,Salicaceae,Casearia sylvestris Sw.,3434,04/08/22,,,,,,,1,
@@ -1495,20 +1495,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,04/29/22,,1,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,04/29/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,04/29/22,,,,,,1,,"check for fruits. flower - yellow/white. Fruits - mature, wind dispersed fluffy?"
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,04/29/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,04/29/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,04/29/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,04/29/22,,1,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,04/29/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,04/29/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,04/29/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,04/29/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,04/29/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,04/29/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,04/29/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,04/29/22,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,04/29/22,,,,,,,1,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,04/29/22,,1,,,,,,"check for fruits. flower - yellow/white. Fruits - mature, wind dispersed fluffy?"
 206,49,Myrtaceae,Psidium guajava L.,4658,04/29/22,,1,,,,,,check for fruits
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,04/29/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,04/29/22,,1,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,04/29/22,,1,,,,,,has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,04/29/22,1,,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,04/29/22,1,,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,04/29/22,,1,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,04/29/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,04/29/22,,,,,,,1,check for fruits
@@ -1651,7 +1651,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,05/12/22,,1,,,,,,had mature fruits last month; still has old fruits
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,05/12/22,,1,,,,,,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,05/12/22,,1,,,,,,had mature fruits last month; still has old fruits
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,05/12/22,,1,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,05/12/22,,1,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,05/12/22,,1,,,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,05/12/22,,1,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,05/12/22,,1,,,,,,had mature fruits last month; still has old fruits
@@ -1753,7 +1753,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,05/19/22,,,,,,,1,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,05/19/22,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,05/19/22,,1,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,05/19/22,,1,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,05/19/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,05/19/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,05/19/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,05/19/22,,1,,,,,,
@@ -1779,11 +1779,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,05/19/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,05/19/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,05/19/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,05/19/22,,1,,,,,,some leaves turning yellow
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,05/19/22,,1,,,,,,some leaves turning yellow
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,05/19/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,05/19/22,1,,,,,,,yellow leaves
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,05/19/22,,,1,,,,,Also several empty branches
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,05/19/22,1,,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,05/19/22,1,,,,,,,yellow leaves
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,05/19/22,,,1,,,,,Also several empty branches
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,05/19/22,1,,,,,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,05/19/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,05/19/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,05/19/22,,1,,,,,,
@@ -1797,21 +1797,21 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3238,05/19/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3240,05/19/22,,1,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3243,05/19/22,,1,,,,,,
-22,32,Malvaceae,Guazuma ulmifolia Lam.,3249,05/19/22,,1,,,,,,- check if it's DecÌdua
-22,12,Fabaceae,Machaerium villosum Vogel,3250,05/19/22,,1,,,,,,check if it's DecÌdua
+22,32,Malvaceae,Guazuma ulmifolia Lam.,3249,05/19/22,,1,,,,,,- check if it's Dec√≠dua
+22,12,Fabaceae,Machaerium villosum Vogel,3250,05/19/22,,1,,,,,,check if it's Dec√≠dua
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3253,05/19/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,05/19/22,,1,,,,,,
-22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,05/19/22,,1,,,,,,has some yellow leaves. check if it's DecÌdua
+22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,05/19/22,,1,,,,,,has some yellow leaves. check if it's Dec√≠dua
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,05/19/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,05/19/22,,,,,,,1,maybe is shedding leaves
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,05/19/22,,,,,,,1,maybe is shedding leaves
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,05/19/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,05/19/22,,1,,,,,,
-22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,05/19/22,,1,,,,,,check if it's DecÌdua
+22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,05/19/22,,1,,,,,,check if it's Dec√≠dua
 22,24,Proteaceae,Roupala montana Aubl.,3273,05/19/22,,1,,,,,,
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,05/19/22,,1,,,,,,
-22,45,Meliaceae,Trichilia clausseni C.DC.,3280,05/19/22,1,,,,,,,leaves are kinda dry. Check if it's DecÌdua
+22,45,Meliaceae,Trichilia clausseni C.DC.,3280,05/19/22,1,,,,,,,leaves are kinda dry. Check if it's Dec√≠dua
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,05/19/22,,1,,,,,,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,05/19/22,,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,05/19/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,05/19/22,,1,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,05/19/22,,1,,,,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,05/05/22,,,,,,,1,
@@ -1891,20 +1891,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,07/07/22,1,,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,07/07/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,07/07/22,,1,,,,,,had mature fruits last month; maybe leaf fall
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,07/07/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,07/07/22,1,,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,07/07/22,1,,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,07/07/22,1,,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,07/07/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,07/07/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,07/07/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,07/07/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,07/07/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,07/07/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,07/07/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,07/07/22,1,,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,07/07/22,1,,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,07/07/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,07/07/22,,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,07/07/22,1,,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,07/07/22,1,,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,07/07/22,1,,,,,,,check if there's leaf fall
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,07/07/22,1,,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,07/07/22,1,,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,07/07/22,,1,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,07/07/22,1,,,,,,,check if there's leaf fall
 206,49,Myrtaceae,Psidium guajava L.,4684,07/07/22,,,,,,,,
@@ -1960,7 +1960,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 207,10,Salicaceae,Casearia sylvestris Sw.,4839,07/07/22,,1,,,,,,
 207,71,Fabaceae,Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo,4842,07/07/22,,1,,,,,,
 207,1,Meliaceae,Trichilia pallida Sw.,4843,07/07/22,,,,,,,1,
-207,71,Fabaceae,Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo,4844,07/07/22,,,,1,,,,"checar flor. cabinho central com flores ao redor, pequenas e esbranquiÁadas"
+207,71,Fabaceae,Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo,4844,07/07/22,,,,1,,,,"checar flor. cabinho central com flores ao redor, pequenas e esbranqui√ßadas"
 207,1,Meliaceae,Trichilia pallida Sw.,4846,07/07/22,,1,,,,,,
 207,67,Fabaceae,Albizia niopoides (Spruce ex Benth.) Burkart,4847,07/07/22,,1,,,,,,
 207,15,Euphorbiaceae,Croton floribundus Spreng.,4849,07/07/22,,,,,,,1,
@@ -1995,7 +1995,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 87,88,Rutaceae,Zanthoxylum petiolare A.St.-Hil. & Tul.,2051,06/13/22,,1,,,,,,
 87,39,Fabaceae,Andira fraxinifolia Benth.,2054,06/13/22,,1,,,,,,
 87,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2055,06/13/22,1,,,,,,,had mature fruits last month; lots of old fruits still
-87,32,Malvaceae,Guazuma ulmifolia Lam.,2060,06/13/22,,,,,1,1,,had im-fr_m-fr last month. semiDecÌdua
+87,32,Malvaceae,Guazuma ulmifolia Lam.,2060,06/13/22,,,,,1,1,,had im-fr_m-fr last month. semiDec√≠dua
 87,44,Verbenaceae,Citharexylum myrianthum Cham.,2061,06/13/22,1,,,,,,,
 87,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,2062,06/13/22,,,,,,,1,
 87,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2065,06/13/22,,,,,,,1,
@@ -2012,9 +2012,9 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 87,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,2096,06/13/22,1,,,,,,,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2100,06/13/22,,,,,,,1,
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2101,06/13/22,,1,,,,,,
-87,12,Fabaceae,Machaerium villosum Vogel,2103,06/13/22,1,,,,,,,check if it's DecÌdua
+87,12,Fabaceae,Machaerium villosum Vogel,2103,06/13/22,1,,,,,,,check if it's Dec√≠dua
 87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2105,06/13/22,1,,,,,,,
-87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2109,06/13/22,1,,,,,,,check if it's DecÌdua
+87,58,Lythraceae,Lafoensia pacari A.St.-Hil.,2109,06/13/22,1,,,,,,,check if it's Dec√≠dua
 87,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2111,06/13/22,,1,,,,,,
 87,56,Anacardiaceae,Tapirira guianensis Aubl.,2112,06/13/22,,,,,,,,
 87,56,Anacardiaceae,Tapirira guianensis Aubl.,2113,06/13/22,1,,,,,,,
@@ -2047,7 +2047,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,06/13/22,,1,,,,,,old fruits
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,06/13/22,1,,,,,,,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,06/13/22,,1,,,,,,old fruits
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,06/13/22,,1,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,06/13/22,,1,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,06/13/22,,1,,,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,06/13/22,1,,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,06/13/22,,1,,,,,,
@@ -2137,7 +2137,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,11,Anacardiaceae,Mangifera indica L,2712,06/30/22,,1,,,,,,
 20,17,Fabaceae,Platypodium elegans Vogel,2720,06/30/22,1,,,,,,,marked with tape
 20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2727,06/30/22,1,,,,,,,some old dry fruits present
-20,32,Malvaceae,Guazuma ulmifolia Lam.,2728,06/30/22,1,,,,,,,have old fruits. semiDecÌdua
+20,32,Malvaceae,Guazuma ulmifolia Lam.,2728,06/30/22,1,,,,,,,have old fruits. semiDec√≠dua
 20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2731,06/30/22,,1,,,,,,"leaves present, no fruits"
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2740,06/30/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2741,06/30/22,1,,,,,,,old dry fruits present
@@ -2149,7 +2149,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,06/30/22,,1,,,,,,"Close to lowest corner, growing almost horizontally"
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,06/30/22,1,,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,06/30/22,1,,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,06/30/22,1,,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,06/30/22,1,,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,06/30/22,1,,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,06/30/22,1,,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,06/30/22,1,,,,,,,
@@ -2159,7 +2159,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,2783,06/30/22,1,,,,,,,
 20,49,Myrtaceae,Psidium guajava L.,2790,06/30/22,1,,,,,,,
 20,53,Arecaceae,Syagrus romanzoffiana (Cham.) Glassman,2792,06/30/22,,1,,,,,,
-20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2797,06/30/22,1,,,,,,,DecÌdua
+20,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,2797,06/30/22,1,,,,,,,Dec√≠dua
 20,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,2806,06/30/22,1,,,,,,,
 20,49,Myrtaceae,Psidium guajava L.,2815,06/30/22,1,,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2816,06/30/22,1,,,,,,,
@@ -2167,7 +2167,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,7,Fabaceae,Lonchocarpus cultratus (Vell.) A.M.G.Azevedo & H.C.Lima,3163,06/30/22,1,,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3166,06/30/22,1,,,,,,,
 22,81,Fabaceae,Platymiscium floribundum Vogel,3168,06/30/22,1,,,,,,,
-22,87,Malvaceae,Pseudobombax grandiflorum (Cav.) A.Robyns,3169,06/30/22,,,,,,,,DecÌdua
+22,87,Malvaceae,Pseudobombax grandiflorum (Cav.) A.Robyns,3169,06/30/22,,,,,,,,Dec√≠dua
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3170,06/30/22,1,,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3171,06/30/22,1,,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3172,06/30/22,1,,,,,,,
@@ -2175,11 +2175,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,06/30/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,06/30/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,06/30/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,06/30/22,,,1,1,,,,DecÌdua
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,06/30/22,,,1,1,,,,Dec√≠dua
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,06/30/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,06/30/22,1,,,,,,,DecÌdua
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,06/30/22,1,,,,,,,DecÌdua
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,06/30/22,,,1,1,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,06/30/22,1,,,,,,,Dec√≠dua
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,06/30/22,1,,,,,,,Dec√≠dua
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,06/30/22,,,1,1,,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,06/30/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,06/30/22,1,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,06/30/22,,1,,,,,,
@@ -2189,25 +2189,25 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3227,06/30/22,,,,,,,1,
 22,14,Fabaceae,Machaerium stipitatum Vogel,3230,06/30/22,1,,,,,,,
 22,3,Rutaceae,Zanthoxylum rhoifolium Lam.,3232,06/30/22,1,,,,,,,frutis might be old
-22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3236,06/30/22,1,,,,,,,DecÌdua
+22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3236,06/30/22,1,,,,,,,Dec√≠dua
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3238,06/30/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3240,06/30/22,1,,,,,,,One dried fruit remaining
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3243,06/30/22,1,,,,,,,
-22,32,Malvaceae,Guazuma ulmifolia Lam.,3249,06/30/22,1,,,,,,,semiDecÌdua
-22,12,Fabaceae,Machaerium villosum Vogel,3250,06/30/22,1,,,,,,,semiDecÌdua
+22,32,Malvaceae,Guazuma ulmifolia Lam.,3249,06/30/22,1,,,,,,,semiDec√≠dua
+22,12,Fabaceae,Machaerium villosum Vogel,3250,06/30/22,1,,,,,,,semiDec√≠dua
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3253,06/30/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,06/30/22,1,,,,,,,
-22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,06/30/22,1,,,,,,,semiDecÌdua
+22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,06/30/22,1,,,,,,,semiDec√≠dua
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,06/30/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,06/30/22,1,,,,,,,DecÌdua
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,06/30/22,1,,,,,,,Dec√≠dua
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,06/30/22,,,,,,,1,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,06/30/22,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,06/30/22,1,,,,,,,Sempre-verde
 22,24,Proteaceae,Roupala montana Aubl.,3273,06/30/22,1,,,,,,,
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,06/30/22,1,,,,,,,
-22,45,Meliaceae,Trichilia clausseni C.DC.,3280,06/30/22,1,,,,,,,DecÌdua
+22,45,Meliaceae,Trichilia clausseni C.DC.,3280,06/30/22,1,,,,,,,Dec√≠dua
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,06/30/22,1,,,,,,,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,06/30/22,,,,,,,1,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,06/30/22,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,06/30/22,1,,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,06/30/22,1,,,,,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,06/09/22,,,,,,,1,"Tree found with nail hole but no tag, looks like its dying"
@@ -2250,7 +2250,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 56,28,Myrtaceae,Eugenia florida DC.,3441,06/09/22,,1,,,,,,
 56,3,Rutaceae,Zanthoxylum rhoifolium Lam.,3445,06/09/22,,1,,,,,,
 56,3,Rutaceae,Zanthoxylum rhoifolium Lam.,3446,06/09/22,,1,,,,,,had buds last month
-56,32,Malvaceae,Guazuma ulmifolia Lam.,3450,06/09/22,,,,,1,1,,had im-fr last month. semiDecÌdua
+56,32,Malvaceae,Guazuma ulmifolia Lam.,3450,06/09/22,,,,,1,1,,had im-fr last month. semiDec√≠dua
 56,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,3451,06/09/22,,1,,,,,,
 56,28,Myrtaceae,Eugenia florida DC.,3453,06/09/22,,,,,,,1,
 56,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3454,06/09/22,1,,,,,,,
@@ -2281,28 +2281,28 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,10,Salicaceae,Casearia sylvestris Sw.,4610,07/07/22,,,,,,,1,
 206,86,Rutaceae,Zanthoxylum riedelianum Engl.,4611,07/07/22,1,,,,,,,ID may be wrong. Maybe Myracrodruon urundeuva
 206,10,Salicaceae,Casearia sylvestris Sw.,4614,07/07/22,,,,,,,1,leaves present
-206,32,Malvaceae,Guazuma ulmifolia Lam.,4616,07/07/22,,,,,1,1,,"around 5-10 fruits, 3 imature. might be old. semiDecÌdua"
-206,32,Malvaceae,Guazuma ulmifolia Lam.,4618,07/07/22,,,,,,,1,ID may be wrong. semiDecÌdua
+206,32,Malvaceae,Guazuma ulmifolia Lam.,4616,07/07/22,,,,,1,1,,"around 5-10 fruits, 3 imature. might be old. semiDec√≠dua"
+206,32,Malvaceae,Guazuma ulmifolia Lam.,4618,07/07/22,,,,,,,1,ID may be wrong. semiDec√≠dua
 206,61,Bignoniaceae,Handroanthus ochraceus (Cham.) Mattos,4620,07/07/22,1,,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4621,07/07/22,1,,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,07/07/22,1,,,,,,,
-206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,07/07/22,1,,,,,,,semiDecÌdua
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,07/07/22,,,,1,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,07/07/22,,,,1,,,,
+206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,07/07/22,1,,,,,,,semiDec√≠dua
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,07/07/22,,,,1,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,07/07/22,,,,1,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,07/07/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,07/07/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,07/07/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,07/07/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,07/07/22,1,,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,07/07/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,07/07/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,07/07/22,,,,1,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,07/07/22,,,,1,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,07/07/22,1,,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,07/07/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,07/07/22,,,1,,,,,
-206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,07/07/22,1,,,,,,,semiDecÌdua
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,07/07/22,1,,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,07/07/22,,,1,,,,,
+206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,07/07/22,1,,,,,,,semiDec√≠dua
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,07/07/22,1,,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,07/07/22,1,,,,,,,
-206,17,Fabaceae,Platypodium elegans Vogel,4682,07/07/22,1,,,,,,,semiDecÌdua
+206,17,Fabaceae,Platypodium elegans Vogel,4682,07/07/22,1,,,,,,,semiDec√≠dua
 206,49,Myrtaceae,Psidium guajava L.,4684,07/07/22,,,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4691,07/07/22,,1,,,,,,
 206,46,Verbenaceae,Aloysia virgata (Ruiz & Pav.) Juss.,4695,07/07/22,,,,,,,,
@@ -2322,7 +2322,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4748,07/07/22,1,,,,,,,
 206,10,Salicaceae,Casearia sylvestris Sw.,4754,07/07/22,1,,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4756,07/07/22,1,,,,,,,
-206,17,Fabaceae,Platypodium elegans Vogel,4759,07/07/22,1,,,,,,,semiDecÌdua
+206,17,Fabaceae,Platypodium elegans Vogel,4759,07/07/22,1,,,,,,,semiDec√≠dua
 207,88,Unclassified,Unclassified,4765,07/07/22,1,,,,,,,"leaves present (fabaceae-like small leaflets), although not many"
 207,59,Annonaceae,Annona sylvatica A.St.-Hil.,4766,07/07/22,1,,,,,,,most leaves still present
 207,23,Lauraceae,Ocotea puberula (Rich.) Nees,4771,07/07/22,,,,,,,1,leaves present
@@ -2362,7 +2362,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 207,15,Euphorbiaceae,Croton floribundus Spreng.,4849,07/07/22,1,,,,,,,
 207,86,Rutaceae,Zanthoxylum riedelianum Engl.,4851,07/07/22,,,,,,,1,
 207,43,Fabaceae,Bauhinia longifolia (Bong.) Steud.,4852,07/07/22,1,,,,,,,
-207,2,Meliaceae,Guarea macrophylla Vahl,4855,07/07/22,1,,,,,,,check if it's DecÌdua
+207,2,Meliaceae,Guarea macrophylla Vahl,4855,07/07/22,1,,,,,,,check if it's Dec√≠dua
 207,43,Fabaceae,Bauhinia longifolia (Bong.) Steud.,4857,07/07/22,,,,,,,1,
 207,41,Lecythidaceae,Cariniana estrellensis (Raddi) Kuntze,4858,07/07/22,1,,,,,,,
 207,41,Lecythidaceae,Cariniana estrellensis (Raddi) Kuntze,4863,07/07/22,1,,,,,,,
@@ -2443,7 +2443,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,07/14/22,1,,,,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,07/14/22,1,,,,,,,May be dead
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,07/14/22,,,,1,,,,Check for fruits
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,07/14/22,1,,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,07/14/22,1,,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,07/14/22,1,,,,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,07/14/22,1,,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,07/14/22,1,,,,,,,
@@ -2545,7 +2545,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,07/21/22,,1,,,,,,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,07/21/22,1,,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,07/21/22,1,,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,07/21/22,1,,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,07/21/22,1,,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,07/21/22,,,,,1,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,07/21/22,1,,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,07/21/22,1,,,,,,,
@@ -2571,11 +2571,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,07/21/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,07/21/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,07/21/22,,,,,,,1,manchas nas folhas
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,07/21/22,1,,,,,,,check for flowers/fruits
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,07/21/22,1,,,,,,,check for flowers/fruits
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,07/21/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,07/21/22,,,1,1,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,07/21/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,07/21/22,,,,1,,,,check for flowers/fruits
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,07/21/22,,,1,1,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,07/21/22,1,,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,07/21/22,,,,1,,,,check for flowers/fruits
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,07/21/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,07/21/22,1,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,07/21/22,1,,,,,,,
@@ -2595,7 +2595,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,07/21/22,1,,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,07/21/22,1,,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,07/21/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,07/21/22,,,1,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,07/21/22,,,1,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,07/21/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,07/21/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,07/21/22,1,,,,,,,
@@ -2603,7 +2603,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,07/21/22,1,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,07/21/22,1,,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,07/21/22,1,,,,,,,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,07/21/22,1,,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,07/21/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,07/21/22,1,,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,07/21/22,1,,,,,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,07/20/22,,,,,,,1,
@@ -2683,20 +2683,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,07/28/22,1,,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,07/28/22,1,,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,07/28/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,07/28/22,,,,1,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,07/28/22,,,,1,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,07/28/22,,,,1,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,07/28/22,,,,1,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,07/28/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,07/28/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,07/28/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,07/28/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,07/28/22,,,,1,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,07/28/22,,,,1,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,07/28/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,07/28/22,,,,,1,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,07/28/22,,,,,1,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,07/28/22,1,,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,07/28/22,,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,07/28/22,,,,,1,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,07/28/22,,,,,1,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,07/28/22,1,,,,,,,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,07/28/22,1,,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,07/28/22,1,,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,07/28/22,1,,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,07/28/22,1,,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,07/28/22,,,,,,,,
@@ -2839,7 +2839,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,08/15/22,,1,,,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,08/15/22,1,,,,,,,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,08/15/22,1,,,,,,,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,08/15/22,1,,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,08/15/22,1,,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,08/15/22,1,,1,,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,08/15/22,1,,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,08/15/22,1,,,,,,,
@@ -2941,7 +2941,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,08/18/22,1,1,,,,,,not much leaf fall
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,08/18/22,1,,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,08/18/22,1,,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,08/18/22,1,,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,08/18/22,1,,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,08/18/22,1,,,,,,,"there's some dry fruits, probably old"
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,08/18/22,1,,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,08/18/22,1,1,,,,,,
@@ -2967,11 +2967,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,08/18/22,,,,,,,1,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,08/18/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,08/18/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,08/18/22,1,,,,1,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,08/18/22,1,,,,1,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,08/18/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,08/18/22,1,,,,1,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,08/18/22,1,,1,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,08/18/22,1,,,,1,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,08/18/22,1,,,,1,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,08/18/22,1,,1,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,08/18/22,1,,,,1,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,08/18/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,08/18/22,1,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,08/18/22,1,,,,,,,
@@ -2991,7 +2991,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,08/18/22,1,,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,08/18/22,1,,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,08/18/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,08/18/22,1,,,,1,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,08/18/22,1,,,,1,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,08/18/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,08/18/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,08/18/22,1,,,,,,,
@@ -2999,7 +2999,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,08/18/22,1,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,08/18/22,1,,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,08/18/22,1,,,,,,,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,08/18/22,1,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,08/18/22,1,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,08/18/22,1,,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,08/18/22,1,1,,,,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,08/08/22,1,,,,,,,
@@ -3079,20 +3079,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,08/25/22,1,,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,08/25/22,,,,,,,1,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,08/25/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,08/25/22,1,,,1,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,08/25/22,1,,,1,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,08/25/22,1,,,1,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,08/25/22,1,,,1,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,08/25/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,08/25/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,08/25/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,08/25/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,08/25/22,1,,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,08/25/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,08/25/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,08/25/22,1,,,,1,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,08/25/22,1,,,,1,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,08/25/22,1,,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,08/25/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,08/25/22,1,,,1,1,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,08/25/22,1,,,1,1,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,08/25/22,1,,,,,,,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,08/25/22,1,,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,08/25/22,1,,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,08/25/22,1,,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,08/25/22,1,,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,08/25/22,,,,,,,,Dead
@@ -3169,7 +3169,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 207,23,Lauraceae,Ocotea puberula (Rich.) Nees,4896,08/25/22,1,,,,,,,burnt
 87,70,Rutaceae,Zanthoxylum petiolare A.St.-Hil. & Tul.,2020,09/19/22,1,,,,,,,
 87,28,Myrtaceae,Eugenia florida DC.,2031,09/19/22,1,,,,,,,
-87,39,Fabaceae,Andira fraxinifolia Benth.,2034,09/19/22,,,,,,,1,N„o est· acontecendo nada com ela
+87,39,Fabaceae,Andira fraxinifolia Benth.,2034,09/19/22,,,,,,,1,N√£o est√° acontecendo nada com ela
 87,28,Myrtaceae,Eugenia florida DC.,2035,09/19/22,1,,,,,,,
 87,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,2036,09/19/22,1,1,,,,,,
 87,57,Myrtaceae,Myrcia tomentosa (Aubl.) DC.,2039,09/19/22,1,,,,,,,
@@ -3235,11 +3235,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,09/19/22,,1,,,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,09/19/22,1,,,,,,,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,09/19/22,1,,,,,,,Flores secas
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,09/19/22,1,,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,09/19/22,1,,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,09/19/22,1,1,,1,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,09/19/22,1,,,,,,,
-88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,09/19/22,1,,,,,,,C·psulas antigas
-88,63,Primulaceae,Myrsine umbellata Mart.,2192,09/19/22,1,,,,,,,talvez tenha bot„o floral
+88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,09/19/22,1,,,,,,,C√°psulas antigas
+88,63,Primulaceae,Myrsine umbellata Mart.,2192,09/19/22,1,,,,,,,talvez tenha bot√£o floral
 88,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,2194,09/19/22,1,,,,,,,
 88,56,Anacardiaceae,Tapirira guianensis Aubl.,2198,09/19/22,1,1,1,,,,,
 88,72,Fabaceae,Calliandra tweedii Benth.,2199,09/19/22,1,,,,,,,
@@ -3337,7 +3337,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,09/22/22,,,,,,,1,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,09/22/22,1,,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,09/22/22,,1,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,09/22/22,1,1,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,09/22/22,1,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,09/22/22,1,,,,1,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,09/22/22,1,,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,09/22/22,,1,,,,,1,
@@ -3363,11 +3363,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,09/22/22,,,,,,,1,Nada acontecendo
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,09/22/22,1,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,09/22/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,09/22/22,1,,,,,1,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,09/22/22,1,,,,,1,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,09/22/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,09/22/22,1,,,,,1,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,09/22/22,1,,,,,1,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,09/22/22,1,,,,,1,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,09/22/22,1,,,,,1,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,09/22/22,1,,,,,1,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,09/22/22,1,,,,,1,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,09/22/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,09/22/22,1,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,09/22/22,1,1,,,,,,
@@ -3387,7 +3387,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,09/22/22,1,,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,09/22/22,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,09/22/22,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,09/22/22,1,,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,09/22/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,09/22/22,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,09/22/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,09/22/22,1,,,,,,,
@@ -3395,7 +3395,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,09/22/22,1,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,09/22/22,,1,,,,,1,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,09/22/22,1,,,,,,,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,09/22/22,1,,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,09/22/22,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,09/22/22,1,,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,09/22/22,1,1,,,,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,09/08/22,1,,,,,,,
@@ -3451,7 +3451,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 56,48,Fabaceae,Myroxylon peruiferum L.f.,3469,09/08/22,1,1,,,,,,
 56,78,Lauraceae,Lauraceae spp.,3470,09/08/22,1,,1,,,,,
 56,45,Meliaceae,Trichilia clausseni C.DC.,3472,09/08/22,,1,,,,,,
-207,2,Meliaceae,Guarea macrophylla Vahl,3662,09/29/22,,1,,,,,,Atr·s da 4850
+207,2,Meliaceae,Guarea macrophylla Vahl,3662,09/29/22,,1,,,,,,Atr√°s da 4850
 206,22,Boraginaceae,Cordia americana (L.) Gottschling & J.S.Mill.,4579,09/29/22,,1,,,,,,
 206,10,Salicaceae,Casearia sylvestris Sw.,4581,09/29/22,1,,,,,,,
 206,7,Fabaceae,Lonchocarpus cultratus (Vell.) A.M.G.Azevedo & H.C.Lima,4582,09/29/22,,1,,,,,,
@@ -3475,20 +3475,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,09/29/22,,1,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,09/29/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,09/29/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,09/29/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,09/29/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,09/29/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,09/29/22,,1,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,09/29/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,09/29/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,09/29/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,09/29/22,1,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,09/29/22,1,,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,09/29/22,1,,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,09/29/22,1,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,09/29/22,1,,,,,1,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,09/29/22,1,,,,,1,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,09/29/22,1,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,09/29/22,,,,,,,,dead
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,09/29/22,1,,,,,1,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,09/29/22,1,,,,,1,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,09/29/22,1,1,,,,,,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,09/29/22,,1,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,09/29/22,,1,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,09/29/22,,1,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,09/29/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,09/29/22,,,,,,,,dead
@@ -3521,7 +3521,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 207,71,Fabaceae,Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo,4790,09/29/22,1,,,,,,,
 207,2,Meliaceae,Guarea macrophylla Vahl,4793,09/29/22,1,,,,,,,
 207,8,Meliaceae,Cabralea canjerana (Vell.) Mart.,4797,09/29/22,,,,,,,,Morta
-207,71,Fabaceae,Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo,4798,09/29/22,1,,,,,,,Plaquinha estava no ch„o
+207,71,Fabaceae,Dahlstedtia muehlbergiana (Hassl.) M.J.Silva & A.M.G. Azevedo,4798,09/29/22,1,,,,,,,Plaquinha estava no ch√£o
 207,10,Salicaceae,Casearia sylvestris Sw.,4802,09/29/22,1,,,,,,,Folhas queimadas
 207,27,Fabaceae,Copaifera langsdorffii Desf.,4803,09/29/22,1,,,,,,,
 207,14,Fabaceae,Machaerium stipitatum Vogel,4804,09/29/22,1,,,,,,,Aparenta ter frutos queimados
@@ -3562,7 +3562,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 207,2,Meliaceae,Guarea macrophylla Vahl,4872,09/29/22,,1,,,,,,
 207,19,Fabaceae,Machaerium brasiliense Vogel,4878,09/29/22,,,,,,,,
 207,2,Meliaceae,Guarea macrophylla Vahl,4881,09/29/22,1,1,,,,,,
-207,23,Lauraceae,Ocotea puberula (Rich.) Nees,4896,09/29/22,1,,,,,,,"Possivelmente morta, tombada ao lado da grande ·rvore queimada"
+207,23,Lauraceae,Ocotea puberula (Rich.) Nees,4896,09/29/22,1,,,,,,,"Possivelmente morta, tombada ao lado da grande √°rvore queimada"
 87,70,Rutaceae,Zanthoxylum petiolare A.St.-Hil. & Tul.,2020,10/28/22,,1,,,,,,
 87,28,Myrtaceae,Eugenia florida DC.,2031,10/28/22,1,1,,,,,,
 87,39,Fabaceae,Andira fraxinifolia Benth.,2034,10/28/22,,,,,,,1,
@@ -3631,7 +3631,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,10/28/22,,1,,,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,10/28/22,1,,,,,,,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,10/28/22,,1,,,,,,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,10/28/22,,1,1,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,10/28/22,,1,1,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,10/28/22,,,,,,,1,
 88,28,Myrtaceae,Eugenia florida DC.,2188,10/28/22,1,,1,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,10/28/22,1,,,,,,,
@@ -3733,7 +3733,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,10/18/22,,,,,,,1,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,10/18/22,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,10/18/22,,1,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,10/18/22,,1,1,1,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,10/18/22,,1,1,1,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,10/18/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,10/18/22,1,,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,10/18/22,,,,,,,1,
@@ -3759,11 +3759,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,10/18/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,10/18/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,10/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,10/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,10/18/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,10/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,10/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,10/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,10/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,10/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,10/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,10/18/22,,1,,,,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,10/18/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,10/18/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,10/18/22,,,,,,,1,
@@ -3783,7 +3783,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,10/18/22,,,,,,,1,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,10/18/22,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,10/18/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,10/18/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,10/18/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,10/18/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,10/18/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,10/18/22,,1,,,,,,
@@ -3791,7 +3791,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,10/18/22,,,,,,,1,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,10/18/22,,1,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,10/18/22,,,,,,,1,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,10/18/22,,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,10/18/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,10/18/22,,1,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,10/18/22,,1,1,,,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,10/12/22,,,,,,,1,
@@ -3871,20 +3871,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,11/02/22,,1,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,11/02/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,11/02/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,11/02/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,11/02/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,11/02/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,11/02/22,,1,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,11/02/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,11/02/22,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,11/02/22,,1,,,,,,Nada
 206,12,Fabaceae,Machaerium villosum Vogel,4648,11/02/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,11/02/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,11/02/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,11/02/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,11/02/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,11/02/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,11/02/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,11/02/22,,,,,,,,Morta
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,11/02/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,11/02/22,,1,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,11/02/22,,1,,,,,,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,11/02/22,,1,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,11/02/22,,1,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,11/02/22,,1,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,11/02/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,11/02/22,,,,,,,,Morta
@@ -4027,7 +4027,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,11/24/22,,1,,,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,11/24/22,,,,,,,1,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,11/24/22,,1,,,,,,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,11/24/22,,1,1,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,11/24/22,,1,1,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,11/24/22,,,,,,,1,
 88,28,Myrtaceae,Eugenia florida DC.,2188,11/24/22,,,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,11/24/22,,,,,,,1,
@@ -4129,7 +4129,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,11/23/22,,1,,,,,,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,11/23/22,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,11/23/22,,1,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,11/23/22,,1,,1,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,11/23/22,,1,,1,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,11/23/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,11/23/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,11/23/22,,1,,,,,,
@@ -4155,11 +4155,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,11/23/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,11/23/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,11/23/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,11/23/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,11/23/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,11/23/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,11/23/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,11/23/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,11/23/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,11/23/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,11/23/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,11/23/22,,1,,,,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,11/23/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,11/23/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,11/23/22,,1,,,,,,
@@ -4179,7 +4179,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,11/23/22,,1,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,11/23/22,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,11/23/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,11/23/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,11/23/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,11/23/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,11/23/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,11/23/22,,1,,,,,,
@@ -4187,7 +4187,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,11/23/22,,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,11/23/22,,1,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,11/23/22,,,,,,,1,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,11/23/22,,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,11/23/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,11/23/22,,1,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,11/23/22,,,,1,,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,11/15/22,,1,,,,,,
@@ -4267,20 +4267,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,11/30/22,,1,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,11/30/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,11/30/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,11/30/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,11/30/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,11/30/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,11/30/22,,1,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,11/30/22,,1,1,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,11/30/22,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,11/30/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,11/30/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,11/30/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,11/30/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,11/30/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,11/30/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,11/30/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,11/30/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,11/30/22,,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,11/30/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,11/30/22,,1,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,11/30/22,,1,,,,,,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,11/30/22,,1,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,11/30/22,,1,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,11/30/22,,1,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,11/30/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,11/30/22,,,,,,,,
@@ -4423,7 +4423,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,01/02/23,,1,,,1,1,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,01/02/23,,1,,,,,,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,01/02/23,,1,,,,1,,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,01/02/23,,1,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,01/02/23,,1,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,01/02/23,,1,,,,,,
 88,28,Myrtaceae,Eugenia florida DC.,2188,01/02/23,,,,,,,,"dead, parasitic plant?"
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,01/02/23,,1,,,,,,
@@ -4525,7 +4525,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,12/21/22,,1,,,,,,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,12/21/22,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,12/21/22,,1,,,,,,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,12/21/22,,1,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,12/21/22,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,12/21/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,12/21/22,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,12/21/22,,1,,,,,,
@@ -4551,11 +4551,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,12/22/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,12/22/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,12/22/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,12/22/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,12/22/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,12/22/22,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,12/22/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,12/22/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,12/22/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,12/22/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,12/22/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,12/22/22,,1,,,,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,12/22/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,12/22/22,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,12/22/22,,1,,,,,,
@@ -4575,7 +4575,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,12/22/22,,1,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,12/22/22,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,12/22/22,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,12/22/22,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,12/22/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,12/22/22,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,12/22/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,12/22/22,,1,,,,,,
@@ -4583,7 +4583,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,12/22/22,,,,,,,,dead
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,12/22/22,,1,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,12/22/22,,1,,,,,,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,12/22/22,,1,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,12/22/22,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,12/22/22,,1,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,12/22/22,,,,,1,,,Alchornea
 56,26,Salicaceae,Casearia decandra Jacq.,3363,12/20/22,,1,,,,,,
@@ -4663,20 +4663,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,12/17/22,,1,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,12/17/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,12/17/22,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,12/17/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,12/17/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,12/17/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,12/17/22,,1,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,12/17/22,,1,1,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,12/17/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,12/17/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,12/17/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,12/17/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,12/17/22,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,12/17/22,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,12/17/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,12/17/22,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,12/17/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,12/17/22,,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,12/17/22,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,12/17/22,,1,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,12/17/22,,1,,,,,,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,12/17/22,,1,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,12/17/22,,1,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,12/17/22,,1,,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,12/17/22,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,12/17/22,,,,,,,,
@@ -4819,7 +4819,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,01/17/23,,,,1,,,,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,01/17/23,,,,,,,1,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,01/17/23,,,,,,,1,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,01/17/23,,1,,,,,,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,01/17/23,,1,,,,,,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,01/17/23,,,,,,,1,
 88,28,Myrtaceae,Eugenia florida DC.,2188,01/17/23,,,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,01/17/23,,,,,,,1,
@@ -4921,7 +4921,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,01/17/23,,1,,,,,,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,01/17/23,,,,,,,1,nothing
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,01/17/23,,,,,,,1,nothing
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,01/17/23,,1,,,,,,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,01/17/23,,1,,,,,,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,01/17/23,1,,,1,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,01/17/23,,,,,,,1,nothing
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,01/17/23,,,,,,,1,nothing
@@ -4947,11 +4947,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,01/16/23,,,,,,,1,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,01/16/23,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,01/16/23,1,,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,01/16/23,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,01/16/23,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,01/16/23,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,01/16/23,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,01/16/23,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,01/16/23,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,01/16/23,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,01/16/23,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,01/16/23,,1,,,,,,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,01/16/23,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,01/16/23,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,01/16/23,,,,,,,1,
@@ -4971,7 +4971,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,01/16/23,1,,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,01/16/23,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,01/16/23,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,01/16/23,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,01/16/23,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,01/16/23,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,01/16/23,,,,,,,1,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,01/16/23,,1,,,,,,
@@ -4979,7 +4979,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,01/16/23,1,,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,01/16/23,1,,,,,,,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,01/16/23,1,1,,,,,,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,01/16/23,1,,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,01/16/23,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,01/16/23,,,,,,,1,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,01/16/23,,1,,,1,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,01/01/23,,1,,,,,,
@@ -5051,7 +5051,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,51,Sapindaceae,Cupania vernalis Cambess.,4605,01/19/23,,1,,,,,,
 206,7,Fabaceae,Lonchocarpus cultratus (Vell.) A.M.G.Azevedo & H.C.Lima,4608,01/19/23,,,,,,,1,
 206,10,Salicaceae,Casearia sylvestris Sw.,4610,01/19/23,,1,,,,,,
-206,86,Rutaceae,Zanthoxylum riedelianum Engl.,4611,01/19/23,,1,,,,,,predaÁ„o
+206,86,Rutaceae,Zanthoxylum riedelianum Engl.,4611,01/19/23,,1,,,,,,preda√ß√£o
 206,10,Salicaceae,Casearia sylvestris Sw.,4614,01/19/23,,1,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4616,01/19/23,,1,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4618,01/19/23,,1,,,,,,
@@ -5059,20 +5059,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,01/19/23,,1,,,,,,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,01/19/23,,,,,,,1,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,01/19/23,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,01/19/23,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,01/19/23,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,01/19/23,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,01/19/23,,,,,,,1,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,01/19/23,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,01/19/23,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,01/19/23,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,01/19/23,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,01/19/23,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,01/19/23,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,01/19/23,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,01/19/23,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,01/19/23,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,01/19/23,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,01/19/23,,,,,,,,dead
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,01/19/23,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,01/19/23,,1,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,01/19/23,,,,,,,1,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,01/19/23,,1,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,01/19/23,,1,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,01/19/23,,1,1,,,,,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,01/19/23,,,,,,,1,
 206,49,Myrtaceae,Psidium guajava L.,4684,01/19/23,,,,,,,,
@@ -5215,7 +5215,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2165,02/10/23,,,,,,,1,
 88,16,Rutaceae,Zanthoxylum monogynum A.St.-Hil.,2168,02/10/23,,,,,,,1,
 88,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,2169,02/10/23,,1,,,,,,
-88,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2183,02/10/23,,,,,,,1,
+88,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2183,02/10/23,,,,,,,1,
 88,73,Rubiaceae,Faramea latifolia (Cham. & Schltdl.) DC.,2187,02/10/23,,,,,,,1,
 88,28,Myrtaceae,Eugenia florida DC.,2188,02/10/23,,,,,,,,
 88,34,Lamiaceae,Aegiphila integrifolia (Jacq.) Moldenke,2190,02/10/23,,,,,,,1,
@@ -5317,7 +5317,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2758,02/08/23,,1,,,,,,
 20,20,Fabaceae,Machaerium hirtum (Vell.) Stellfeld,2765,02/08/23,,1,,,,,,
 20,60,Fabaceae,Centrolobium tomentosum Guillem. ex Benth.,2766,02/08/23,,,,,,,1,
-20,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,2768,02/08/23,,,,,,,1,
+20,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,2768,02/08/23,,,,,,,1,
 20,37,Malvaceae,Luehea candicans Mart. & Zucc.,2771,02/08/23,,,,,,,1,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2775,02/08/23,,1,,,,,,
 20,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,2778,02/08/23,1,1,,,,,,
@@ -5343,11 +5343,11 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,83,Celastraceae,Monteverdia aquifolia (Mart.) Biral,3175,02/08/23,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3184,02/08/23,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3187,02/08/23,1,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3190,02/08/23,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3190,02/08/23,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3198,02/08/23,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3207,02/08/23,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3208,02/08/23,,1,,,,,,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3211,02/08/23,,,,,,,1,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3207,02/08/23,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3208,02/08/23,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3211,02/08/23,,,,,,,1,
 22,30,Fabaceae,Peltophorum dubium (Spreng.) Taub.,3213,02/08/23,,,,,,,1,Couldn't find any leaf
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3215,02/08/23,,1,,,,,,
 22,45,Meliaceae,Trichilia clausseni C.DC.,3218,02/08/23,1,1,,,,,,
@@ -5367,7 +5367,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3259,02/08/23,1,,,,,,,
 22,35,Sapindaceae,Allophylus edulis (A.St.-Hil. et al.) Hieron. ex Niederl.,3260,02/08/23,,1,,,,,,
 22,42,Fabaceae,Enterolobium contortisiliquum (Vell.) Morong,3262,02/08/23,,,,,,,1,
-22,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,3264,02/08/23,,1,,,,,,
+22,47,Anacardiaceae,Myracrodruon urundeuva Allemao,3264,02/08/23,,1,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3266,02/08/23,1,,,,,,,
 22,84,Myrtaceae,Eugenia pyriformis Cambess.,3269,02/08/23,,1,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3272,02/08/23,,,,,,,1,
@@ -5375,7 +5375,7 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 22,32,Malvaceae,Guazuma ulmifolia Lam.,3277,02/08/23,,,,,,,,Leafless
 22,45,Meliaceae,Trichilia clausseni C.DC.,3280,02/08/23,,,,,,,1,
 22,21,Sapotaceae,Chrysophyllum marginatum (Hook. & Arn.) Radlk.,3284,02/08/23,,,,,,,1,
-22,74,Apocynaceae,Aspidosperma cylindrocarpon M¸ll.Arg.,3285,02/08/23,1,,,,,,,
+22,74,Apocynaceae,Aspidosperma cylindrocarpon Mull.Arg.,3285,02/08/23,1,,,,,,,
 22,25,Ebenaceae,Diospyros inconstans Jacq.,3287,02/08/23,,1,,,,,,
 22,4,Euphorbiaceae,Alchornea glandulosa Poepp. & Endl.,3290,02/08/23,,1,,,1,,,
 56,26,Salicaceae,Casearia decandra Jacq.,3363,02/08/23,,,,,,,1,
@@ -5455,20 +5455,20 @@ Plot,spp. code,Family,Species,Tag,DATE,LEAF_FALL,SPROUTING,BU,FL,IM-FR,M-FR,NI/N
 206,17,Fabaceae,Platypodium elegans Vogel,4621,03/03/23,,,,,,,1,
 206,33,Anacardiaceae,Lithraea molleoides (Vell.) Engl.,4634,03/03/23,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4635,03/03/23,,,,,,,1,old fruits wind dispersed
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4638,03/03/23,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4639,03/03/23,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4638,03/03/23,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4639,03/03/23,,1,,,,,,
 206,38,Fabaceae,Machaerium nyctitans (Vell.) Benth.,4640,03/03/23,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4642,03/03/23,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4644,03/03/23,,1,,,,,,
 206,12,Fabaceae,Machaerium villosum Vogel,4648,03/03/23,,,,,,,1,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4649,03/03/23,,,,,,,1,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4649,03/03/23,,,,,,,1,
 206,12,Fabaceae,Machaerium villosum Vogel,4650,03/03/23,,1,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4653,03/03/23,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4653,03/03/23,,1,,,,,,
 206,54,Asteraceae,Moquiniastrum polymorphum (Less.) G. Sancho,4656,03/03/23,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4658,03/03/23,,,,,,,,
-206,47,Anacardiaceae,Myracrodruon urundeuva Allem„o,4663,03/03/23,,1,,,,,,
+206,47,Anacardiaceae,Myracrodruon urundeuva Allemao,4663,03/03/23,,1,,,,,,
 206,32,Malvaceae,Guazuma ulmifolia Lam.,4668,03/03/23,,,,,,,1,
-206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr·b. ex Steud.,4679,03/03/23,,1,,,,,,
+206,69,Boraginaceae,Cordia trichotoma (Vell.) Arr√°b. ex Steud.,4679,03/03/23,,1,,,,,,
 206,37,Malvaceae,Luehea candicans Mart. & Zucc.,4681,03/03/23,,,,,,,1,
 206,17,Fabaceae,Platypodium elegans Vogel,4682,03/03/23,,1,,,,,,
 206,49,Myrtaceae,Psidium guajava L.,4684,03/03/23,,,,,,,,
