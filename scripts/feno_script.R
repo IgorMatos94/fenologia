@@ -22,12 +22,16 @@ package.list <- c("activity", #usei esse pacote...
                   "phenology", 
                   "lubridate",
                   "ggplot2",
+                  "ggtext",
+                  "extrafont",
                   "fastDummies",
                   "circular",
                   'CircStats',
                   "phenocamr",
                   "lubridate",
                   "bpnreg",
+                  "corrplot",
+                  "RColorBrewer",
                   "here",
                   "synchrony",
                   "pheatmap",
@@ -119,10 +123,10 @@ fruit <- master %>%
   fruit$feno.circ = circular(fruit$daysangles, units = "degrees", 
                              template = "none", modulo = "2pi")
   
-  plot(feno.circ, units = "radians",shrink = 1.5, stack = TRUE, pch = 16, 
+  plot(feno.circ, units = "radians", shrink = 1.5, stack = TRUE, pch = 16, 
        bins = 365, cex = 0.8, zero = pi/2, rotation = "clock")
   
-  circular::rose.diag(feno.circ, bins=16, col = "darkgrey", cex = 0.8, 
+  circular::rose.diag(feno.circ, bins=16, col = "#F19E14", cex = 0.0, 
                       prop =1.3, add = TRUE,
                       zero = pi/2, rotation = "clock")
 
@@ -132,502 +136,670 @@ fruit <- master %>%
   
 #zoo
   
-  zoo <- fruit %>%
-    filter(Zoocoria == 1)
+  # Filtrar os dados para Zoocoria igual a 1
+  zoo <- fruit %>% filter(Zoocoria == 1)
   
-  feno.circ.zoo = circular(zoo$daysangles, units = "degrees", template = "none", 
-                       modulo = "2pi")
-  zoo$feno.circ.zoo = circular(zoo$daysangles, units = "degrees", 
-                             template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.zoo <- circular(zoo$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.zoo, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_zooc.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.zoo, axes = FALSE, bins=12, col = "darkgrey", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
-
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
-
+  # Plotar o gráfico circular
+  plot(feno.circ.zoo, units = "radians", axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
+  
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.zoo, axes = FALSE, bins = 12, col = "#F19E14", cex = 0.0, prop =1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho aumentado
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.zoo), rho.circular(feno.circ.zoo), zero = pi/2, rotation = "clock", col = "black")
-
-  #média
-  mean.circular(feno.circ.zoo)
   
-  #comp. do vetor médio
-  rho.circular(feno.circ.zoo)
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
   
-  #SD em graus
-  sqrt(-2*log(rho.circular(feno.circ.zoo)))
-  
-  #O teste de Rayleigh assume que os dados têm distribuição normal. Não usado.
+  # Teste de Rayleigh para avaliar a uniformidade da distribuição angular
   rayleigh.test(feno.circ.zoo)
   
-  #Variância circular
+  # Calcular a média dos ângulos circulares
+  mean.circular(feno.circ.zoo)
+  
+  # Calcular a magnitude média dos ângulos circulares
+  rho.circular(feno.circ.zoo)
+  
+  # Calcular o desvio padrão dos ângulos circulares
+  sqrt(-2*log(rho.circular(feno.circ.zoo)))
+  
+  # Calcular a variância dos ângulos circulares
   var.circular(feno.circ.zoo)
-
-#anemocoria
+  
+  
+  
+####################ANEMOCORIA################
+  # Filtrar os dados para Anemocoria igual a 1
   anemo <- fruit %>%
     filter(Anemocoria == 1)
   
-  feno.circ.anemo = circular(anemo$daysangles, units = "degrees", template = "none", 
-                           modulo = "2pi")
-  anemo$feno.circ.anemo = circular(anemo$daysangles, units = "degrees", 
-                               template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.anemo <- circular(anemo$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.anemo, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_anemoc.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.anemo, axes = FALSE, bins=12, col = "blue", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Plotar o gráfico circular
+  plot(feno.circ.anemo, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.anemo, axes = FALSE, bins = 12, col = "#5B7C91", cex = 0.0, prop =1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho aumentado
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.anemo), rho.circular(feno.circ.anemo), zero = pi/2, rotation = "clock", col = "black")
   
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # Calcular a média dos ângulos circulares
   mean.circular(feno.circ.anemo)
+  
+  # Calcular a magnitude média dos ângulos circulares
   rho.circular(feno.circ.anemo)
+  
+  # Calcular o desvio padrão dos ângulos circulares
   sqrt(-2*log(rho.circular(feno.circ.anemo)))
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.anemo)
-
-  #autocoria
+  
+  
+  
+##################AUTOCORIA#################################
+  # Filtrar os dados para Autocoria igual a 1
   auto <- fruit %>%
     filter(Autocoria == 1)
   
-  feno.circ.auto = circular(auto$daysangles, units = "degrees", template = "none", 
-                           modulo = "2pi")
-  auto$feno.circ.auto = circular(auto$daysangles, units = "degrees", 
-                               template = "none", modulo = "2pi")
+  # Filtrar os dados para Autocoria igual a 1
+  auto <- fruit %>%
+    filter(Autocoria == 1)
   
-  plot(feno.circ.auto, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Converter os ângulos em dados circulares
+  feno.circ.auto <- circular(auto$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  circular::rose.diag(feno.circ.auto, axes = FALSE, bins=12, col = "yellow", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_autoc.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar o gráfico circular
+  plot(feno.circ.auto, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
+  
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.auto, axes = FALSE, bins = 12, col = "#9F4147", cex = 0.0, prop =1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.auto), rho.circular(feno.circ.auto), zero = pi/2, rotation = "clock", col = "black") 
   
-  mean.circular(feno.circ.auto)
-  rho.circular(feno.circ.auto)
-  sqrt(-2*log(rho.circular(feno.circ.auto)))
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.auto)
   
-  watson.williams.test(list(rad(feno.circ.zoo), rad(feno.circ.anemo), rad(feno.circ.auto)))
+  # Calcular a média dos ângulos circulares
+  mean.circular(feno.circ.auto)
+  
+  # Calcular a magnitude média dos ângulos circulares
+  rho.circular(feno.circ.auto)
+  
+  # Calcular o desvio padrão dos ângulos circulares
+  sqrt(-2*log(rho.circular(feno.circ.auto)))
+  
 
-  #6 Filter Data
-  colnames(master)[9] ="BU"
+  #####################################FLORES#####################
+  ###############################################################
+  # Renomear colunas
+  colnames(master)[9] = "BU"
+  colnames(master)[10] = "FL"
   
-  colnames(master)[10] ="FL"
-  
+  # Verificar a classe da coluna BU
   class(master$BU)
   
+  # Filtrar os dados para BU igual a 1 ou FL igual a 1
   flower <- master %>%
     filter(BU == 1 | FL == 1)
   
-  #7 FLOWERING PHENOLOGY AND POLLINATION------------------------------------------
-  #zoofilic
   
+  
+  ##################ZOOFILIA################
+  # Filtrar os dados para Zoofilia igual a 1
   zoofilia <- flower %>%
     filter(Zoofilia == 1)
   
-  feno.circ.zoofilia = circular(zoofilia$daysangles, units = "degrees", template = "none", 
-                           modulo = "2pi")
-  zoofilia$feno.circ.zoofilia = circular(zoofilia$daysangles, units = "degrees", 
-                               template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.zoofilia <- circular(zoofilia$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.zoofilia, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_zoofilia.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.zoofilia, axes = FALSE, bins=12, col = "darkgrey", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Plotar o gráfico circular
+  plot(feno.circ.zoofilia, units = "radians", axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.zoofilia, axes = FALSE, bins = 12, col = "#E86652", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
   
-  arrows.circular(mean(feno.circ.zoofilia), rho.circular(feno.circ.zoofilia), zero = pi/2, rotation = "clock")
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
   
+  # Adicionar setas para indicar a direção do vento médio
+  arrows.circular(mean(feno.circ.zoofilia), rho.circular(feno.circ.zoofilia), zero = pi/2, rotation = "clock", col = "black")
+  
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # Calcular a média dos ângulos circulares
   mean.circular(feno.circ.zoofilia)
+  
+  # Calcular a magnitude média dos ângulos circulares
   rho.circular(feno.circ.zoofilia)
+  
+  # Calcular o desvio padrão dos ângulos circulares
   sqrt(-2*log(rho.circular(feno.circ.zoofilia)))
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.zoofilia)
+  
+  # Calcular a variância dos ângulos circulares
   var.circular(feno.circ.zoofilia)
   
-  #anemophilic
+  
+  #############################ANEMOFILIA##########################
+  # Filtrar os dados para Anemofilia igual a 1
   anemofilia <- flower %>%
     filter(Anemofilia == 1)
   
-  feno.circ.anemofilia = circular(anemofilia$daysangles, units = "degrees", template = "none", 
-                             modulo = "2pi")
-  anemofilia$feno.circ.anemofilia = circular(anemofilia$daysangles, units = "degrees", 
-                                   template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.anemofilia <- circular(anemofilia$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.anemofilia, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_anemofilia.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.anemofilia, axes = FALSE, bins=12, col = "blue", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Plotar o gráfico circular
+  plot(feno.circ.anemofilia, units = "radians", axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
-  arrows.circular(mean(feno.circ.anemofilia), rho.circular(feno.circ.anemofilia), zero = pi/2, rotation = "clock")
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.anemofilia, axes = FALSE, bins = 12, col = "#F8AF77", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
   
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
   
+  # Adicionar setas para indicar a direção do vento médio
+  arrows.circular(mean(feno.circ.anemofilia), rho.circular(feno.circ.anemofilia), zero = pi/2, rotation = "clock", col = "black")
+  
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # Calcular a média dos ângulos circulares
   mean.circular(feno.circ.anemofilia)
+  
+  # Calcular a magnitude média dos ângulos circulares
   rho.circular(feno.circ.anemofilia)
+  
+  # Calcular o desvio padrão dos ângulos circulares
   sqrt(-2*log(rho.circular(feno.circ.anemofilia)))
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.anemofilia)
+  
+  # O teste de Watson-Williams compara duas amostras circulares
   watson.williams.test(list(rad(feno.circ.zoofilia), rad(feno.circ.anemofilia)))
-
-  #8 Filter Data
-  colnames(master)[7] ="Leaffall"
   
+  ##################################################
+  ####################LEAFFALL######################
+  ###################################################
+    # Renomear colunas
+  colnames(master)[7] = "Leaffall"
   colnames(master)[8] = "Sprouting"
+  colnames(master)[19] = "Sempreverde"
+  colnames(master)[20] = "Semidecidua"
+  colnames(master)[21] = "Decidua"
   
-  colnames(master)[19] ="Sempreverde"
+  # Verificar a classe da coluna Leaffall
+  class(master$Leaffall)
   
-  colnames(master)[20] ="Semidecidua"
-  
-  colnames(master)[21] ="Decidua"
-  
-  class(master$leaffall)
-  
+  # Filtrar os dados para Leaffall igual a 1
   leaffall <- master %>%
     filter(Leaffall == 1)
   
-#9 LEAF LOSS AND DECIDUOSNESS------------------------------------
-  #leaf fall sempre-verde
+  # Filtrar os dados para Sempreverde igual a 1
   sempreverde <- leaffall %>%
     filter(Sempreverde == 1)
   
-  feno.circ.sempreverde = circular(sempreverde$daysangles, units = "degrees", template = "none", 
-                                  modulo = "2pi")
-  sempreverde$feno.circ.sempreverde = circular(sempreverde$daysangles, units = "degrees", 
-                                        template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.sempreverde <- circular(sempreverde$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.sempreverde, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_sempreverde.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.sempreverde, axes = FALSE, bins=12, col ="green", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Plotar o gráfico circular
+  plot(feno.circ.sempreverde, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.sempreverde, axes = FALSE, bins = 12, col = "#C3E747", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.sempreverde), rho.circular(feno.circ.sempreverde), zero = pi/2, rotation = "clock")
   
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # Calcular a média dos ângulos circulares
   mean.circular(feno.circ.sempreverde)
+  
+  # Calcular a magnitude média dos ângulos circulares
   rho.circular(feno.circ.sempreverde)
+  
+  # Calcular o desvio padrão dos ângulos circulares
   sqrt(-2*log(rho.circular(feno.circ.sempreverde)))
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.sempreverde)
   
-  #leaf fall semi-decidua
+  
+  ###########################SEMIDECIDUA###############################
+  # Filtrar os dados para Semidecidua igual a 1
   semidecidua <- leaffall %>%
     filter(Semidecidua == 1)
   
-  feno.circ.semidecidua = circular(semidecidua$daysangles, units = "degrees", template = "none", 
-                                   modulo = "2pi")
-  semidecidua$feno.circ.semidecidua = circular(semidecidua$daysangles, units = "degrees", 
-                                        template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.semidecidua <- circular(semidecidua$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.semidecidua, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_semidecidua.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.semidecidua, axes = FALSE, bins=12, col = "yellow", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Plotar o gráfico circular
+  plot(feno.circ.semidecidua, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.semidecidua, axes = FALSE, bins = 12, col = "#71B481", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.semidecidua), rho.circular(feno.circ.semidecidua), zero = pi/2, rotation = "clock", col = "black")
   
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # Calcular a média dos ângulos circulares
   mean.circular(feno.circ.semidecidua)
+  
+  # Calcular a magnitude média dos ângulos circulares
   rho.circular(feno.circ.semidecidua)
+  
+  # Calcular o desvio padrão dos ângulos circulares
   sqrt(-2*log(rho.circular(feno.circ.semidecidua)))
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.semidecidua)
   
-  #leaffall decidua
+  ###########################DECIDUA###################################
+  # Filtrar os dados para Decidua igual a 1
   decidua <- leaffall %>%
     filter(Decidua == 1)
   
-  feno.circ.decidua = circular(decidua$daysangles, units = "degrees", template = "none", 
-                                   modulo = "2pi")
-  decidua$feno.circ.decidua = circular(decidua$daysangles, units = "degrees", 
-                                               template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.decidua <- circular(decidua$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.decidua, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_decidua.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.decidua, axes = FALSE, bins=12, col = "brown", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Plotar o gráfico circular
+  plot(feno.circ.decidua, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.decidua, axes = FALSE, bins = 12, col = "#75774E", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.decidua), rho.circular(feno.circ.decidua), zero = pi/2, rotation = "clock", col = "black")
   
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # Calcular a média dos ângulos circulares
   mean.circular(feno.circ.decidua)
+  
+  # Calcular a magnitude média dos ângulos circulares
   rho.circular(feno.circ.decidua)
+  
+  # Calcular o desvio padrão dos ângulos circulares
   sqrt(-2*log(rho.circular(feno.circ.decidua)))
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.decidua)
   
+  # O teste de Watson-Williams compara três amostras circulares
   watson.williams.test(list(rad(feno.circ.sempreverde), rad(feno.circ.semidecidua), rad(feno.circ.decidua)))
-
   
-  #10 SPROUTING
-  #Filter DAta
   
+  ###########################################################################
+  ########################BROTAMENTO#########################################
+  ############################################################################
+  # Filtrar os dados para Sprouting igual a 1
   sprouting <- master %>%
     filter(Sprouting == 1)
   
-  #sprouting sempreverde
+  # Filtrar os dados para Sprouting e Sempreverde igual a 1
   ssempreverde <- sprouting %>%
     filter(Sempreverde == 1)
   
-  feno.circ.ssempreverde = circular(ssempreverde$daysangles, units = "degrees", template = "none", 
-                                   modulo = "2pi")
-  feno.circ.ssempreverde = circular(ssempreverde$daysangles, units = "degrees", template = "none", 
-                                  modulo = "2pi")
-  ssempreverde$feno.circ.ssempreverde = circular(ssempreverde$daysangles, units = "degrees", 
-                                               template = "none", modulo = "2pi")
-  feno.circ.ssempreverde = circular(ssempreverde$daysangles, units = "degrees", template = "none", 
-                                  modulo = "2pi")
-  plot(feno.circ.ssempreverde, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Converter os ângulos em dados circulares
+  feno.circ.ssempreverde <- circular(ssempreverde$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  circular::rose.diag(feno.circ.ssempreverde, axes = FALSE, bins=12, col = "green", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_ssempreverde.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar o gráfico circular
+  plot(feno.circ.ssempreverde, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
+  
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.ssempreverde, axes = FALSE, bins = 12, col = "#C3E747", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.ssempreverde), rho.circular(feno.circ.sempreverde), zero = pi/2, rotation = "clock", col = "black")
   
-  mean.circular(feno.circ.ssempreverde)
-  rho.circular(feno.circ.ssempreverde)
-  sqrt(-2*log(rho.circular(feno.circ.ssempreverde)))
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.ssempreverde)
   
-  #sprouting semidecidua
+  # Calcular a média dos ângulos circulares
+  mean.circular(feno.circ.ssempreverde)
+  
+  # Calcular a magnitude média dos ângulos circulares
+  rho.circular(feno.circ.ssempreverde)
+  
+  # Calcular o desvio padrão dos ângulos circulares
+  sqrt(-2*log(rho.circular(feno.circ.ssempreverde)))
+  
+ 
+  
+  
+  ###########################SEMIDECIDUA###################################
+  # Filtrar os dados para Sprouting e Semidecidua igual a 1
   ssemidecidua <- sprouting %>%
     filter(Semidecidua == 1)
   
-  feno.circ.ssemidecidua = circular(ssemidecidua$daysangles, units = "degrees", template = "none", 
-                                   modulo = "2pi")
-  ssemidecidua$feno.circ.ssemidecidua = circular(ssemidecidua$daysangles, units = "degrees", 
-                                               template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.ssemidecidua <- circular(ssemidecidua$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.ssemidecidua, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_ssemidecidua.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.ssemidecidua, axes = FALSE, bins=12, col = "yellow", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Plotar o gráfico circular
+  plot(feno.circ.ssemidecidua, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.ssemidecidua, axes = FALSE, bins = 12, col = "#71B481", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.ssemidecidua), rho.circular(feno.circ.semidecidua), zero = pi/2, rotation = "clock", col = "black")
   
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # Calcular a média dos ângulos circulares
   mean.circular(feno.circ.ssemidecidua)
+  
+  # Calcular a magnitude média dos ângulos circulares
   rho.circular(feno.circ.ssemidecidua)
+  
+  # Calcular o desvio padrão dos ângulos circulares
   sqrt(-2*log(rho.circular(feno.circ.ssemidecidua)))
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.ssemidecidua)
   
-  #sprouting decidua
+  ################################DECIDUA###############################
+  # Filtrar os dados para Sprouting e Decidua igual a 1
   sdecidua <- sprouting %>%
     filter(Decidua == 1)
   
-  feno.circ.sdecidua = circular(sdecidua$daysangles, units = "degrees", template = "none", 
-                               modulo = "2pi")
-  sdecidua$feno.circ.sdecidua = circular(sdecidua$daysangles, units = "degrees", 
-                                       template = "none", modulo = "2pi")
+  # Converter os ângulos em dados circulares
+  feno.circ.sdecidua <- circular(sdecidua$daysangles, units = "degrees", template = "none", modulo = "2pi")
   
-  plot(feno.circ.sdecidua, axes = FALSE, shrink = , stack = TRUE, pch = 16, 
-       bins = 365, cex = 0.0, rotation = "clock")
+  # Salvar o gráfico em um arquivo JPEG com alta resolução
+  file_name <- "saz_sdecidua.jpg"
+  jpeg(file_name, width = 1200, height = 800, quality = 100)
   
-  circular::rose.diag(feno.circ.sdecidua, axes = FALSE, bins=12, col = "brown", cex = 0.8, 
-                      prop =1.3, add = TRUE, rotation = "clock")
+  # Plotar o gráfico circular
+  plot(feno.circ.sdecidua, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
   
-  axis.circular(at=circular(sort(seq(0, 11/6*pi, pi/6), decreasing = T)), c(labels = c("M", "J",
-                                                                                       "J", "A", "S", "O", "N", "D", "J", "F", "M","A")))
+  # Plotar a rosa dos ventos
+  circular::rose.diag(feno.circ.sdecidua, axes = FALSE, bins = 12, col = "#75774E", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
+  
+  # Adicionar rótulos aos eixos com tamanho 2.0
+  axis.circular(at = circular(sort(seq(0, 11/6*pi, pi/6), decreasing = TRUE)), 
+                c(labels = c("M", "J", "J", "A", "S", "O", "N", "D", "J", "F", "M","A")), 
+                cex = 2.0)
+  
+  # Adicionar setas para indicar a direção do vento médio
   arrows.circular(mean(feno.circ.sdecidua), rho.circular(feno.circ.decidua), zero = pi/2, rotation = "clock", col = "black")
   
+  # Finalizar o dispositivo gráfico JPEG
+  dev.off()
+  
+  # Calcular a média dos ângulos circulares
   mean.circular(feno.circ.sdecidua)
+  
+  # Calcular a magnitude média dos ângulos circulares
   rho.circular(feno.circ.sdecidua)
+  
+  # Calcular o desvio padrão dos ângulos circulares
   sqrt(-2*log(rho.circular(feno.circ.sdecidua)))
+  
+  # O teste de Rayleigh avalia se os dados têm distribuição uniforme
   rayleigh.test(feno.circ.sdecidua)
   
+  # O teste de Watson-Williams compara três amostras circulares
   watson.williams.test(list(rad(feno.circ.ssempreverde), rad(feno.circ.ssemidecidua), rad(feno.circ.sdecidua)))
-
-  #duração
-  #fruits
-  fruit_zoo <- fruit %>%
-    filter(Zoocoria == 1)
-  
-  fruit_zoo1 <- fruit_zoo %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
-  
-  fruit_zoo2 <- fruit_zoo %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
-  
-  #duração por espécie
-  mean(fruit_zoo1$months)
-  
-  #duração por indivíduo
-  mean(fruit_zoo2$months)
-  
-  fruit_auto <- fruit %>%
-    filter(Autocoria == 1)
-  
-  fruit_auto1 <- fruit_auto %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
-  
-  fruit_auto2 <- fruit_auto %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
-  
-  mean(fruit_auto1$months)
-  mean(fruit_auto2$months)
-  
-  fruit_anemo <- fruit %>%
-    filter(Anemocoria == 1)
-  
-  fruit_anemo1 <- fruit_anemo %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
-  
-  fruit_anemo2 <- fruit_anemo %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
-  
-  mean(fruit_anemo1$months)
-  mean(fruit_anemo2$months)
   
   
-  #flower
-  flower_zoo <- flower %>%
-    filter(Zoofilia == 1)
   
-  flower_zoo1 <- flower_zoo %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
   
-  flower_zoo2 <- flower_zoo %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
+  #########################################################################
+  ####################duração#############################################
+  ##################################
   
-  mean(flower_zoo1$months)
-  mean(flower_zoo2$months)
-
-  flower_anemo <- flower %>%
-    filter(Anemofilia == 1)
+  ###########FRUITS#########################
   
-  flower_anemo1 <- flower_anemo %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
+  fruit_ <- fruit %>%
+    filter(Zoocoria == 1 | Anemocoria == 1 | Autocoria == 1)
   
-  flower_anemo2 <- flower_anemo %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
+  fruit_ <- fruit_%>% select(1, 5, 23)
   
-  mean(flower_anemo1$months)
-  mean(flower_anemo2$months)  
+  fruit_new <- fruit_ %>%
+    group_by(Species, month) %>%
+    summarise(ind = n_distinct(Tag))
   
-  #leaffall
-  leaffall_sempreverde <- leaffall %>%
-    filter(Sempreverde == 1)
+  gg_duracao_frutos <- ggplot(duracao_frutos, aes(x = IN, y = Species, xend = FI, yend = reorder(Species, Dispersion), group = Dispersion, color = factor(Dispersion))) +
+    geom_segment(aes(group = Species)) +
+    geom_point(aes(x = IN, y = Species, color = reorder(Species, Dispersion))) +  
+    geom_point(aes(x = FI, y = Species, color = reorder(Species, Dispersion))) +
+    labs(x = "Meses", y = "Espécies", color = "Dispersão") +
+    scale_color_manual(values = c("1" = "#F19E14", "2" = "#5B7C91", "3" = "#9F4147", "4" = "#EF8F81", "5" = "#71B481"),
+                       labels = c("Anemocoria", "Anemo+Auto", "Autocoria", "Zoo+Auto", "Zoocoria")) +  
+    scale_x_continuous(breaks = seq(min(duracao$Month) - (min(duracao$Month) %% 2),
+                                    max(duracao$Month) + 2 - (max(duracao$Month) %% 2), by = 2)) +
+    scale_x_continuous(breaks = c(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6), 
+                       labels = c("J", "A", "S\n                         2022", "O", "N", "D", "J", "F", "M\n                         2023", "A", "M", "J")) +
+    theme_minimal() +
+    theme(legend.position = "top")
   
-  leaffall_sempreverde1 <- leaffall_sempreverde %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
+  ggsave("duracao_frutos.jpg", plot = gg_duracao_frutos, width = 12, height = 8, dpi = 300)
   
-  leaffall_sempreverde2 <- leaffall_sempreverde %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
+  ####################FLOWERS##############
+  flower_ <- flower %>%
+    filter(Anemofilia == 1 | Zoofilia == 1)
   
-  mean(leaffall_sempreverde1$months)
-  mean(leaffall_sempreverde2$months)  
-
+  flower_ <- flower_%>% select(1, 5, 23)
   
-  leaffall_semidecidua <- leaffall %>%
-    filter(Semidecidua == 1)
+  flower_new <- flower_ %>%
+    group_by(Species, month) %>%
+    summarise(ind = n_distinct(Tag))
   
-  leaffall_semidecidua1 <- leaffall_semidecidua%>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
+  gg_duracao_flores <- ggplot(duracao_flores, aes(x = IN, y = Species, xend = FI, yend = reorder(Species, Dispersion), group = Dispersion, color = factor(Dispersion))) +
+    geom_segment(aes(group = Species)) +
+    geom_point(aes(x = IN, y = Species, color = reorder(Species, Dispersion))) +  
+    geom_point(aes(x = FI, y = Species, color = reorder(Species, Dispersion))) +
+    labs(x = "Meses", y = "Espécies", color = "Polinização") +
+    scale_color_manual(values = c("1" = "#F19E14", "2" = "#9F4147"),
+                       labels = c("Anemofilia+Zoo", "Zoofilia")) +  
+    scale_x_continuous(breaks = seq(min(duracao$Month) - (min(duracao$Month) %% 2),
+                                    max(duracao$Month) + 2 - (max(duracao$Month) %% 2), by = 2)) +
+    scale_x_continuous(breaks = c(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6), 
+                       labels = c("J", "A", "S\n                         2022", "O", "N", "D", "J", "F", "M\n                         2023", "A", "M", "J")) +
+    theme_minimal() +
+    theme(legend.position = "top")
   
-  leaffall_semidecidua2 <- leaffall_semidecidua %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
+  ggsave("duracao_flores.jpg", plot = gg_duracao_flores, width = 12, height = 8, dpi = 300)
   
-  mean(leaffall_semidecidua1$months)
-  mean(leaffall_semidecidua2$months)  
-
+  ####################LEAFFALL##############
   
-  leaffall_decidua <- leaffall %>%
-    filter(Decidua == 1)
+  leaffall_ <- leaffall %>%
+    filter(Decidua == 1 | Semidecidua == 1 | Sempreverde == 1)
   
-  leaffall_decidua1 <- leaffall_decidua %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
+  leaffall_ <- leaffall_%>% select(1, 5, 23)
   
-  leaffall_decidua2 <- leaffall_decidua %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
+  leaffall_new <- leaffall_ %>%
+    group_by(Species, month) %>%
+    summarise(ind = n_distinct(Tag))
   
-  mean(leaffall_decidua1$months)
-  mean(leaffall_decidua2$months)  
-
-  #  sprouting
-  sprouting_sempreverde <- sprouting %>%
-    filter(Sempreverde == 1)
+  gg_duracao_queda_foliar1 <- ggplot(duracao_queda_foliar1, aes(x = IN, y = Species, xend = FI, yend = reorder(Species, Dispersion), group = Dispersion, color = factor(Dispersion))) +
+    geom_segment(aes(group = Species)) +
+    geom_point(aes(x = IN, y = Species, color = reorder(Species, Dispersion))) +  
+    geom_point(aes(x = FI, y = Species, color = reorder(Species, Dispersion))) +
+    labs(x = "Meses", y = "Espécies", color = "Deciduidade") +
+    theme(axis.text.y = element_text(size = 5)) +
+    scale_color_manual(values = c("1" = "#9F4147", "2" = "#F19E14"),
+                       labels = c("Decídua", "Semi-decídua")) +  
+    scale_x_continuous(breaks = c(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6), 
+                       labels = c("J", "A", "S\n                         2022", "O", "N", "D", "J", "F", "M\n                         2023", "A", "M", "J")) +
+    theme_minimal() +
+    theme(legend.position = "top")
   
-  sprouting_sempreverde1 <- sprouting_sempreverde %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
+  ggsave("duracao_queda_foliar1.jpg", plot = gg_duracao_queda_foliar1, width = 12, height = 8, dpi = 300)
   
-  sprouting_sempreverde2 <- sprouting_sempreverde %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
+  # Seu código para criar o gráfico
+  gg_duracao_queda_foliar2 <- ggplot(duracao_queda_foliar2, aes(x = IN, y = Species, xend = FI, yend = reorder(Species, Dispersion), group = Dispersion, color = factor(Dispersion))) +
+    geom_segment(aes(group = Species)) +
+    geom_point(aes(x = IN, y = Species, color = reorder(Species, Dispersion))) +  
+    geom_point(aes(x = FI, y = Species, color = reorder(Species, Dispersion))) +
+    labs(x = "Meses", y = "Espécies", color = "Deciduidade") +
+    theme(axis.text.y = element_text(size = 5)) +
+    scale_color_manual(values = c("3" = "#71B481", "4" = "#5B7C91"),
+                       labels = c("Perenifólia+\nSemi-decídua", "Perenifólia")) +  
+    scale_x_continuous(breaks = c(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6), 
+                       labels = c("J", "A", "S\n                         2022", "O", "N", "D", "J", "F", "M\n                         2023", "A", "M", "J")) +
+    theme_minimal() +
+    theme(legend.position = "top")
   
-  mean(sprouting_sempreverde1$months)
-  mean(sprouting_sempreverde2$months)  
-
+  # Salvar o gráfico em um arquivo JPEG
+  ggsave("duracao_queda_foliar2.jpg", plot = gg_duracao_queda_foliar2, width = 12, height = 8, dpi = 300)
   
-  sprouting_semidecidua <- leaffall %>%
-    filter(Semidecidua == 1)
+  ####################SPROUTING##############
   
-  sprouting_semidecidua1 <- sprouting_semidecidua %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
+  sprouting_ <- sprouting %>%
+    filter(Decidua == 1 | Semidecidua == 1 | Sempreverde == 1)
   
-  sprouting_semidecidua2 <- sprouting_semidecidua %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
+  sprouting_ <- sprouting_%>% select(1, 5, 23)
   
-  mean(sprouting_semidecidua1$months)
-  mean(sprouting_semidecidua2$months)  
-
+  sprouting_new <- sprouting_ %>%
+    group_by(Species, month) %>%
+    summarise(ind = n_distinct(Tag))
   
-  sprouting_decidua <- leaffall %>%
-    filter(Decidua == 1)
+  # Seu código para criar o gráfico
+  gg_duracao_brotamento1 <- ggplot(duracao_brotamento1, aes(x = IN, y = Species, xend = FI, yend = reorder(Species, Dispersion), group = Dispersion, color = factor(Dispersion))) +
+    geom_segment(aes(group = Species)) +
+    geom_point(aes(x = IN, y = Species, color = reorder(Species, Dispersion))) +  
+    geom_point(aes(x = FI, y = Species, color = reorder(Species, Dispersion))) +
+    labs(x = "Meses", y = "Espécies", color = "Deciduidade") +
+    theme(axis.text.y = element_text(size = 5)) +
+    scale_color_manual(values = c("1" = "#9F4147", "2" = "#F19E14"),
+                       labels = c("Decídua", "Semi-decídua")) +  
+    scale_x_continuous(breaks = c(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6), 
+                       labels = c("J", "A", "S\n                         2022", "O", "N", "D", "J", "F", "M\n                         2023", "A", "M", "J")) +
+    theme_minimal() +
+    theme(legend.position = "top")
   
-  sprouting_decidua1 <- sprouting_decidua %>%
-    group_by(Species) %>%
-    summarise(months = n_distinct(month))
+  # Salvar o gráfico em um arquivo JPEG
+  ggsave("duracao_brotamento1.jpg", plot = gg_duracao_brotamento1, width = 12, height = 8, dpi = 300)
   
-  sprouting_decidua2 <- sprouting_decidua %>%
-    group_by(Tag) %>%
-    summarise(months = n_distinct(month))
+  gg_duracao_brotamento2 <- ggplot(duracao_brotamento2, aes(x = IN, y = Species, xend = FI, yend = reorder(Species, Dispersion), group = Dispersion, color = factor(Dispersion))) +
+    geom_segment(aes(group = Species)) +
+    geom_point(aes(x = IN, y = Species, color = reorder(Species, Dispersion))) +  # Adiciona pontos em cada valor de dados
+    geom_point(aes(x = FI, y = Species, color = reorder(Species, Dispersion))) +
+    labs(x = "Meses", y = "Espécies", color = "Deciduidade") +
+    theme(axis.text.y = element_text(size = 5)) +
+    scale_color_manual(values = c("3" = "#71B481", "4" = "#5B7C91"),
+                       labels = c("Perenifólia+\nSemi-decídua", "Perenifólia")) +  
+    scale_x_continuous(breaks = c(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6), 
+                       labels = c("J", "A", "S\n                         2022", "O", "N", "D", "J", "F", "M\n                         2023", "A", "M", "J")) +
+    theme_minimal() +
+    theme(legend.position = "top")
   
-  mean(sprouting_decidua1$months)
-  mean(sprouting_decidua2$months)  
-
-  #filter master spreadsheet to only include the species that have more than 3
-  #individuals
+  # Salvar o gráfico em um arquivo JPEG
+  ggsave("duracao_brotamento2.jpg", plot = gg_duracao_brotamento2, width = 12, height = 8, dpi = 300)
   
-  gr8r_3 <- master %>% 
-    group_by(Species) %>% 
-    filter(n_distinct(Tag) >= 3)
+  
   
   #sync
   #filter again to only include fruting individuals (with immature or mature 
@@ -724,14 +896,66 @@ fruit <- master %>%
   #make the first column the row names
   matrix_zooc_df <- matrix_zooc_n[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_zooc_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos1 <- c("Alchornea glandulosa", "Casearia sylvestris",
+                     "Chrysophyllum marginatum", "Copaifera langsdorffii",
+                     "Eugenia florida", "Guarea macrophylla", "Guazuma ulmifolia",
+                     "Lafoensia pacari", "Lithraea molleoides",
+                     "Syagrus romanzoffiana", "Trichilia clausseni",
+                     "Trichilia pallida", "Zanthoxylum monogynum",
+                     "Zanthoxylum riedelianum")
+  
+  colnames(matrix_zooc_df) <- novos_titulos1
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_zooc_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_zooc_matrix <- cor(matrix_zooc_df, method = "pearson")
+  head(matrix_zooc_df)
   
-  heatmap(correlation_zooc_matrix)
+  M<-cor(matrix_zooc_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_zooc_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvando o gráfico como JPEG
+  jpeg("sinc_zooc.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  sinc_zooc <- corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+
+ dev.off()
   
   #filter to only include anemochorous species 
   fruit_anemoc <- fruit %>%
@@ -816,13 +1040,67 @@ fruit <- master %>%
   rownames(matrix_zooc_n) <- matrix_anemoc$month #doesn't work
   matrix_anemoc_df <- matrix_anemoc_n[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_anemoc_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos2 <- c("Centrolobium tomentosum",  "Eucalyptus spp.",
+                      "Lafoensia pacari", "Luehea candicans",
+                      "Machaerium brasiliense", "Machaerium hirtum",
+                      "Machaerium stipitatum", "Machaerium villosum",
+                      "Moquiniastrum polymorphum", "Myracrodruon urundeuva",
+                      "Platypodium elegans")
+  
+  colnames(matrix_anemoc_df) <- novos_titulos2
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_anemoc_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_anemoc_matrix <- cor(matrix_anemoc_df, method = "pearson")
-
+  head(matrix_anemoc_df)
+  
+  M<-cor(matrix_anemoc_df)
+  head(round(M,2))
+  
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_anemoc_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvando o gráfico como JPEG
+  jpeg("sinc_anemoc.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+  
+  
+  dev.off()
   
     
   #filter to only include autocorous species 
@@ -906,12 +1184,62 @@ fruit <- master %>%
   rownames(matrix_autoc_n) <- matrix_autoc$month #doesn't work
   matrix_autoc_df <- matrix_autoc_n[, -1]
   
-  #run communitmatrix_n#run community sync test
+  # Exibir os títulos originais das colunas
+  colnames(matrix_autoc_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos3 <- c("Alchornea glandulosa", "Croton floribundus", "Guarea macrophylla",
+                      "Lafoensia pacari", "Luehea candicans", "Machaerium stipitatum",
+                      "Sebastiania brasiliensis")
+  colnames(matrix_autoc_df) <- novos_titulos3
+  
+    #run communitmatrix_n#run community sync test
   community.sync(matrix_autoc_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_autoc_matrix <- cor(matrix_autoc_df, method = "pearson")
+  head(matrix_autoc_df)
+  
+  M<-cor(matrix_autoc_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_autoc_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvar o gráfico como JPEG
+  jpeg("sinc_autoc.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+  
+  dev.off()
+  
 
     
   #filter again to only include flowering individuals (with immature or mature 
@@ -1021,13 +1349,77 @@ fruit <- master %>%
   rownames(matrix_zoof_n) <- matrix_zoof$month
   matrix_zoof_df <- matrix_zoof_n[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_zoof_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos4 <- c("Albizia niopoides", "Alchornea glandulosa",
+                      "Aloysia virgata", "Andira fraxinifolia",
+                      "Aspidosperma cylindrocarpon",
+                      "Cariniana estrellensis", "Casearia sylvestris",
+                      "Centrolobium tomentosum",
+                      "Chrysophyllum marginatum", "Citharexylum myrianthum",
+                      "Croton floribundus", "Cupania vernalis",
+                      "Dahlstedtia muehlbergiana",
+                      "Enterolobium contortisiliquum", "Eucalyptus spp.",
+                      "Eugenia florida", "Guarea macrophylla", "Guazuma ulmifolia",
+                      "Lafoensia pacari", "Lithraea molleoides",
+                      "Luehea candicans", "Luehea grandiflora",
+                      "Machaerium hirtum", "Machaerium nyctitans",
+                      "Machaerium villosum", "Moquiniastrum polymorphum",
+                      "Myracrodruon urundeuva", "Myrcia tomentosa",
+                      "Platypodium elegans", "Sebastiania brasiliensis",
+                      "Syagrus romanzoffiana", "Tapirira guianensis",
+                      "Trichilia clausseni", "Trichilia pallida",
+                      "Zanthoxylum monogynum", "Zanthoxylum rhoifolium")
+  colnames(matrix_zoof_df) <- novos_titulos4
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_zoof_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_zoof_matrix <- cor(matrix_zoof_df, method = "pearson")
+  head(matrix_zoof_df)
   
+  M<-cor(matrix_zoof_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_zoof_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvar o gráfico como JPEG
+  jpeg("sinc_zoof.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.0)
+  
+  dev.off()
   
   
   #filter again to only include flowering individuals (with immature or mature 
@@ -1110,13 +1502,42 @@ fruit <- master %>%
   rownames(matrix_anemof_n) <- matrix_anemof$month
   matrix_anemof_df <- matrix_anemof_n[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_anemof_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos5 <- c("Sebastiania brasiliensis")
+  colnames(matrix_anemof_df) <- novos_titulos5
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_anemof_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_anemof_matrix <- cor(matrix_anemof_df, method = "pearson")
-
+  head(matrix_anemof_df)
+  
+  M<-cor(matrix_anemof_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_anemof_df)
+  #NÃO HÁ RESULTADO POIS APENAS UMA ESPÉCIE ATENDENDE O REQUISITO DE 3+ IND
+  
   
   
     
@@ -1202,21 +1623,83 @@ fruit <- master %>%
     pivot_wider(names_from = Species,
                 values_from = prop_sprouting_sempreverde) 
   
-  #excluding columns with no activity
-  matrix_sprouting_sempreverde_n <- matrix_sprouting_sempreverde[, -c()]
-  
-  
   #make the first column the row names
   rownames(matrix_sprouting_sempreverde_n) <- matrix_sprouting_sempreverde$month
   matrix_sprouting_sempreverde_df <- matrix_sprouting_sempreverde[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_sprouting_sempreverde_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos6 <- c("Alchornea glandulosa", "Andira fraxinifolia",
+                      "Casearia sylvestris", "Cupania vernalis",
+                      "Diospyros inconstans", "Eugenia florida",
+                      "Guarea macrophylla", "Guazuma ulmifolia",
+                      "Lithraea molleoides", "Machaerium stipitatum",
+                      "Machaerium villosum", "Moquiniastrum polymorphum",
+                      "Ocotea puberula", "Syagrus romanzoffiana",
+                      "Tapirira guianensis", "Zanthoxylum monogynum")
+  colnames(matrix_sprouting_sempreverde_df) <- novos_titulos6
+  
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_sprouting_sempreverde_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_sprouting_sempreverde_matrix <- cor(matrix_sprouting_sempreverde_df, method = "pearson")
+  # Calcule a matriz de correlação
+  matriz_cor <- cor(matrix_sprouting_sempreverde_df)
   
+  # Exiba a matriz de correlação
+  print("Matriz de correlação:")
+  print(matriz_cor)
+  
+  # Calcule a média dos valores de r
+  media_r <- mean(matriz_cor[upper.tri(matriz_cor)])  # A função upper.tri() seleciona apenas a parte superior da matriz de correlação
+  print(paste("Média do valor de r:", media_r))
+  
+  head(matrix_sprouting_sempreverde_df)
+  
+  M<-cor(matrix_sprouting_sempreverde_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_sprouting_sempreverde_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  
+  # Salvar o gráfico como JPEG
+  jpeg("sinc_ssempreverde.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+  
+  dev.off()
   
   
   #filter again to only include sprouting individuals
@@ -1304,12 +1787,79 @@ fruit <- master %>%
   rownames(matrix_sprouting_semidecidua_n) <- matrix_sprouting_semidecidua$month
   matrix_sprouting_semidecidua_df <- matrix_sprouting_semidecidua[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_sprouting_semidecidua_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos7 <- c("Albizia niopoides", "Cariniana estrellensis",
+                      "Chrysophyllum marginatum", "Copaifera langsdorffii",
+                      "Croton floribundus", "Eugenia pyriformis",
+                      "Lafoensia pacari", "Lonchocarpus cultratus",
+                      "Luehea candicans", "Luehea grandiflora",
+                      "Machaerium nyctitans", "Maclura tinctoria",
+                      "Platypodium elegans", "Psidium guajava",
+                      "Sebastiania brasiliensis", "Trichilia clausseni",
+                      "Trichilia pallida", "Zanthoxylum rhoifolium")
+  colnames(matrix_sprouting_semidecidua_df) <- novos_titulos7
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_sprouting_semidecidua_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_sprouting_semidecidua_matrix <- cor(matrix_sprouting_semidecidua_df, method = "pearson")
+  # Calcule a matriz de correlação
+  matriz_cor <- cor(matrix_sprouting_semidecidua_df)
+  
+  # Exiba a matriz de correlação
+  print("Matriz de correlação:")
+  print(matriz_cor)
+  
+  # Calcule a média dos valores de r
+  media_r <- mean(matriz_cor[upper.tri(matriz_cor)])  # A função upper.tri() seleciona apenas a parte superior da matriz de correlação
+  print(paste("Média do valor de r:", media_r))
+  
+  head(matrix_sprouting_semidecidua_df)
+  
+  M<-cor(matrix_sprouting_semidecidua_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_sprouting_semidecidua_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvar o gráfico como JPEG
+  jpeg("sinc_ssemidecidua.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+  
+  dev.off()
+  
   
   
   
@@ -1397,13 +1947,65 @@ fruit <- master %>%
   rownames(matrix_sprouting_decidua) <- matrix_sprouting_decidua$month
   matrix_sprouting_decidua_df <- matrix_sprouting_decidua[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_sprouting_decidua_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos8 <- c("Allophylus edulis", "Aloysia virgata",
+                      "Aspidosperma cylindrocarpon", "Centrolobium tomentosum",
+                      "Citharexylum myrianthum", "Dahlstedtia muehlbergiana",
+                      "Enterolobium contortisiliquum", "Machaerium brasiliense",
+                      "Machaerium hirtum", "Myracrodruon urundeuva",
+                      "Myrcia tomentosa", "Zanthoxylum riedelianum")
+  colnames(matrix_sprouting_decidua_df) <- novos_titulos8
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_sprouting_decidua_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_sprouting_decidua_matrix <- cor(matrix_sprouting_decidua_df, method = "pearson")
   
+  head(matrix_sprouting_decidua_df)
+  
+  M<-cor(matrix_sprouting_decidua_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_sprouting_decidua_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvar o gráfico como JPEG
+  jpeg("sinc_sdecidua.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+  
+  dev.off()
   
   
   #filter again to only include leaffall individuals
@@ -1495,12 +2097,68 @@ fruit <- master %>%
   rownames(matrix_leaffall_sempreverde) <- matrix_leaffall_sempreverde$month
   matrix_leaffall_sempreverde_df <- matrix_leaffall_sempreverde[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_leaffall_sempreverde_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos9 <- c("Alchornea glandulosa", "Andira fraxinifolia",
+                      "Casearia sylvestris", "Cupania vernalis",
+                      "Diospyros inconstans", "Eugenia florida",
+                      "Guarea macrophylla", "Guazuma ulmifolia",
+                      "Lithraea molleoides", "Machaerium stipitatum",
+                      "Machaerium villosum", "Moquiniastrum polymorphum",
+                      "Ocotea puberula", "Syagrus romanzoffiana",
+                      "Tapirira guianensis", "Zanthoxylum monogynum")
+  colnames(matrix_leaffall_sempreverde_df) <- novos_titulos9
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_leaffall_sempreverde_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_leaffall_sempreverde_matrix <- cor(matrix_leaffall_sempreverde_df, method = "pearson")
+  
+  head(matrix_leaffall_sempreverde_df)
+  
+  M<-cor(matrix_leaffall_sempreverde_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_leaffall_sempreverde_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvar o gráfico como JPEG
+  jpeg("sinc_sempreverde.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+  
+  dev.off()
+  
   
   
   
@@ -1582,19 +2240,74 @@ fruit <- master %>%
                 values_from = prop_leaffall_semidecidua) 
   
   #excluding columns with no activity
-  matrix_sprouting_semidecidua_n <- matrix_sprouting_semidecidua[, -c()]
+  matrix_leaffall_semidecidua_n <- matrix_leaffall_semidecidua[, -c()]
   
   
   #make the first column the row names
   rownames(matrix_leaffall_semidecidua) <- matrix_leaffall_semidecidua$month
   matrix_leaffall_semidecidua_df <- matrix_leaffall_semidecidua[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_leaffall_semidecidua_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos10 <- c("Albizia niopoides", "Cariniana estrellensis",
+                       "Chrysophyllum marginatum", "Copaifera langsdorffii",
+                       "Croton floribundus", "Eugenia pyriformis",
+                       "Lafoensia pacari", "Lonchocarpus cultratus",
+                       "Luehea candicans", "Luehea grandiflora",
+                       "Machaerium nyctitans", "Maclura tinctoria",
+                       "Platypodium elegans", "Psidium guajava",
+                       "Sebastiania brasiliensis", "Trichilia clausseni",
+                       "Trichilia pallida", "Zanthoxylum rhoifolium")
+  colnames(matrix_leaffall_semidecidua_df) <- novos_titulos10
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_leaffall_semidecidua_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_leaffall_semidecidua_matrix <- cor(matrix_leaffall_semidecidua_df, method = "pearson")
+  
+  head(matrix_leaffall_semidecidua_df)
+  
+  M<-cor(matrix_leaffall_semidecidua_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_leaffall_semidecidua_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvar o gráfico como JPEG
+  jpeg("sinc_semidecidua.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+  dev.off()
   
   
   
@@ -1682,12 +2395,64 @@ fruit <- master %>%
   rownames(matrix_leaffall_decidua) <- matrix_leaffall_decidua$month
   matrix_leaffall_decidua_df <- matrix_leaffall_decidua[, -1]
   
+  # Exibir os títulos originais das colunas
+  colnames(matrix_leaffall_decidua_df)
+  
+  # Definir novos títulos para as colunas
+  novos_titulos11 <- c("Allophylus edulis", "Aloysia virgata",
+                       "Aspidosperma cylindrocarpon", "Centrolobium tomentosum",
+                       "Citharexylum myrianthum", "Dahlstedtia muehlbergiana",
+                       "Enterolobium contortisiliquum", "Machaerium brasiliense",
+                       "Machaerium hirtum", "Myracrodruon urundeuva",
+                       "Myrcia tomentosa", "Zanthoxylum riedelianum")
+  colnames(matrix_leaffall_decidua_df) <- novos_titulos11
+  
   #run communitmatrix_n#run community sync test
   community.sync(matrix_leaffall_decidua_df, nrands = 100)
   
-  #create a correlation matrix --> but how to we deal with the NAs?? Why are 
-  #there so many NAs??
-  correlation_leaffall_decidua_matrix <- cor(matrix_leaffall_decidua_df, method = "pearson")
+  
+  head(matrix_leaffall_decidua_df)
+  
+  M<-cor(matrix_leaffall_decidua_df)
+  head(round(M,2))
+  
+  # mat : is a matrix of data
+  # ... : further arguments to pass to the native R cor.test function
+  cor.mtest <- function(mat, ...) {
+    mat <- as.matrix(mat)
+    n <- ncol(mat)
+    p.mat<- matrix(NA, n, n)
+    diag(p.mat) <- 0
+    for (i in 1:(n - 1)) {
+      for (j in (i + 1):n) {
+        tmp <- cor.test(mat[, i], mat[, j], ...)
+        p.mat[i, j] <- p.mat[j, i] <- tmp$p.value
+      }
+    }
+    colnames(p.mat) <- rownames(p.mat) <- colnames(mat)
+    p.mat
+  }
+  
+  # matrix of the p-value of the correlation
+  p.mat <- cor.mtest(matrix_leaffall_decidua_df)
+  head(p.mat[, 1:5])
+  
+  {plot.new(); dev.off()}
+  
+  # Salvar o gráfico como JPEG
+  jpeg("sinc_decidua.jpg", width = 1200, height = 800, quality = 100)
+  
+  # Leave blank on no significant coefficient
+  corrplot(M, 
+           type = "lower", 
+           order = "hclust",  
+           tl.col = "black",
+           col = brewer.pal(n = 8, name = "RdYlGn"),
+           p.mat = p.mat, 
+           sig.level = 0.05, 
+           insig = "blank",
+           tl.cex = 1.5)
+  dev.off()
   
   
   citation()
