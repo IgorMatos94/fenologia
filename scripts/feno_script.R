@@ -52,10 +52,22 @@ for(i in package.list){library(i, character.only = T)}
 
 #2 LOAD DATA--------------------------------------------------------------------
 #nomeando e fornecendo localização do arquivo a ser aberto
-feno <- readr::read_csv2(here::here("dados", "dados.csv"))
+feno <- readr::read_csv2(here::here("fenologia", "dados", "dados.csv"))
 
 #nomeando e fornecendo localização do arquivo a ser aberto. Aqui é utilizado read_csv2 pois o arquivo CSV fica separado por vírgula
-traits <- readr::read_csv(here::here("dados", "disp-poll_new.csv"))
+traits <- readr::read_csv(here::here("fenologia", "dados", "disp-poll_new.csv"))
+
+duracao_frutos <- readr::read_csv(here::here("fenologia", "dados", "duracao_frutos.csv"))
+
+duracao_flores <- readr::read_csv(here::here("fenologia", "dados", "duracao_flores.csv"))
+
+duracao_brotamento1 <- readr::read_csv(here::here("fenologia", "dados", "duracao_brotamento1.csv"))
+
+duracao_brotamento2 <- readr::read_csv(here::here("fenologia", "dados", "duracao_brotamento2.csv"))
+
+duracao_queda_foliar1 <- readr::read_csv(here::here("fenologia", "dados", "duracao_queda_foliar1.csv"))
+
+duracao_queda_foliar2 <- readr::read_csv(here::here("fenologia", "dados", "duracao_queda_foliar2.csv"))
 
 #3 DATA CLEANING AND ORGANIZING-------------------------------------------------
 
@@ -144,10 +156,10 @@ fruit <- master %>%
   
   # Salvar o gráfico em um arquivo JPEG com alta resolução
   file_name <- "saz_zooc.jpg"
-  jpeg(file_name, width = 1200, height = 800, quality = 100)
+  jpeg(file_name, width = 1200, height = 800, quality = 1000)
   
   # Plotar o gráfico circular
-  plot(feno.circ.zoo, units = "radians", axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
+  plot(feno.circ.zoo, units = "radians", axes = FALSE, shrink = 1, stack = TRUE, pch = 16, bins = 365, cex = 1.2, rotation = "clock", zero = pi/2)
   
   # Plotar a rosa dos ventos
   circular::rose.diag(feno.circ.zoo, axes = FALSE, bins = 12, col = "#F19E14", cex = 0.0, prop =1.3, add = TRUE, zero = pi/2, rotation = "clock")
@@ -193,7 +205,7 @@ fruit <- master %>%
   jpeg(file_name, width = 1200, height = 800, quality = 100)
   
   # Plotar o gráfico circular
-  plot(feno.circ.anemo, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
+  plot(feno.circ.anemo, units = "radians", axes = FALSE, shrink = 1, stack = TRUE, pch = 20, bins = 365, cex = 0.8, rotation = "clock", zero = pi/2)
   
   # Plotar a rosa dos ventos
   circular::rose.diag(feno.circ.anemo, axes = FALSE, bins = 12, col = "#5B7C91", cex = 0.0, prop =1.3, add = TRUE, zero = pi/2, rotation = "clock")
@@ -240,9 +252,9 @@ fruit <- master %>%
   jpeg(file_name, width = 1200, height = 800, quality = 100)
   
   # Plotar o gráfico circular
-  plot(feno.circ.auto, axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
-  
-  # Plotar a rosa dos ventos
+  plot(feno.circ.auto, units = "radians", axes = FALSE, shrink = 1, stack = TRUE, pch = 16, bins = 365, cex = 0.8, rotation = "clock", zero = pi/2)
+
+    # Plotar a rosa dos ventos
   circular::rose.diag(feno.circ.auto, axes = FALSE, bins = 12, col = "#9F4147", cex = 0.0, prop =1.3, add = TRUE, zero = pi/2, rotation = "clock")
   
   # Adicionar rótulos aos eixos com tamanho 2.0
@@ -297,7 +309,7 @@ fruit <- master %>%
   jpeg(file_name, width = 1200, height = 800, quality = 100)
   
   # Plotar o gráfico circular
-  plot(feno.circ.zoofilia, units = "radians", axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.0, rotation = "clock")
+  plot(feno.circ.zoofilia, units = "radians", axes = FALSE, shrink = , stack = TRUE, pch = 16, bins = 365, cex = 0.8, rotation = "clock")
   
   # Plotar a rosa dos ventos
   circular::rose.diag(feno.circ.zoofilia, axes = FALSE, bins = 12, col = "#E86652", cex = 0.0, prop = 1.3, add = TRUE, zero = pi/2, rotation = "clock")
@@ -677,8 +689,6 @@ fruit <- master %>%
     labs(x = "Meses", y = "Espécies", color = "Dispersão") +
     scale_color_manual(values = c("1" = "#F19E14", "2" = "#5B7C91", "3" = "#9F4147", "4" = "#EF8F81", "5" = "#71B481"),
                        labels = c("Anemocoria", "Anemo+Auto", "Autocoria", "Zoo+Auto", "Zoocoria")) +  
-    scale_x_continuous(breaks = seq(min(duracao$Month) - (min(duracao$Month) %% 2),
-                                    max(duracao$Month) + 2 - (max(duracao$Month) %% 2), by = 2)) +
     scale_x_continuous(breaks = c(-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6), 
                        labels = c("J", "A", "S\n                         2022", "O", "N", "D", "J", "F", "M\n                         2023", "A", "M", "J")) +
     theme_minimal() +
@@ -804,6 +814,11 @@ fruit <- master %>%
   #sync
   #filter again to only include fruting individuals (with immature or mature 
   #fruits)
+  
+  gr8r_3 <- master %>% 
+    group_by(Species) %>% 
+    filter(n_distinct(Tag) > 3)
+  
   fruit <- gr8r_3 %>%
     filter(imfruit == 1 | mfruit == 1)
   
@@ -889,8 +904,8 @@ fruit <- master %>%
                 values_from = prop_zooc) 
   
   #excluding columns with no activity
-  matrix_zooc_n <- matrix_zooc[, -c(3, 4, 7, 9, 10, 11, 13, 18, 19, 20,
-                                    21, 23, 27)]
+  matrix_zooc_n <- matrix_zooc[, -c(3, 4, 7, 8, 9, 11, 16, 17, 18, 20,
+                                    24, 25)]
   
   
   #make the first column the row names
