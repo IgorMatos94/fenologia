@@ -1,0 +1,54 @@
+# Instalar e carregar o pacote circular (se ainda não foi instalado)
+install.packages("circular")
+library(circular)
+
+# Definir os parâmetros e criar dados de fenologia
+set.seed(42)
+
+species <- paste0("Species_", 1:10)  # 10 espécies
+phase <- c("Flowering", "Fruiting", "Leafing")  # Três fases fenológicas
+status <- c("Present", "Absent")  # Presença ou ausência da fase
+observers <- paste0("Observer_", 1:5)  # 5 observadores
+
+# Gerar os dados
+df_fenology <- data.frame(
+  Species = sample(species, 1000, replace = TRUE),
+  Phase = sample(phase, 1000, replace = TRUE),
+  Status = sample(status, 1000, replace = TRUE),
+  Observation_Date = seq.Date(as.Date("2024-01-01"), by = "day", length.out = 1000),
+  Observer = sample(observers, 1000, replace = TRUE)
+)
+
+# Filtrar os dados para apenas a fase de frutificação
+frutification_data <- subset(df_fenology, Phase == "Fruiting")
+
+# Criar uma coluna de mês
+frutification_data$Month <- format(frutification_data$Observation_Date, "%m")
+
+# Contar o número de indivíduos frutificando por mês
+frutification_counts <- as.data.frame(table(frutification_data$Month))
+
+# Renomear as colunas
+colnames(frutification_counts) <- c("Month", "Count")
+
+# Criar um vetor circular para os meses
+angles <- circular(as.numeric(frutification_counts$Month) * (2 * pi / 12), type = "angles", units = "radians")
+
+# Criar o gráfico circular
+par(mar = c(2, 2, 2, 2))  # Ajustar margens
+plot(angles, 
+     frutification_counts$Count, 
+     stack = FALSE, 
+     pch = 21, 
+     col = "skyblue", 
+     bg = "skyblue", 
+     cex = frutification_counts$Count / max(frutification_counts$Count) * 5,  # Tamanho proporcional ao número de indivíduos
+     main = "Frutificação por Mês (Gráfico Circular)")
+
+# Adicionar linhas para cada mês
+for (i in 1:nrow(frutification_counts)) {
+  lines(circular(c(angles[i], angles[i])), c(0, frutification_counts$Count[i]), col = "darkblue", lwd = 2)
+}
+
+# Adicionar uma legenda
+legend("topright", legend = frutification_counts$Month, col = "skyblue", pch = 21)
