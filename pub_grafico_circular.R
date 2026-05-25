@@ -112,13 +112,14 @@ master <- master %>%
 #5A FILTER DATA
 #rename columns because current name format causes error
 colnames(master)[11] ="imfruit"
-
 colnames(master)[12] ="mfruit"
+colnames(master)[9] = "BU"
+colnames(master)[10] = "FL"
 
 class(master$imfruit)
 
 # Filtrar apenas o PRIMEIRO mês de frutificação de cada indivíduo
-fruit <- master %>%
+fruit_unit <- master %>%
   filter(imfruit == 1 | mfruit == 1) %>%
   group_by(Tag, Species) %>% # Agrupa por planta
   arrange(DATE) %>%          # Garante que as datas estão em ordem
@@ -132,7 +133,7 @@ gerar_dados_e_grafico_mle <- function(dados, coluna_sindrome, nome_arquivo = NUL
   # 1. Filtro e preparação dos dados
   df <- as.data.frame(dados) %>% dplyr::filter(get(coluna_sindrome) == 1)
   
-  # Trava de segurança inicial: Se não sobrar nada, não tenta rodar o modelo
+  # Trava de segurança inicial
   if(nrow(df) == 0) {
     message("Nenhum dado encontrado para ", coluna_sindrome)
     return(data.frame(Sindrome = coluna_sindrome, n = 0, Melhor_Modelo = NA, 
@@ -172,9 +173,10 @@ gerar_dados_e_grafico_mle <- function(dados, coluna_sindrome, nome_arquivo = NUL
   v_lam <- safe_ext("lamda") 
   if (is.na(v_lam)) v_lam <- safe_ext("lambda")
   
-  # 5. Testes de Hipótese
+  # 5. Testes de Hipótese 
+  # O HR_test já está embutido no CircMLE e roda via bootstrap (9999 iterações)
   test_ray <- rayleigh.test(feno_circ)
-  test_rao <- rao.spacing.test(feno_circ)
+  test_hr  <- CircMLE::HR_test(radianos_dados) 
   
   # 6. Cálculo da Data Média
   ang_ajustado <- (as.numeric(mu_rad_obj) %% 360)
@@ -222,22 +224,25 @@ gerar_dados_e_grafico_mle <- function(dados, coluna_sindrome, nome_arquivo = NUL
   # --- RETORNO DA TABELA À PROVA DE FALHAS ---
   final_distribuicao <- 
     if(melhor_modelo_nome == "M1") "Uniforme" else if(is_multimodal) "Bimodal" else "Unimodal"
-  final_teste <- 
-    if(is_multimodal) "Rao Spacing" else "Rayleigh"
-  final_estatistica <- 
-    if(is_multimodal) as.numeric(test_rao$statistic) else as.numeric(test_ray$statistic)
-  final_pvalor <-
-    if(is_multimodal) as.numeric(test_rao$p.value) else as.numeric(test_ray$p.value)
   
-  # Criar uma lista previne erros se algum valor for "missing" (comprimento 0)
+  final_teste <- 
+    if(is_multimodal) "Hermans-Rasson" else "Rayleigh"
+  
+  # Ajuste na extração de resultados do test_hr, que retorna c(Estatistica, p-valor)
+  final_estatistica <- 
+    if(is_multimodal) as.numeric(test_hr[1]) else as.numeric(test_ray$statistic)
+  
+  final_pvalor <-
+    if(is_multimodal) as.numeric(test_hr[2]) else as.numeric(test_ray$p.value)
+  
   res_list <- list(
     Sindrome        = coluna_sindrome,
     Melhor_Modelo   = melhor_modelo_nome,
     Distribuicao    = final_distribuicao,
     n               = nrow(df),
     Teste_Escolha   = final_teste,
-    Estatistica     = final_estatistica,
-    P_Valor         = final_pvalor,
+    Estatistica     = round(final_estatistica, 4),
+    P_Valor         = round(final_pvalor, 4),
     r_vetor         = round(r_vetor, 3),
     Angulo_Med_Rad  = round(mu_rad_val, 3),
     Data_Media      = format(data_media, "%d/%m/%y"),
@@ -250,7 +255,6 @@ gerar_dados_e_grafico_mle <- function(dados, coluna_sindrome, nome_arquivo = NUL
     Peso_AIC        = round(as.numeric(topo$AIC_weights), 3)
   )
   
-  # Converte a lista em data.frame preenchendo vazios com NA
   return(as.data.frame(lapply(res_list, function(x) if(length(x)==0) NA else x)))
 }
 
@@ -263,28 +267,28 @@ par(mfrow = c(1, 3), mar = c(8, 2, 8, 2), xpd = TRUE)
 # Chama a função com salvar_arquivo = FALSE
 #Zoocoria
 stats_zoo <- gerar_dados_e_grafico_mle(
-  dados = fruit,
+  dados = fruit_unit,
   coluna_sindrome = "Zoocoria",
-  cor_rosa = "#F19E14",
-  cor_borda = "#D2691E",
+  cor_rosa = "#51127C",
+  cor_borda = "#1D1147",
   salvar_arquivo = FALSE
 )
 
 #Anemocoria
 stats_anemo <- gerar_dados_e_grafico_mle(
-  dados = fruit,
+  dados = fruit_unit,
   coluna_sindrome = "Anemocoria",
-  cor_rosa = "#5B7C91",
-  cor_borda = "#455F6E",
+  cor_rosa = "#B63679",
+  cor_borda = "#822681",
   salvar_arquivo = FALSE
 )
 
 #Autocoria
 stats_auto <- gerar_dados_e_grafico_mle(
-  dados = fruit,
+  dados = fruit_unit,
   coluna_sindrome = "Autocoria",
-  cor_rosa = "#9F4147",
-  cor_borda = "#800000",
+  cor_rosa = "#FB8861",
+  cor_borda = "#E65164",
   salvar_arquivo = FALSE
 )
 
@@ -296,12 +300,10 @@ tabela_dispersao <- rbind(stats_zoo, stats_anemo, stats_auto)
 print(tabela_dispersao)
 write_xlsx(tabela_dispersao, here::here("dados", "tabela_dispersao_final.xlsx"))
 
-# Renomear colunas
-colnames(master)[9] = "BU"
-colnames(master)[10] = "FL"
+
 
 # Filtrar apenas o PRIMEIRO mês de frutificação de cada indivíduo
-flower <- master %>%
+flower_unit <- master %>%
   filter(BU == 1 | FL == 1) %>%
   group_by(Tag, Species) %>% # Agrupa por planta
   arrange(DATE) %>%          # Garante que as datas estão em ordem
@@ -321,19 +323,19 @@ par(mfrow = c(1, 2), mar = c(8, 2, 8, 2), xpd = TRUE)
 
 # Zoofilia
 stats_zoof <- gerar_dados_e_grafico_mle(
-  dados = flower, 
+  dados = flower_unit, 
   coluna_sindrome = "Zoofilia", 
-  cor_rosa = "#E86652", 
-  cor_borda = "#B04132", # Sugestão de borda mais escura
+  cor_rosa = "#51127C",
+  cor_borda = "#1D1147",
   salvar_arquivo = FALSE
 )
 
 # Anemofilia
 stats_anemof <- gerar_dados_e_grafico_mle(
-  dados = flower, 
+  dados = flower_unit, 
   coluna_sindrome = "Anemofilia", 
-  cor_rosa = "#F8AF77", 
-  cor_borda = "#D68D56", 
+  cor_rosa = "#B63679",
+  cor_borda = "#822681",
   salvar_arquivo = FALSE
 )
 

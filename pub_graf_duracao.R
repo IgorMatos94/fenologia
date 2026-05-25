@@ -83,8 +83,9 @@ dados_intervalos <- dados_intervalos %>%
 # 3. CONSTRUÇÃO DO GRÁFICO FINAL (COM EIXO X PERSONALIZADO) --------------------
 
 ggplot(dados_intervalos) +
-  geom_segment(aes(x = Inicio, xend = Fim, y = Species_Label, yend = Species_Label, color = Sindrome_Final),
-               linewidth = 1.2, alpha = 0.4) +
+  geom_segment(aes(x = Inicio, xend = Fim, y = Species_Label, yend = Species_Label,
+                   color = Sindrome_Final),
+               linewidth = 1.2, alpha = 1) +
   
   geom_point(aes(x = Inicio, y = Species_Label, color = Sindrome_Final), size = 3) +
   geom_point(aes(x = Fim, y = Species_Label, color = Sindrome_Final), size = 3) +
@@ -99,9 +100,8 @@ ggplot(dados_intervalos) +
   ) +
   
   scale_color_manual(values = c(
-    "Zoofilia"   = "#E86652", 
-    "Anemofilia" = "#1F4E79", 
-    "Ambofilia"  = "#556B2F"  
+    "Zoofilia"   = "#51127C", 
+    "Ambofilia"  = "#FB8861"  
   )) +
   
   labs(
@@ -116,7 +116,7 @@ ggplot(dados_intervalos) +
   theme(
     # Removemos a inclinação de 45 graus para o ano ficar bem centralizado abaixo da letra
     axis.text.x = element_text(angle = 0, hjust = 0.5, lineheight = 1.2),
-    axis.text.y = element_text(face = "italic", size = 8), 
+    axis.text.y = element_text(face = "italic", size = 11), 
     panel.grid.major.y = element_line(color = "gray90", linetype = "dotted"),
     panel.grid.minor = element_blank(),
     legend.position = "top"
@@ -124,6 +124,52 @@ ggplot(dados_intervalos) +
 
 ggsave("duracao_polinizacao.jpg", width = 10, height = 7, dpi = 300)
 
+
+# ==============================================================================
+# CÁLCULO DA DURAÇÃO MÉDIA, DESVIO PADRÃO E N AMOSTRAL (n >= 3)
+# ==============================================================================
+
+# 1. Preparar os dados com as síndromes e datas
+dados_flor_limpos <- flower %>%
+  mutate(
+    Sindrome_Final = case_when(
+      Zoofilia == 1 & Anemofilia == 1 ~ "Ambofilia",
+      Zoofilia == 1 ~ "Zoofilia",
+      Anemofilia == 1 ~ "Anemofilia",
+      TRUE ~ NA_character_
+    ),
+    data_formatada = as.Date(paste(year, month, "01", sep = "-")),
+    Species_Curta = word(Species, 1, 2)
+  ) %>%
+  filter(!is.na(Sindrome_Final))
+
+# 2. Calcular a duração (em meses) e o número de indivíduos para CADA ESPÉCIE
+duracao_especies_flor <- dados_flor_limpos %>%
+  group_by(Species_Curta, Sindrome_Final) %>%
+  summarize(
+    n_individuos = n_distinct(Tag),
+    meses_ativos = n_distinct(data_formatada), # Conta os meses que a espécie teve flor
+    .groups = 'drop'
+  ) %>%
+  # O SEU FILTRO: Mantém apenas as espécies com 3 ou mais indivíduos amostrados
+  filter(n_individuos >= 3)
+
+# 3. Calcular a tabela final por SÍNDROME DE POLINIZAÇÃO
+tabela_final_duracao_flor <- duracao_especies_flor %>%
+  group_by(Sindrome_Final) %>%
+  summarize(
+    Total_Especies = n(),
+    Total_Individuos = sum(n_individuos),
+    Media_Meses = round(mean(meses_ativos), 2),
+    Desvio_Padrao = round(sd(meses_ativos), 2)
+  )
+
+# 4. Exibir o resultado final
+cat("\n--- TABELA DE DURAÇÃO DA FLORAÇÃO ---\n")
+print(tabela_final_duracao)
+
+
+###############################################################################
 # 1. CRIAÇÃO DA CATEGORIA, LIMPEZA DE NOMES E CÁLCULO DO N ---------------------
 
 dados_feno_fruto <- fruit %>%
@@ -179,7 +225,7 @@ dados_intervalos_fruto <- dados_intervalos_fruto %>%
 
 ggplot(dados_intervalos_fruto) +
   geom_segment(aes(x = Inicio, xend = Fim, y = Species_Label, yend = Species_Label, color = Sindrome_Final),
-               linewidth = 1.2, alpha = 0.4) +
+               linewidth = 1.2, alpha = 1) +
   
   geom_point(aes(x = Inicio, y = Species_Label, color = Sindrome_Final), size = 3) +
   geom_point(aes(x = Fim, y = Species_Label, color = Sindrome_Final), size = 3) +
@@ -194,9 +240,9 @@ ggplot(dados_intervalos_fruto) +
   ) +
   
   scale_color_manual(values = c(
-    "Zoocoria"   = "#F19E14", 
-    "Anemocoria" = "#5B7C91", 
-    "Autocoria"  = "#9F4147"  
+    "Zoocoria"   = "#1D1147", 
+    "Anemocoria" = "#B63679", 
+    "Autocoria"  = "#FB8861"  
   )) +
   
   labs(
@@ -210,10 +256,54 @@ ggplot(dados_intervalos_fruto) +
   theme_minimal() +
   theme(
     axis.text.x = element_text(angle = 0, hjust = 0.5, lineheight = 1.2),
-    axis.text.y = element_text(face = "italic", size = 8), 
+    axis.text.y = element_text(face = "italic", size = 11), 
     panel.grid.major.y = element_line(color = "gray90", linetype = "dotted"),
     panel.grid.minor = element_blank(),
     legend.position = "top"
   )
 
 ggsave("duracao_dispersao.jpg", width = 10, height = 7, dpi = 300)
+
+
+# ==============================================================================
+# CÁLCULO DA DURAÇÃO MÉDIA, DESVIO PADRÃO E N AMOSTRAL (n >= 3)
+# ==============================================================================
+
+# 1. Preparar os dados com as síndromes e datas
+dados_frutos_limpos <- fruit %>%
+  mutate(
+    Sindrome_Final = case_when(
+      Zoocoria == 1 ~ "Zoocoria",
+      Anemocoria == 1 ~ "Anemocoria",
+      Autocoria == 1 ~ "Autocoria",
+      TRUE ~ NA_character_
+    ),
+    data_formatada = as.Date(paste(year, month, "01", sep = "-")),
+    Species_Curta = word(Species, 1, 2)
+  ) %>%
+  filter(!is.na(Sindrome_Final))
+
+# 2. Calcular a duração (em meses) e o número de indivíduos para CADA ESPÉCIE
+duracao_especies_fruto <- dados_frutos_limpos %>%
+  group_by(Species_Curta, Sindrome_Final) %>%
+  summarize(
+    n_individuos = n_distinct(Tag),
+    meses_ativos = n_distinct(data_formatada), # Conta os meses que a espécie teve flor
+    .groups = 'drop'
+  ) %>%
+  # O SEU FILTRO: Mantém apenas as espécies com 3 ou mais indivíduos amostrados
+  filter(n_individuos >= 3)
+
+# 3. Calcular a tabela final por SÍNDROME DE POLINIZAÇÃO
+tabela_final_duracao_fruto <- duracao_especies_fruto %>%
+  group_by(Sindrome_Final) %>%
+  summarize(
+    Total_Especies = n(),
+    Total_Individuos = sum(n_individuos),
+    Media_Meses = round(mean(meses_ativos), 2),
+    Desvio_Padrao = round(sd(meses_ativos), 2)
+  )
+
+# 4. Exibir o resultado final
+cat("\n--- TABELA DE DURAÇÃO DA FRUTIFICAÇÃO ---\n")
+print(tabela_final_duracao_fruto)

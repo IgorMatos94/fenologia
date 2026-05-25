@@ -148,7 +148,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;24/01/2022;;;;;1;1;;frutos de cor verde ou preto. checar se frutos pretos são maduros ou se precisam abrir
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;24/01/2022;;;;;;;1;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;24/01/2022;;1;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;24/01/2022;;;;;;;1;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;09/03/2023;;;;;;;1;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;24/01/2022;;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;24/01/2022;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;24/01/2022;;;;;;;1;
@@ -193,7 +193,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;19/01/2022;;;;;;;1;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;19/01/2022;;1;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;19/01/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;19/01/2022;;;;;;;1;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;05/04/2023;;;;;;;1;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;19/01/2022;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;19/01/2022;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;19/01/2022;;;;;;;1;
@@ -202,10 +202,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;19/01/2022;;;;;;;1;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;19/01/2022;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;19/01/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;19/01/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;19/01/2022;;;;;;;1;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;01/05/2023;;;;;;;1;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;21/06/2023;;;;;;;1;
 22;88;Unclassified;Unclassified;3221;19/01/2022;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;19/01/2022;;1;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;12/07/2023;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;19/01/2022;;;1;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;19/01/2022;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;19/01/2022;;1;;;;;;
@@ -225,13 +225,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;19/01/2022;;1;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;19/01/2022;;;;;;;1;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;19/01/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;19/01/2022;;1;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;24/01/2022;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;19/01/2022;;;;;;;1;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;19/01/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;19/01/2022;;1;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;19/01/2022;;;;;1;1;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;20/01/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;20/01/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;19/01/2022;;;;;;;1;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;20/01/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;20/01/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;20/01/2022;;;;;;;1;
@@ -239,10 +239,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;20/01/2022;;;;;;;1;
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;20/01/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;20/01/2022;;;;;;;1;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;20/01/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;19/01/2022;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;20/01/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;20/01/2022;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;20/01/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;19/01/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;19/01/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;20/01/2022;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;20/01/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;20/01/2022;;;;;;;1;
@@ -257,7 +257,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;20/01/2022;;;;;;;1;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;20/01/2022;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;20/01/2022;;;;;1;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;20/01/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;19/01/2022;;1;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;20/01/2022;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;20/01/2022;;;1;1;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;20/01/2022;;1;;;;;;deitada no chão, sem placa?
@@ -282,7 +282,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;20/01/2022;;1;;;;;;dried inflorescences or wind dispersed fruits?
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;20/01/2022;;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;20/01/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;20/01/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;20/01/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;24/01/2022;;;;;;;1;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;31/01/2022;;;;;;;1;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;31/01/2022;;;;;;;1;
@@ -544,7 +544,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;17/02/2022;;1;;;;;;checar frutos. frutos de cor verde-escuro a preto. Abrem para dispersar fruto, parece que tem frutos velhos (17-02-22)
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;17/02/2022;;;;;;;1;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;17/02/2022;;1;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;17/02/2022;;1;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;20/01/2022;;;;;;;1;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;17/02/2022;;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;17/02/2022;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;17/02/2022;;;;;;;1;
@@ -589,7 +589,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;17/02/2022;;;;;1;1;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;17/02/2022;;;;;;;1;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;17/02/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;17/02/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;20/01/2022;;;;;;;1;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;17/02/2022;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;17/02/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;17/02/2022;;;;;;;1;
@@ -598,10 +598,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;17/02/2022;;;;;;;1;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;17/02/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;17/02/2022;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;17/02/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;17/02/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;20/01/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;20/01/2022;;;;;;;1;
 22;88;Unclassified;Unclassified;3221;17/02/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;17/02/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;20/01/2022;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;17/02/2022;;;;1;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;17/02/2022;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;17/02/2022;;1;;;;;;has im-fr in another plot. Black when mature
@@ -621,13 +621,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;17/02/2022;;;;;;;1;
 22;24;Proteaceae;Roupala montana Aubl.;3273;17/02/2022;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;17/02/2022;;;;;;;1;has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;17/02/2022;;1;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;17/02/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;17/02/2022;;;;;;;1;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;17/02/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;17/02/2022;;1;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;17/02/2022;;;;;1;;;check kind of fruit
 56;26;Salicaceae;Casearia decandra Jacq.;3363;23/02/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;23/02/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;17/02/2022;;;;;;;1;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;23/02/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;23/02/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;23/02/2022;;;;;;;1;
@@ -635,10 +635,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;23/02/2022;;;;;;;1;
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;23/02/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;23/02/2022;;;;;;;1;has im-fr in another plot. Black when mature
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;23/02/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;17/02/2022;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;23/02/2022;;1;;;;;;has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;23/02/2022;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;23/02/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;17/02/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;17/02/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;23/02/2022;;1;;;;;;has fruits in another plot. Dark purple/ black when mature. some mature, some bright red fruits (21/02/22)
 56;17;Fabaceae;Platypodium elegans Vogel;3388;23/02/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;23/02/2022;;1;;;;;;thought i might have seen buds?
@@ -653,7 +653,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;23/02/2022;;;;;;;1;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;23/02/2022;;;;;;1;;can't see fruits in tree but lots on ground below
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;23/02/2022;;;;;1;1;;check for fruits - black when mature
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;23/02/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;17/02/2022;;1;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;23/02/2022;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;23/02/2022;;;;;;;1;check for buds/flowers - red flowers(?) maybe yellow. fruits - yellowish-brown winged
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;23/02/2022;;;;;;;;deitada no chão, sem placa?
@@ -678,7 +678,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;23/02/2022;;1;;;;;;white flowers. Wind dispersed
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;23/02/2022;;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;23/02/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;23/02/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;23/02/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;24/02/2022;;1;;;;;;check for buds, close to 4870
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;24/02/2022;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;24/02/2022;;1;;;;;;Flowers (Inflorescence) light yellow or greenish yellow. Brownish fruit, dehiscent, orange aril
@@ -940,7 +940,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;18/03/2022;;1;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;18/03/2022;1;;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;18/03/2022;;1;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;18/03/2022;;;;;;;1;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;23/02/2022;;;;;;;1;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;18/03/2022;;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;18/03/2022;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;18/03/2022;;1;;;;;;
@@ -985,7 +985,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;18/03/2022;;;;;;;1;check for fruits
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;18/03/2022;;1;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;18/03/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;18/03/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;23/02/2022;;;;;;;1;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;18/03/2022;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;18/03/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;18/03/2022;;;;;;;1;
@@ -994,10 +994,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;18/03/2022;;1;;;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;18/03/2022;;1;;;;;;x
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;18/03/2022;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;18/03/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;18/03/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;23/02/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;23/02/2022;;1;;;;;;
 22;88;Unclassified;Unclassified;3221;18/03/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;18/03/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;23/02/2022;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;18/03/2022;;1;;;;;;flowers - white / fruits - reddish-black
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;18/03/2022;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;18/03/2022;;1;;;;;;check for fruits - black when mature
@@ -1017,13 +1017,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;18/03/2022;;;;;1;1;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;18/03/2022;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;18/03/2022;;1;;;;;;has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;18/03/2022;;1;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;18/03/2022;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;18/03/2022;;1;;;;;;flowers - white / fruits - reddish-black
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;18/03/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;18/03/2022;;1;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;18/03/2022;;;;;1;1;;check for fruits
 56;26;Salicaceae;Casearia decandra Jacq.;3363;16/03/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;16/03/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;18/03/2022;;;;;;;1;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;16/03/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;16/03/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;16/03/2022;;;;;;;1;
@@ -1031,10 +1031,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;16/03/2022;;;1;;;;;"has im_fr in another plot; main stem is dead"
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;16/03/2022;;;;;;;1;Same species as 3370?!
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;16/03/2022;;1;;;1;;;check for fruits - black when mature
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;16/03/2022;;;;;;;1;"check for fruits - black when mature; species is Trichilia Clausseni"
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;18/03/2022;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;16/03/2022;;1;;;;;;has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;16/03/2022;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;16/03/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;18/03/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;18/03/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;16/03/2022;;;;;;;1;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;16/03/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;16/03/2022;;;;;;;1;check for buds
@@ -1049,7 +1049,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;16/03/2022;;;;;;;1;check for fruits - black when mature
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;16/03/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;16/03/2022;;;;;1;1;;check for fruits - black when mature
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;16/03/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;18/03/2022;;1;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;16/03/2022;;;;;;;1;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;16/03/2022;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;16/03/2022;;1;;;;;;
@@ -1074,7 +1074,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;16/03/2022;;;;;;;1;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;16/03/2022;;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;16/03/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;16/03/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;16/03/2022;;;;;;;1;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;30/03/2022;;;;;;;1;check for buds, close to 4870
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;30/03/2022;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;30/03/2022;;;;;;;1;Flowers (Inflorescence) light yellow or greenish yellow. Brownish fruit, dehiscent, orange aril
@@ -1336,7 +1336,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;28/04/2022;;1;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;28/04/2022;;1;;;;;;old fruits
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;28/04/2022;;1;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;28/04/2022;;1;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;16/03/2022;;;;;;;1;"check for fruits - black when mature; species is Trichilia claussenii"
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;28/04/2022;;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;28/04/2022;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;28/04/2022;;1;;;;;;
@@ -1381,7 +1381,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;28/04/2022;;1;;;;;;check for fruits
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;28/04/2022;;1;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;28/04/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;28/04/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;16/03/2022;;;;;;;1;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;28/04/2022;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;28/04/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;28/04/2022;;1;;;;;;check for fruits
@@ -1390,10 +1390,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;28/04/2022;;1;;;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;28/04/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;28/04/2022;;;;;;;1;check for fruits
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;28/04/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;28/04/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;16/03/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;16/03/2022;;;;;;;1;
 22;88;Unclassified;Unclassified;3221;28/04/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;28/04/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;16/03/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;28/04/2022;;1;;;;;;has buds/im_fr at another plot. flowers - white / fruits - reddish-black
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;28/04/2022;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;28/04/2022;;1;;;;;;check for fruits - black when mature
@@ -1413,13 +1413,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;28/04/2022;;1;;;;;;check for fruits
 22;24;Proteaceae;Roupala montana Aubl.;3273;28/04/2022;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;28/04/2022;;1;;;;;;has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;28/04/2022;;1;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;28/04/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;28/04/2022;;1;;;;;;has buds/im_fr at another plot. flowers - white / fruits - reddish-black
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;28/04/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;28/04/2022;;1;;;;;;check for fruits
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;28/04/2022;;1;;;;;;check for fruits
 56;26;Salicaceae;Casearia decandra Jacq.;3363;08/04/2022;;1;;;;;;x
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;08/04/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;28/04/2022;;1;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;08/04/2022;;1;;;;;;x
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;08/04/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;08/04/2022;;;;;;;1;
@@ -1427,10 +1427,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;08/04/2022;;;;;;1;;has m_fr in another plot
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;08/04/2022;;1;;;;;;Same species as 3370?!
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;08/04/2022;;1;;;;;;check for fruits - black when mature
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;08/04/2022;;1;;;;;;"check for fruits - black when mature; species is Trichilia Clausseni"
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;28/04/2022;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;08/04/2022;;1;;;;;;has im_fr in another plot. Flowers - yellow/green.Fruits - black when mature. Fruits green still
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;08/04/2022;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;08/04/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;28/04/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;28/04/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;08/04/2022;;;;;;;1;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;08/04/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;08/04/2022;;1;;;;;;
@@ -1445,7 +1445,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;08/04/2022;;1;;;;;;check for fruits - black when mature
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;08/04/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;08/04/2022;;;;;1;1;;check for fruits - black when mature
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;08/04/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;28/04/2022;;1;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;08/04/2022;;;;;;;1;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;08/04/2022;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;08/04/2022;;1;;;;;;árvore caída, sem placa
@@ -1470,7 +1470,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;08/04/2022;;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;08/04/2022;;1;;;;;;parece ter ovos nas folhas
 56;78;Lauraceae;Lauraceae spp.;3470;08/04/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;08/04/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;08/04/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;29/04/2022;;1;;;;;;check for buds, close to 4870
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;29/04/2022;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;29/04/2022;;1;;;;;;
@@ -1732,7 +1732,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;19/05/2022;;1;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;19/05/2022;1;;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;19/05/2022;;1;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;19/05/2022;;1;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;08/04/2022;;1;;;;;;"check for fruits - black when mature; species is Trichilia claussenii"
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;19/05/2022;;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;19/05/2022;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;19/05/2022;;1;;;;;;
@@ -1777,7 +1777,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;19/05/2022;;1;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;19/05/2022;;1;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;19/05/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;19/05/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;08/04/2022;;;;;;;1;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;19/05/2022;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;19/05/2022;;1;;;;;;some leaves turning yellow
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;19/05/2022;;1;;;;;;
@@ -1786,10 +1786,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;19/05/2022;1;;;;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;19/05/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;19/05/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;19/05/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;19/05/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;08/04/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;08/04/2022;;1;;;;;;
 22;88;Unclassified;Unclassified;3221;19/05/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;19/05/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;08/04/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;19/05/2022;;1;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;19/05/2022;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;19/05/2022;;;;;;1;;Might be old fruits
@@ -1809,13 +1809,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;19/05/2022;;1;;;;;;check if it's Decídua
 22;24;Proteaceae;Roupala montana Aubl.;3273;19/05/2022;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;19/05/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;19/05/2022;1;;;;;;;leaves are kinda dry. Check if it's Decídua
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;19/05/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;19/05/2022;;1;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;19/05/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;19/05/2022;;1;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;19/05/2022;;1;;;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;05/05/2022;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;05/05/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;19/05/2022;;1;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;05/05/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;05/05/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;05/05/2022;;1;;;;;;
@@ -1823,10 +1823,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;05/05/2022;;;1;;;;;had mature fruits last month
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;05/05/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;05/05/2022;;1;;;;;;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;05/05/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;19/05/2022;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;05/05/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;05/05/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;05/05/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;19/05/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;19/05/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;05/05/2022;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;05/05/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;05/05/2022;;1;;;;;;
@@ -1841,7 +1841,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;05/05/2022;;;1;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;05/05/2022;1;;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;05/05/2022;;;;;;;1;had im-fr_m-fr last month
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;05/05/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;19/05/2022;1;;;;;;;leaves are kinda dry. Check if it's Decídua
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;05/05/2022;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;05/05/2022;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;05/05/2022;;;;;;;1;
@@ -1866,7 +1866,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;05/05/2022;;;;;;;1;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;05/05/2022;;;;;;;1;
 56;78;Lauraceae;Lauraceae spp.;3470;05/05/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;05/05/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;05/05/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;07/07/2022;;1;;;;;;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;07/07/2022;;;;;;;1;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;07/07/2022;;;;;;;1;
@@ -2128,7 +2128,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;30/06/2022;1;;;;;;;old dry fruits present
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;30/06/2022;1;;;;;;;old dry fruits present
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;30/06/2022;1;;;;;;;partial leaf fall
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;30/06/2022;1;;;;;;;Different trichilia? Maybe Allophylus edulis
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;05/05/2022;;;;;;;1;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;30/06/2022;1;;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;30/06/2022;;1;;;;;;Different trichilia? Maybe Allophylus edulis
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;30/06/2022;1;;;;;;;
@@ -2173,7 +2173,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;30/06/2022;1;;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;30/06/2022;1;;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;30/06/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;30/06/2022;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;05/05/2022;;1;;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;30/06/2022;1;;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;30/06/2022;;;1;1;;;;Decídua
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;30/06/2022;1;;;;;;;
@@ -2182,10 +2182,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;30/06/2022;;;1;1;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;30/06/2022;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;30/06/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;30/06/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;30/06/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;05/05/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;05/05/2022;;;;;;;1;
 22;88;Unclassified;Unclassified;3221;30/06/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;30/06/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;05/05/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;30/06/2022;;;;;;;1;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;30/06/2022;1;;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;30/06/2022;1;;;;;;;frutis might be old
@@ -2205,13 +2205,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;30/06/2022;1;;;;;;;Sempre-verde
 22;24;Proteaceae;Roupala montana Aubl.;3273;30/06/2022;1;;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;30/06/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;30/06/2022;1;;;;;;;Decídua
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;30/06/2022;1;;;;;;;Different trichilia? Maybe Allophylus edulis
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;30/06/2022;1;;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;30/06/2022;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;30/06/2022;1;;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;30/06/2022;1;;;;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;09/06/2022;;;;;;;1;Tree found with nail hole but no tag, looks like its dying
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;09/06/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;30/06/2022;1;;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;09/06/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;09/06/2022;;1;;;;;;3369 and 3366 not same species?!
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;09/06/2022;1;;;;;;;3369 and 3366 not same species?!
@@ -2219,10 +2219,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;09/06/2022;;;;;;;;check for buds or mature fruits
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;09/06/2022;1;;;;;;;Same species as 3370?!
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;09/06/2022;;1;;;;;;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;09/06/2022;;1;;;;;;"NOT ZANTHOXYLUM; could be T.Clausseni"
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;30/06/2022;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;09/06/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;09/06/2022;;1;;;;;;Has camera
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;09/06/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;30/06/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;30/06/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;09/06/2022;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;09/06/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;09/06/2022;;1;;;;;;
@@ -2237,7 +2237,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;09/06/2022;;;1;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;09/06/2022;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;09/06/2022;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;09/06/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;30/06/2022;1;;;;;;;Decídua
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;09/06/2022;;;;;;;1;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;09/06/2022;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;09/06/2022;;;;;;;1;
@@ -2262,7 +2262,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;09/06/2022;1;;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;09/06/2022;;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;09/06/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;09/06/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;09/06/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;07/07/2022;;;;;;;1;not found
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;07/07/2022;1;;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;07/07/2022;1;;;;;;;
@@ -2524,7 +2524,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;21/07/2022;1;;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;21/07/2022;;;;;;1;;leaf fall as well
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;21/07/2022;1;;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;21/07/2022;1;;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;09/06/2022;;1;;;;;;"NOT ZANTHOXYLUM; could be T.claussenii"
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;21/07/2022;1;;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;21/07/2022;1;;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;21/07/2022;1;;;;;;;
@@ -2569,7 +2569,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;21/07/2022;1;;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;21/07/2022;1;;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;21/07/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;21/07/2022;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;09/06/2022;;1;;;;;;Has camera
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;21/07/2022;;;;;;;1;manchas nas folhas
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;21/07/2022;1;;;;;;;check for flowers/fruits
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;21/07/2022;1;;;;;;;
@@ -2578,10 +2578,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;21/07/2022;;;;1;;;;check for flowers/fruits
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;21/07/2022;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;21/07/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;21/07/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;21/07/2022;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;09/06/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;09/06/2022;;;;;;;1;
 22;88;Unclassified;Unclassified;3221;21/07/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;21/07/2022;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;09/06/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;21/07/2022;1;;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;21/07/2022;1;;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;21/07/2022;1;;;;;;;
@@ -2601,13 +2601,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;21/07/2022;1;;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;21/07/2022;1;;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;21/07/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;21/07/2022;1;;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;21/07/2022;1;;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;21/07/2022;1;;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;21/07/2022;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;21/07/2022;1;;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;21/07/2022;1;;;;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;20/07/2022;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;20/07/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;21/07/2022;1;;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;20/07/2022;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;20/07/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;20/07/2022;1;;;;;;;
@@ -2615,10 +2615,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;20/07/2022;1;;;;;;;
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;20/07/2022;1;;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;20/07/2022;;;1;;;;;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;20/07/2022;;;1;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;21/07/2022;1;;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;20/07/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;20/07/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;20/07/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;21/07/2022;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;21/07/2022;1;;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;20/07/2022;1;;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;20/07/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;20/07/2022;1;;;;;;;
@@ -2633,7 +2633,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;20/07/2022;;;1;1;;;;Check for fruits
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;20/07/2022;1;;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;20/07/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;20/07/2022;;;1;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;21/07/2022;1;;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;20/07/2022;;;1;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;20/07/2022;;;1;1;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;20/07/2022;;;;;;;1;
@@ -2658,7 +2658,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;20/07/2022;1;;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;20/07/2022;;1;;;;;;brown spots on leaves
 56;78;Lauraceae;Lauraceae spp.;3470;20/07/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;20/07/2022;;;1;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;20/07/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;28/07/2022;1;;;;;;;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;28/07/2022;1;;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;28/07/2022;1;;;;;;;
@@ -2920,9 +2920,9 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;18/08/2022;1;;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;18/08/2022;1;;;;;;;completely leafless
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;18/08/2022;1;1;1;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;18/08/2022;1;;;;;;;completely leafless
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;20/07/2022;;;1;;;;;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;18/08/2022;1;;;;;;;
-20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;18/08/2022;1;1;;;;;;not t.clauseni. looks more like lithraea molleoides
+20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;18/08/2022;1;1;;;;;;not t.clausenii. looks more like lithraea molleoides
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;18/08/2022;;;;;;;1;
 20;68;Malvaceae;Luehea grandiflora Mart. & Zucc.;2708;18/08/2022;1;;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2710;18/08/2022;1;;;;;;;
@@ -2965,7 +2965,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;18/08/2022;1;;1;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;18/08/2022;1;;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;18/08/2022;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;18/08/2022;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;20/07/2022;;1;;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;18/08/2022;1;;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;18/08/2022;1;;;;1;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;18/08/2022;1;;;;;;;
@@ -2974,10 +2974,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;18/08/2022;1;;;;1;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;18/08/2022;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;18/08/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;18/08/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;18/08/2022;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;20/07/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;20/07/2022;;;1;;;;;
 22;88;Unclassified;Unclassified;3221;18/08/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;18/08/2022;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;20/07/2022;;;1;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;18/08/2022;1;;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;18/08/2022;1;;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;18/08/2022;1;;;;;;;
@@ -2997,13 +2997,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;18/08/2022;1;;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;18/08/2022;1;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;18/08/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;18/08/2022;1;;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;18/08/2022;1;;;;;;;completely leafless
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;18/08/2022;1;;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;18/08/2022;1;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;18/08/2022;1;;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;18/08/2022;1;1;;;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;08/08/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;08/08/2022;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;18/08/2022;1;;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;08/08/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;08/08/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;08/08/2022;1;;;;;;;this is probably marked as 3414.
@@ -3011,10 +3011,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;08/08/2022;1;;;;;;;
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;08/08/2022;1;;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;08/08/2022;1;;1;;;;;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;08/08/2022;1;;;;;;;this species is actually trichilia clauseni
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;18/08/2022;1;;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;08/08/2022;1;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;08/08/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;08/08/2022;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;18/08/2022;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;18/08/2022;1;;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;08/08/2022;1;;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;08/08/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;08/08/2022;1;;;;;;;
@@ -3029,7 +3029,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;08/08/2022;1;;;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;08/08/2022;1;;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;08/08/2022;1;;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;08/08/2022;;;1;1;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;18/08/2022;1;;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;08/08/2022;;1;;1;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;08/08/2022;1;;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;08/08/2022;;;;;;;1;
@@ -3054,7 +3054,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;08/08/2022;1;;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;08/08/2022;1;;;;;;;muitas folhas secando, em tom vermelho-ferrugem
 56;78;Lauraceae;Lauraceae spp.;3470;08/08/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;08/08/2022;1;;1;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;08/08/2022;1;;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;25/08/2022;1;;;;;;;minor leaffall. close to 4850
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;25/08/2022;1;;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;25/08/2022;1;;;;;;;minor leaffall
@@ -3316,7 +3316,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;22/09/2022;1;1;1;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;22/09/2022;1;1;1;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;22/09/2022;1;1;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;22/09/2022;1;1;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;08/08/2022;1;;;;;;;this species is actually trichilia clausenii
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;22/09/2022;1;;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;22/09/2022;1;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;22/09/2022;1;;;;;;;
@@ -3361,7 +3361,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;22/09/2022;1;;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;22/09/2022;1;1;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;22/09/2022;;;;;;;1;Nada acontecendo
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;22/09/2022;1;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;08/08/2022;1;;;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;22/09/2022;1;;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;22/09/2022;1;;;;;1;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;22/09/2022;1;;;;;;;
@@ -3370,10 +3370,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;22/09/2022;1;;;;;1;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;22/09/2022;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;22/09/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;22/09/2022;1;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;22/09/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;08/08/2022;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;08/08/2022;;;1;1;;;;
 22;88;Unclassified;Unclassified;3221;22/09/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;22/09/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;08/08/2022;1;;1;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;22/09/2022;1;1;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;22/09/2022;1;;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;22/09/2022;1;;;;;;;
@@ -3393,13 +3393,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;22/09/2022;1;;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;22/09/2022;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;22/09/2022;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;22/09/2022;;1;;;;;1;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;22/09/2022;1;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;22/09/2022;1;;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;22/09/2022;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;22/09/2022;1;;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;22/09/2022;1;1;;;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;08/09/2022;1;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;08/09/2022;1;1;1;1;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;22/09/2022;1;1;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;08/09/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;08/09/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;08/09/2022;1;;;;;;;
@@ -3407,10 +3407,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;08/09/2022;1;;;;;;;
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;08/09/2022;1;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;08/09/2022;1;1;1;;;;;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;08/09/2022;1;1;1;1;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;22/09/2022;1;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;08/09/2022;1;;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;08/09/2022;1;;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;08/09/2022;1;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;22/09/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;22/09/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;08/09/2022;1;;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;08/09/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;08/09/2022;1;1;1;1;;;;
@@ -3425,7 +3425,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;08/09/2022;1;;;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;08/09/2022;;;1;1;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;08/09/2022;1;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;08/09/2022;;1;1;1;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;22/09/2022;;1;;;;;1;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;08/09/2022;1;1;1;1;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;08/09/2022;1;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;08/09/2022;1;;;;;;;
@@ -3450,7 +3450,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;08/09/2022;1;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;08/09/2022;1;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;08/09/2022;1;;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;08/09/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;08/09/2022;1;1;1;1;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;29/09/2022;;1;;;;;;Atrás da 4850
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;29/09/2022;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;29/09/2022;1;;;;;;;
@@ -3712,7 +3712,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;18/10/2022;1;1;;;;;;fruto seco
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;18/10/2022;1;;;;;;;fruto seco
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;18/10/2022;1;;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;18/10/2022;;;;;;;1;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;08/09/2022;1;1;1;1;;;;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;18/10/2022;1;;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;18/10/2022;1;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;18/10/2022;1;1;;;;;;
@@ -3757,7 +3757,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;18/10/2022;;1;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;18/10/2022;;1;1;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;18/10/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;18/10/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;08/09/2022;1;;1;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;18/10/2022;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;18/10/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;18/10/2022;;1;;;;;;
@@ -3766,10 +3766,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;18/10/2022;;1;;;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;18/10/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;18/10/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;18/10/2022;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;18/10/2022;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;08/09/2022;1;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;08/09/2022;;1;1;1;;;;
 22;88;Unclassified;Unclassified;3221;18/10/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;18/10/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;08/09/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;18/10/2022;;1;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;18/10/2022;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;18/10/2022;;1;;;;;;
@@ -3789,13 +3789,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;18/10/2022;;1;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;18/10/2022;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;18/10/2022;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;18/10/2022;;1;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;18/10/2022;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;18/10/2022;;;;;;;1;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;18/10/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;18/10/2022;;1;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;18/10/2022;;1;1;;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;12/10/2022;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;12/10/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;18/10/2022;;1;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;12/10/2022;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;12/10/2022;;1;1;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;12/10/2022;1;1;;;;;;
@@ -3803,10 +3803,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;12/10/2022;;;;;;;;Dead
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;12/10/2022;1;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;12/10/2022;;;;;;;1;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;12/10/2022;;1;;1;1;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;18/10/2022;;;;;;;1;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;12/10/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;12/10/2022;;1;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;12/10/2022;1;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;18/10/2022;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;18/10/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;12/10/2022;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;12/10/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;12/10/2022;;1;;;;;;
@@ -3821,7 +3821,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;12/10/2022;;1;;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;12/10/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;12/10/2022;1;1;1;1;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;12/10/2022;;1;;;1;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;18/10/2022;;1;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;12/10/2022;;1;1;1;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;12/10/2022;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;12/10/2022;;;;;;;;
@@ -3846,7 +3846,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;12/10/2022;1;1;1;1;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;12/10/2022;;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;12/10/2022;1;;;;;;;Dead?
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;12/10/2022;;1;;;1;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;12/10/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;21/10/2022;;1;1;;;;;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;02/11/2022;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;02/11/2022;;1;;;1;;;
@@ -4108,7 +4108,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;23/11/2022;;1;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;23/11/2022;;;;;;;1;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;23/11/2022;;;1;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;23/11/2022;;;;;;;1;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;12/10/2022;;1;;1;1;;;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;23/11/2022;;;;;;;1;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;23/11/2022;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;23/11/2022;;1;;;;;;
@@ -4153,7 +4153,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;23/11/2022;;1;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;23/11/2022;;1;1;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;23/11/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;23/11/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;12/10/2022;;1;1;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;23/11/2022;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;23/11/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;23/11/2022;;;;;;;1;
@@ -4162,10 +4162,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;23/11/2022;;1;;;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;23/11/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;23/11/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;23/11/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;23/11/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;12/10/2022;1;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;12/10/2022;;1;;;1;;;
 22;88;Unclassified;Unclassified;3221;23/11/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;23/11/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;12/10/2022;;1;;;1;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;23/11/2022;;1;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;23/11/2022;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;23/11/2022;;1;1;1;;;;
@@ -4185,13 +4185,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;23/11/2022;;1;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;23/11/2022;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;23/11/2022;;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;23/11/2022;;1;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;23/11/2022;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;23/11/2022;;;;;;;1;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;23/11/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;23/11/2022;;1;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;23/11/2022;;;;1;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;15/11/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;15/11/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;23/11/2022;;1;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;15/11/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;15/11/2022;;1;1;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;15/11/2022;;1;;;;;;
@@ -4199,10 +4199,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;15/11/2022;;1;;;;;;
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;15/11/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;15/11/2022;;1;;;;;;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;15/11/2022;;1;;;1;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;23/11/2022;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;15/11/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;15/11/2022;;1;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;15/11/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;23/11/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;23/11/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;15/11/2022;;1;1;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;15/11/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;15/11/2022;;1;;;;;;
@@ -4217,7 +4217,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;15/11/2022;;1;;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;15/11/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;15/11/2022;;1;1;1;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;15/11/2022;;1;;;1;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;23/11/2022;;1;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;15/11/2022;;1;1;1;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;15/11/2022;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;15/11/2022;;;;;;;;
@@ -4242,7 +4242,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;15/11/2022;;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;15/11/2022;;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;15/11/2022;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;15/11/2022;;1;;;1;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;15/11/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;30/11/2022;;1;1;;;;;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;30/11/2022;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;30/11/2022;;1;;;;;;
@@ -4504,7 +4504,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;21/12/2022;;1;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;21/12/2022;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;21/12/2022;;1;1;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;21/12/2022;;1;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;15/11/2022;;1;;;1;;;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;21/12/2022;;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;21/12/2022;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;21/12/2022;;1;;;;;;
@@ -4549,7 +4549,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;22/12/2022;;1;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;22/12/2022;;1;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;22/12/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;22/12/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;15/11/2022;;1;1;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;22/12/2022;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;22/12/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;22/12/2022;;;;;;;1;
@@ -4558,10 +4558,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;22/12/2022;;1;;;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;22/12/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;22/12/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;22/12/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;22/12/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;15/11/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;15/11/2022;;1;;;1;;;
 22;88;Unclassified;Unclassified;3221;22/12/2022;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;22/12/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;15/11/2022;;1;;;1;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;22/12/2022;;1;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;22/12/2022;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;22/12/2022;;;1;1;;;;
@@ -4581,13 +4581,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;22/12/2022;;1;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;22/12/2022;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;22/12/2022;;;;;;;;dead
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;22/12/2022;;1;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;21/12/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;22/12/2022;;1;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;22/12/2022;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;22/12/2022;;1;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;22/12/2022;;;;;1;;;Alchornea
 56;26;Salicaceae;Casearia decandra Jacq.;3363;20/12/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;20/12/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;22/12/2022;;1;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;20/12/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;20/12/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;20/12/2022;;1;;;;;;
@@ -4595,10 +4595,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;20/12/2022;;;;;;;;DEAD
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;20/12/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;20/12/2022;;1;;;;;;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;20/12/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;22/12/2022;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;20/12/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;20/12/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;20/12/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;22/12/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;22/12/2022;;1;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;20/12/2022;;1;1;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;20/12/2022;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;20/12/2022;;1;;;;;;
@@ -4613,7 +4613,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;20/12/2022;;1;;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;20/12/2022;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;20/12/2022;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;20/12/2022;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;22/12/2022;;1;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;20/12/2022;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;20/12/2022;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;20/12/2022;;;;;;;;
@@ -4638,7 +4638,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;20/12/2022;;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;20/12/2022;;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;20/12/2022;;;;;;;;dead
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;20/12/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;20/12/2022;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;29/12/2022;;1;;;;;;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;17/12/2022;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;17/12/2022;;1;;;;;;
@@ -4900,7 +4900,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;17/01/2023;1;;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;17/01/2023;1;;;;;;;fruto antigo
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;17/01/2023;;1;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;17/01/2023;;;;;;;1;nothing
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;20/12/2022;;1;;;;;;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;17/01/2023;;;;;;;1;nothing
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;17/01/2023;1;;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;17/01/2023;;1;;;;;;
@@ -4945,7 +4945,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;16/01/2023;;;;;;;1;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;16/01/2023;;1;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;16/01/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;16/01/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;20/12/2022;;1;;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;16/01/2023;1;;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;16/01/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;16/01/2023;;1;;;;;;
@@ -4954,10 +4954,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;16/01/2023;;1;;;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;16/01/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;16/01/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;16/01/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;16/01/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;20/12/2022;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;20/12/2022;;1;;;;;;
 22;88;Unclassified;Unclassified;3221;16/01/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;16/01/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;20/12/2022;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;16/01/2023;;1;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;16/01/2023;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;16/01/2023;1;;;;;;;
@@ -4977,13 +4977,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;16/01/2023;;1;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;16/01/2023;1;;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;16/01/2023;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;16/01/2023;1;;;;;;;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;17/01/2023;;;;;;;1;nothing
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;16/01/2023;1;1;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;16/01/2023;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;16/01/2023;;;;;;;1;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;16/01/2023;;1;;;1;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;01/01/2023;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;01/01/2023;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;16/01/2023;1;;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;01/01/2023;;;;;;1;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;01/01/2023;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;01/01/2023;;1;;;;;;
@@ -4991,10 +4991,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;01/01/2023;;;;1;;;;
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;01/01/2023;;1;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;01/01/2023;;;;;;;1;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;01/01/2023;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;16/01/2023;;;;;;;1;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;01/01/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;01/01/2023;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;01/01/2023;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;16/01/2023;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;16/01/2023;;;;;;;1;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;01/01/2023;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;01/01/2023;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;01/01/2023;;1;;;;;;
@@ -5009,7 +5009,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;01/01/2023;;1;;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;01/01/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;01/01/2023;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;01/01/2023;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;16/01/2023;1;;;;;;;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;01/01/2023;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;01/01/2023;;;;;;;1;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;01/01/2023;;;;;;;;
@@ -5034,7 +5034,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;01/01/2023;;;;;;;1;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;01/01/2023;;1;;;;;;
 56;78;Lauraceae;Lauraceae spp.;3470;01/01/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;01/01/2023;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;01/01/2023;;1;;;;;;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;18/01/2023;;;;;;;1;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;19/01/2023;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;19/01/2023;;;;;;;1;
@@ -5296,7 +5296,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;08/02/2023;1;1;;1;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;08/02/2023;1;;;1;1;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;08/02/2023;1;1;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;08/02/2023;1;1;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;01/01/2023;1;;;;;;;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;08/02/2023;1;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;08/02/2023;1;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;08/02/2023;;1;;;;;;
@@ -5341,7 +5341,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;08/02/2023;1;1;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;08/02/2023;;;;;;;1;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;08/02/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;08/02/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;01/01/2023;;1;;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;08/02/2023;1;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;08/02/2023;;1;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;08/02/2023;;1;;;;;;
@@ -5350,10 +5350,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;08/02/2023;;;;;;;1;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;08/02/2023;;;;;;;1;Couldn't find any leaf
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;08/02/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;08/02/2023;1;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;08/02/2023;1;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;01/01/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;01/01/2023;;1;;;;;;
 22;88;Unclassified;Unclassified;3221;08/02/2023;;;;;;;1;Could be leafless
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;08/02/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;01/01/2023;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;08/02/2023;;1;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;08/02/2023;;1;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;08/02/2023;;1;;;;;;
@@ -5373,13 +5373,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;08/02/2023;;;;;;;1;
 22;24;Proteaceae;Roupala montana Aubl.;3273;08/02/2023;1;;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;08/02/2023;;;;;;;;Leafless
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;08/02/2023;;;;;;;1;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;08/02/2023;1;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;08/02/2023;;;;;;;1;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;08/02/2023;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;08/02/2023;;1;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;08/02/2023;;1;;;1;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;08/02/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;08/02/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;08/02/2023;1;;;;;;;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;08/02/2023;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;08/02/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;08/02/2023;;;;;;;1;
@@ -5387,10 +5387,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;08/02/2023;;;;;;;;
 56;88;Unclassified;Mollinedia widgrenii A.DC.;3373;08/02/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;08/02/2023;;1;;;;;;
-56;3;Rutaceae;Trichilia clausseni C.DC.;3378;08/02/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;08/02/2023;1;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;08/02/2023;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;08/02/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;08/02/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;08/02/2023;1;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;08/02/2023;1;;;;;;;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;08/02/2023;;;;;;;1;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;08/02/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;08/02/2023;;;;;;;1;
@@ -5405,7 +5405,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;08/02/2023;;1;;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;08/02/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;08/02/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;08/02/2023;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;08/02/2023;;;;;;;1;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;08/02/2023;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;08/02/2023;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;08/02/2023;;;;;;;;
@@ -5430,7 +5430,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;08/02/2023;;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;08/02/2023;;;;;;;1;
 56;78;Lauraceae;Lauraceae spp.;3470;08/02/2023;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;08/02/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;08/02/2023;;;;;;;1;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;10/02/2023;;1;;;;;;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;03/03/2023;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;03/03/2023;;1;;;;;;
@@ -5692,7 +5692,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;22/03/2023;;;;;;;1;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;22/03/2023;;;;;;;1;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;22/03/2023;;;;;;;1;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;22/03/2023;;1;;;;;;
+56;3;Rutaceae;Trichilia claussenii C.DC.;3378;08/02/2023;;;;;;;1;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;22/03/2023;;;;;;;1;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;22/03/2023;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;22/03/2023;;1;;;;;;
@@ -5737,7 +5737,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;22/03/2023;;1;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;22/03/2023;;1;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;22/03/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;22/03/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;08/02/2023;;;;;;;1;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;22/03/2023;;1;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;22/03/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;22/03/2023;;;;;;;1;
@@ -5746,10 +5746,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;22/03/2023;;1;;;;;;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;22/03/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;22/03/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;22/03/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;22/03/2023;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;08/02/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;08/02/2023;;1;;;;;;
 22;NI;Unclassified;Unclassified;3221;22/03/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;22/03/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;08/02/2023;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;22/03/2023;;;;;;;1;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;22/03/2023;;;;;;;1;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;22/03/2023;;;;;;;1;
@@ -5769,13 +5769,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;22/03/2023;;;;;;;1;
 22;24;Proteaceae;Roupala montana Aubl.;3273;22/03/2023;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;22/03/2023;;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;22/03/2023;;;;;;;1;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;22/03/2023;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;22/03/2023;;;;;;;1;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;22/03/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;22/03/2023;;;;;;;1;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;22/03/2023;;1;;;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;09/03/2023;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;09/03/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;22/03/2023;;;;;;;1;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;09/03/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;09/03/2023;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;09/03/2023;1;;;;;;;
@@ -5783,10 +5783,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;09/03/2023;;;;;;;;
 56;NI;Unclassified;Mollinedia widgrenii A.DC.;3373;09/03/2023;1;;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;09/03/2023;;1;1;;;;;
-56;3;Rutaceae;Trichilia clausseni;3378;09/03/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;22/03/2023;;;;;;;1;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;09/03/2023;;1;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;09/03/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;09/03/2023;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;22/03/2023;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;22/03/2023;;;;;;;1;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;09/03/2023;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;09/03/2023;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;09/03/2023;;;;;;;1;
@@ -5801,7 +5801,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;09/03/2023;;1;1;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;09/03/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;09/03/2023;;1;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;09/03/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;22/03/2023;;;;;;;1;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;09/03/2023;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;09/03/2023;;1;;;;;;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;09/03/2023;;;;;;;;
@@ -5826,7 +5826,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;09/03/2023;1;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;09/03/2023;;;;;;;1;
 56;78;Lauraceae;Lauraceae spp.;3470;09/03/2023;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;09/03/2023;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;09/03/2023;;;;;;;1;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;05/04/2023;;;;;;;1;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;05/04/2023;;;;;;;1;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;05/04/2023;;;;;;;1;
@@ -6088,7 +6088,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;20/04/2023;;;;;1;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;20/04/2023;;;;;1;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;20/04/2023;;;;;1;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;20/04/2023;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;09/03/2023;;;;;;;1;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;20/04/2023;;;;;;;1;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;20/04/2023;;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;20/04/2023;;;;;;;;seca sem folhas
@@ -6133,7 +6133,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;20/04/2023;;;;;;;1;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;20/04/2023;;;;;;;1;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;20/04/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;20/04/2023;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;09/03/2023;;1;;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;20/04/2023;;;;;;;1;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;20/04/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;20/04/2023;;;;;;;1;sem folhas
@@ -6142,10 +6142,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;20/04/2023;;;;;;;1;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;20/04/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;20/04/2023;;;;;;;1;capenga
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;20/04/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;20/04/2023;;1;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;09/03/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;09/03/2023;;1;;;;;;
 22;NI;Unclassified;Unclassified;3221;20/04/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;20/04/2023;;;;;;;1;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;20/04/2023;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;20/04/2023;;1;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;20/04/2023;;;;;;;1;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;20/04/2023;;;;;;;1;
@@ -6165,13 +6165,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;20/04/2023;;;;;;;1;
 22;24;Proteaceae;Roupala montana Aubl.;3273;20/04/2023;;1;;;;;;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;20/04/2023;;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;20/04/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;20/04/2023;;1;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;20/04/2023;;;;;;;1;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;20/04/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;20/04/2023;;;;;;;1;sem folhas
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;20/04/2023;;;;;;;1;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;20/04/2023;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;05/04/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;20/04/2023;;;;;;;1;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;05/04/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;05/04/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;05/04/2023;;;;;;;1;
@@ -6179,10 +6179,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;05/04/2023;;;;;;;;
 56;NI;Unclassified;Mollinedia widgrenii A.DC.;3373;05/04/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;05/04/2023;;1;1;;;;;
-56;3;Rutaceae;Trichilia clausseni;3378;05/04/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;20/04/2023;;1;;;;;;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;05/04/2023;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;05/04/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;05/04/2023;;1;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;20/04/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;20/04/2023;;;;;;;1;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;05/04/2023;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;05/04/2023;;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;05/04/2023;;1;;;;;;
@@ -6197,7 +6197,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;05/04/2023;;;;;;;1;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;05/04/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;05/04/2023;;1;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;05/04/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;05/04/2023;;;;;;;1;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;05/04/2023;;;;;;;1;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;05/04/2023;;;;;;;1;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;05/04/2023;;;;;;;;
@@ -6222,7 +6222,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;05/04/2023;;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;05/04/2023;;;;;;;1;
 56;78;Lauraceae;Lauraceae spp.;3470;05/04/2023;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;05/04/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;05/04/2023;;;;;;;1;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;20/04/2023;;;;;;;1;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;20/04/2023;;1;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;20/04/2023;;;;;;;1;
@@ -6484,7 +6484,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;14/06/2023;1;;;;1;1;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;14/06/2023;1;1;;;1;1;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;14/06/2023;1;1;;;1;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;14/06/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;05/04/2023;;1;;;;;;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;14/06/2023;1;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;14/06/2023;1;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;14/06/2023;1;1;;;;;;
@@ -6529,7 +6529,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;07/06/2023;1;;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;07/06/2023;1;;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;07/06/2023;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;07/06/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;05/04/2023;;;;;;;1;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;07/06/2023;1;;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;07/06/2023;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;07/06/2023;;1;;;;;;
@@ -6538,10 +6538,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;07/06/2023;;;;;;;1;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;07/06/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;07/06/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;07/06/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;07/06/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;05/04/2023;;;;;;;1;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;14/06/2023;1;;;;;;;
 22;NI;Unclassified;Unclassified;3221;07/06/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;07/06/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;07/06/2023;1;;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;07/06/2023;;;;;;;1;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;07/06/2023;;;;;;;1;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;07/06/2023;;;;;;;1;
@@ -6561,13 +6561,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;07/06/2023;1;;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;07/06/2023;;;;;;;1;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;07/06/2023;;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;07/06/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;07/06/2023;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;07/06/2023;1;;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;07/06/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;07/06/2023;1;;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;07/06/2023;;;;;;;1;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;01/05/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;01/05/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;07/06/2023;;;;;;;1;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;01/05/2023;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;01/05/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;01/05/2023;;;;;;;1;
@@ -6575,10 +6575,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;01/05/2023;;;;;;;;
 56;NI;Unclassified;Mollinedia widgrenii A.DC.;3373;01/05/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;01/05/2023;;1;;;;;;
-56;3;Rutaceae;Trichilia clausseni;3378;01/05/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;07/06/2023;;;;;;;1;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;01/05/2023;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;01/05/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;01/05/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;07/06/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;01/05/2023;;;;;;;1;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;01/05/2023;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;01/05/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;01/05/2023;;;;;;;1;
@@ -6593,7 +6593,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;01/05/2023;;;1;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;01/05/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;01/05/2023;;;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;01/05/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;01/05/2023;;;;;;;1;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;01/05/2023;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;01/05/2023;;;;;;;1;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;01/05/2023;;;;;;;;
@@ -6618,7 +6618,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;01/05/2023;;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;01/05/2023;;;;;;;1;
 56;78;Lauraceae;Lauraceae spp.;3470;01/05/2023;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;01/05/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;01/05/2023;;;;;;;1;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;14/06/2023;;;;;;;;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;14/06/2023;1;;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;14/06/2023;;;;;;;1;
@@ -6880,7 +6880,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;28/06/2023;1;;;;1;1;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;28/06/2023;1;1;;;1;1;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;28/06/2023;1;1;;;1;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;28/06/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;01/05/2023;;;;;;;1;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;28/06/2023;1;1;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;28/06/2023;1;1;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;28/06/2023;1;1;;;;;;
@@ -6925,7 +6925,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;28/06/2023;1;;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;28/06/2023;1;;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;28/06/2023;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;28/06/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;01/05/2023;;;;;;;1;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;28/06/2023;1;;;;;;;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;28/06/2023;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;28/06/2023;;1;;;;;;
@@ -6934,10 +6934,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;28/06/2023;;;;;;;1;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;28/06/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;28/06/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;28/06/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;28/06/2023;;;;;;;1;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;28/06/2023;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;28/06/2023;1;;;;;;;
 22;NI;Unclassified;Unclassified;3221;28/06/2023;;1;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;28/06/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;28/06/2023;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;28/06/2023;;;;;;;1;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;28/06/2023;;;;;;;1;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;28/06/2023;;;;;;;1;
@@ -6957,13 +6957,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;28/06/2023;1;;;;;;;
 22;24;Proteaceae;Roupala montana Aubl.;3273;28/06/2023;;;;;;;1;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;28/06/2023;;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;28/06/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;28/06/2023;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;28/06/2023;1;;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;28/06/2023;;;;;;;1;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;28/06/2023;1;;;;;;;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;28/06/2023;;;;;;;1;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;21/06/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;21/06/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;28/06/2023;;;;;;;1;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;21/06/2023;;1;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;21/06/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;21/06/2023;;;;;;;1;
@@ -6971,10 +6971,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;21/06/2023;;;;;;;;
 56;NI;Unclassified;Mollinedia widgrenii A.DC.;3373;21/06/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;21/06/2023;;1;;;;;;
-56;3;Rutaceae;Trichilia clausseni;3378;21/06/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;28/06/2023;;;;;;;1;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;21/06/2023;;1;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;21/06/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;21/06/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;21/06/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;21/06/2023;;;;;;;1;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;21/06/2023;;1;;;;;;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;21/06/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;21/06/2023;;;;;;;1;
@@ -6989,7 +6989,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;21/06/2023;;;1;;;;;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;21/06/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;21/06/2023;;;1;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;21/06/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;21/06/2023;;;;;;;1;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;21/06/2023;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;21/06/2023;;;;;;;1;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;21/06/2023;;;;;;;;
@@ -7014,7 +7014,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;21/06/2023;;1;;;;;;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;21/06/2023;;;;;;;1;
 56;78;Lauraceae;Lauraceae spp.;3470;21/06/2023;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;21/06/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;21/06/2023;;;;;;;1;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;05/07/2023;1;;;;;;;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;05/07/2023;1;;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;05/07/2023;;;;;;;1;
@@ -7276,7 +7276,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2689;26/07/2023;1;;;;;;;
 20;37;Malvaceae;Luehea candicans Mart. & Zucc.;2690;26/07/2023;1;;;;;;;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2692;26/07/2023;1;;;;;;;
-20;45;Meliaceae;Trichilia clausseni C.DC.;2695;26/07/2023;1;;;;;;;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;21/06/2023;;;;;;;1;
 20;20;Fabaceae;Machaerium hirtum (Vell.) Stellfeld;2696;26/07/2023;1;;;;;;;
 20;45;Meliaceae;Lithraea molleoides (Vell.) Engl.;2698;26/07/2023;;;1;;;;1;
 20;33;Anacardiaceae;Lithraea molleoides (Vell.) Engl.;2701;26/07/2023;1;;;;;;;
@@ -7321,7 +7321,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3172;26/07/2023;1;;;;;;;
 22;81;Fabaceae;Platymiscium floribundum Vogel;3174;26/07/2023;1;;;;;;;
 22;83;Celastraceae;Monteverdia aquifolia (Mart.) Biral;3175;26/07/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3184;26/07/2023;;;;;;;1;
+20;45;Meliaceae;Trichilia claussenii C.DC.;2695;26/07/2023;1;;;;;;;
 22;84;Myrtaceae;Eugenia pyriformis Cambess.;3187;26/07/2023;1;;;;;;1;
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3190;26/07/2023;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3198;26/07/2023;1;;;;;;;dead?
@@ -7330,10 +7330,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;47;Anacardiaceae;Myracrodruon urundeuva Allemao;3211;26/07/2023;;;;;;;1;
 22;30;Fabaceae;Peltophorum dubium (Spreng.) Taub.;3213;26/07/2023;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3215;26/07/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3218;26/07/2023;;;;;;;1;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3219;26/07/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3184;26/07/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3218;26/07/2023;;;;;;;1;
 22;NI;Unclassified;Unclassified;3221;26/07/2023;1;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3223;26/07/2023;1;;;;;;;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3219;26/07/2023;;;;;;;1;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3227;26/07/2023;1;;;;;;;
 22;14;Fabaceae;Machaerium stipitatum Vogel;3230;26/07/2023;1;;;;;;;
 22;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3232;26/07/2023;1;;;;;;;
@@ -7353,13 +7353,13 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3272;26/07/2023;;;;;;;1;
 22;24;Proteaceae;Roupala montana Aubl.;3273;26/07/2023;;;;;;;1;
 22;32;Malvaceae;Guazuma ulmifolia Lam.;3277;26/07/2023;;;;;;;;
-22;45;Meliaceae;Trichilia clausseni C.DC.;3280;26/07/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3223;26/07/2023;1;;;;;;;
 22;21;Sapotaceae;Chrysophyllum marginatum (Hook. & Arn.) Radlk.;3284;26/07/2023;1;;;;;;;
 22;74;Apocynaceae;Aspidosperma cylindrocarpon Mull.Arg.;3285;26/07/2023;1;;;;;;;
 22;25;Ebenaceae;Diospyros inconstans Jacq.;3287;26/07/2023;;;;;;;1;
 22;4;Euphorbiaceae;Alchornea glandulosa Poepp. & Endl.;3290;26/07/2023;1;;;;;;;
 56;26;Salicaceae;Casearia decandra Jacq.;3363;12/07/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3364;12/07/2023;;;;;;;1;
+22;45;Meliaceae;Trichilia claussenii C.DC.;3280;26/07/2023;;;;;;;1;
 56;29;Rhamnaceae;Rhamnidium elaeocarpum Reissek;3365;12/07/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3366;12/07/2023;1;;;;;;;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3369;12/07/2023;;;;;;;1;
@@ -7367,10 +7367,10 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;15;Euphorbiaceae;Croton floribundus Spreng.;3372;12/07/2023;;;;;;;;
 56;NI;Unclassified;Mollinedia widgrenii A.DC.;3373;12/07/2023;;;;;;;1;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3375;12/07/2023;;;;;;;1;
-56;3;Rutaceae;Trichilia clausseni;3378;12/07/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3364;12/07/2023;;;;;;;1;
 56;32;Malvaceae;Guazuma ulmifolia Lam.;3380;12/07/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3383;12/07/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3384;12/07/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3383;12/07/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3384;12/07/2023;;;;;;;1;
 56;44;Verbenaceae;Citharexylum myrianthum Cham.;3385;12/07/2023;;;;;;;1;
 56;17;Fabaceae;Platypodium elegans Vogel;3388;12/07/2023;;;;;;;1;
 56;37;Malvaceae;Luehea candicans Mart. & Zucc.;3392;12/07/2023;;;;;;;1;
@@ -7385,7 +7385,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3407;12/07/2023;;;;;;;1;
 56;64;Meliaceae;Cedrela fissilis Vell.;3411;12/07/2023;1;;;;;;;
 56;3;Rutaceae;Zanthoxylum rhoifolium Lam.;3413;12/07/2023;;;;;;;1;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3415;12/07/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3415;12/07/2023;;;;;;;1;
 56;52;Meliaceae;Trichilia catigua A.Juss.;3417;12/07/2023;;1;;;;;;
 56;38;Fabaceae;Machaerium nyctitans (Vell.) Benth.;3421;12/07/2023;;;;;;;1;
 56;77;Cannabaceae;Celtis cf. iguanaea (Jacq.) Sarg.;3426;12/07/2023;;;;;;;;
@@ -7410,7 +7410,7 @@ Plot;spp. code;Family;Species;Tag;DATE;LEAF_FALL;SPROUTING;BU;FL;IM-FR;M-FR;NI/N
 56;46;Verbenaceae;Aloysia virgata (Ruiz & Pav.) Juss.;3468;12/07/2023;;;;;;;1;
 56;48;Fabaceae;Myroxylon peruiferum L.f.;3469;12/07/2023;;;;;;;1;
 56;78;Lauraceae;Lauraceae spp.;3470;12/07/2023;;;;;;;;
-56;45;Meliaceae;Trichilia clausseni C.DC.;3472;12/07/2023;;;;;;;1;
+56;45;Meliaceae;Trichilia claussenii C.DC.;3472;12/07/2023;;;;;;;1;
 207;2;Meliaceae;Guarea macrophylla Vahl;3662;02/08/2023;;;;;;;1;
 206;22;Boraginaceae;Cordia americana (L.) Gottschling & J.S.Mill.;4579;02/08/2023;1;;;;;;;
 206;10;Salicaceae;Casearia sylvestris Sw.;4581;02/08/2023;;;1;1;;;;
